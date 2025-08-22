@@ -1,0 +1,35 @@
+# MPLAB X IDE auto-generated files
+# 컴파일/빌드 결과물이 저장되는 폴더
+/build/
+/dist/
+
+# 프로젝트 설정 및 사용자 개인 설정 폴더
+/nbproject/
+*.p1
+*.werr
+*.#
+*.tmp
+
+# Visual Studio / VS Code editor files
+# VS 또는 VS Code 사용 시 생성되는 임시 폴더 및 파일
+.vs/
+.vscode/
+*.user
+*.orig
+
+# Compiled output & Binaries
+# 컴파일러가 생성하는 최종 결과물 및 중간 파일
+*.o
+*.hex
+*.elf
+*.cof
+*.map
+*.rlf
+*.sdb
+*.mcs
+
+# Other
+# 기타 운영체제나 프로그램이 생성하는 임시 파일
+*.stackdump
+Thumbs.db
+Desktop.ini
