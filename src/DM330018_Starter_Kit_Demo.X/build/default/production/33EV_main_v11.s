@@ -1,4 +1,4 @@
-	.file "D:\\25_DM330018_Starter_Kit_Demo\\src\\DM330018_Starter_Kit_Demo.X\\33EV_main_v11.c"
+	.file "D:\\dsPIC33EV128002\\src\\DM330018_Starter_Kit_Demo.X\\33EV_main_v11.c"
 	.section	.debug_abbrev,info
 .Ldebug_abbrev0:
 	.section	.debug_info,info
@@ -49,7 +49,7 @@ __FPOR:
 	.size	__FDMT, 2
 __FDMT:
 	.word	-2
-	.section	*_00000000064226E068a63ce0,bss
+	.section	*_00000000064A86E068a7ac92,bss
 	.type	_ecan1MsgBuf,@object
 	.size	_ecan1MsgBuf, 512
 	.global	_ecan1MsgBuf
@@ -6304,7 +6304,7 @@ __AddressError:
 .Letext0:
 	.file 2 "../h/p33EV256GM106.h"
 	.section	.debug_info,info
-	.4byte	0x6720
+	.4byte	0x6713
 	.2byte	0x2
 	.4byte	.Ldebug_abbrev0
 	.byte	0x4
@@ -6312,7 +6312,7 @@ __AddressError:
 	.asciz	"GNU C 4.5.1 (XC16, Microchip v2.00) (B) Build date: Jan 24 2022"
 	.byte	0x1
 	.asciz	"33EV_main_v11.c"
-	.asciz	"D:\\25_DM330018_Starter_Kit_Demo\\src\\DM330018_Starter_Kit_Demo.X"
+	.asciz	"D:\\dsPIC33EV128002\\src\\DM330018_Starter_Kit_Demo.X"
 	.4byte	.Ltext0
 	.4byte	.Letext0
 	.4byte	.Ldebug_line0
@@ -6324,12 +6324,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.byte	0xf8
-	.4byte	0x132
+	.4byte	0x125
 	.uleb128 0x4
 	.asciz	"TCS"
 	.byte	0x2
 	.byte	0xfa
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -6340,7 +6340,7 @@ __AddressError:
 	.asciz	"TSYNC"
 	.byte	0x2
 	.byte	0xfb
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -6351,7 +6351,7 @@ __AddressError:
 	.asciz	"TCKPS"
 	.byte	0x2
 	.byte	0xfd
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0xa
@@ -6362,7 +6362,7 @@ __AddressError:
 	.asciz	"TGATE"
 	.byte	0x2
 	.byte	0xfe
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -6373,7 +6373,7 @@ __AddressError:
 	.asciz	"TSIDL"
 	.byte	0x2
 	.2byte	0x100
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -6384,7 +6384,7 @@ __AddressError:
 	.asciz	"TON"
 	.byte	0x2
 	.2byte	0x102
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -6396,12 +6396,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x104
-	.4byte	0x166
+	.4byte	0x159
 	.uleb128 0x5
 	.asciz	"TCKPS0"
 	.byte	0x2
 	.2byte	0x106
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -6412,7 +6412,7 @@ __AddressError:
 	.asciz	"TCKPS1"
 	.byte	0x2
 	.2byte	0x107
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -6424,20 +6424,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.byte	0xf7
-	.4byte	0x179
+	.4byte	0x16c
 	.uleb128 0x8
-	.4byte	0xb9
+	.4byte	0xac
 	.uleb128 0x8
-	.4byte	0x132
+	.4byte	0x125
 	.byte	0x0
 	.uleb128 0x9
 	.asciz	"tagT1CONBITS"
 	.byte	0x2
 	.byte	0x2
 	.byte	0xf6
-	.4byte	0x197
+	.4byte	0x18a
 	.uleb128 0xa
-	.4byte	0x166
+	.4byte	0x159
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -6446,17 +6446,17 @@ __AddressError:
 	.asciz	"T1CONBITS"
 	.byte	0x2
 	.2byte	0x10a
-	.4byte	0x179
+	.4byte	0x16c
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x11b
-	.4byte	0x225
+	.4byte	0x218
 	.uleb128 0x5
 	.asciz	"TCS"
 	.byte	0x2
 	.2byte	0x11d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -6467,7 +6467,7 @@ __AddressError:
 	.asciz	"T32"
 	.byte	0x2
 	.2byte	0x11f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -6478,7 +6478,7 @@ __AddressError:
 	.asciz	"TCKPS"
 	.byte	0x2
 	.2byte	0x120
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0xa
@@ -6489,7 +6489,7 @@ __AddressError:
 	.asciz	"TGATE"
 	.byte	0x2
 	.2byte	0x121
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -6500,7 +6500,7 @@ __AddressError:
 	.asciz	"TSIDL"
 	.byte	0x2
 	.2byte	0x123
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -6511,7 +6511,7 @@ __AddressError:
 	.asciz	"TON"
 	.byte	0x2
 	.2byte	0x125
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -6523,12 +6523,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x127
-	.4byte	0x259
+	.4byte	0x24c
 	.uleb128 0x5
 	.asciz	"TCKPS0"
 	.byte	0x2
 	.2byte	0x129
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -6539,7 +6539,7 @@ __AddressError:
 	.asciz	"TCKPS1"
 	.byte	0x2
 	.2byte	0x12a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -6551,20 +6551,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x11a
-	.4byte	0x26d
+	.4byte	0x260
 	.uleb128 0x8
-	.4byte	0x1a9
+	.4byte	0x19c
 	.uleb128 0x8
-	.4byte	0x225
+	.4byte	0x218
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagT2CONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x119
-	.4byte	0x28c
+	.4byte	0x27f
 	.uleb128 0xa
-	.4byte	0x259
+	.4byte	0x24c
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -6573,18 +6573,18 @@ __AddressError:
 	.asciz	"T2CONBITS"
 	.byte	0x2
 	.2byte	0x12d
-	.4byte	0x26d
+	.4byte	0x260
 	.uleb128 0xd
 	.asciz	"tagI2C1CON1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x27a
-	.4byte	0x3e0
+	.4byte	0x3d3
 	.uleb128 0x5
 	.asciz	"SEN"
 	.byte	0x2
 	.2byte	0x27b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -6595,7 +6595,7 @@ __AddressError:
 	.asciz	"RSEN"
 	.byte	0x2
 	.2byte	0x27c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -6606,7 +6606,7 @@ __AddressError:
 	.asciz	"PEN"
 	.byte	0x2
 	.2byte	0x27d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -6617,7 +6617,7 @@ __AddressError:
 	.asciz	"RCEN"
 	.byte	0x2
 	.2byte	0x27e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -6628,7 +6628,7 @@ __AddressError:
 	.asciz	"ACKEN"
 	.byte	0x2
 	.2byte	0x27f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -6639,7 +6639,7 @@ __AddressError:
 	.asciz	"ACKDT"
 	.byte	0x2
 	.2byte	0x280
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -6650,7 +6650,7 @@ __AddressError:
 	.asciz	"STREN"
 	.byte	0x2
 	.2byte	0x281
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -6661,7 +6661,7 @@ __AddressError:
 	.asciz	"GCEN"
 	.byte	0x2
 	.2byte	0x282
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -6672,7 +6672,7 @@ __AddressError:
 	.asciz	"SMEN"
 	.byte	0x2
 	.2byte	0x283
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -6683,7 +6683,7 @@ __AddressError:
 	.asciz	"DISSLW"
 	.byte	0x2
 	.2byte	0x284
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -6694,7 +6694,7 @@ __AddressError:
 	.asciz	"A10M"
 	.byte	0x2
 	.2byte	0x285
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -6705,7 +6705,7 @@ __AddressError:
 	.asciz	"STRICT"
 	.byte	0x2
 	.2byte	0x286
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -6716,7 +6716,7 @@ __AddressError:
 	.asciz	"SCLREL"
 	.byte	0x2
 	.2byte	0x287
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -6727,7 +6727,7 @@ __AddressError:
 	.asciz	"I2CSIDL"
 	.byte	0x2
 	.2byte	0x288
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -6738,7 +6738,7 @@ __AddressError:
 	.asciz	"I2CEN"
 	.byte	0x2
 	.2byte	0x28a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -6750,18 +6750,18 @@ __AddressError:
 	.asciz	"I2C1CON1BITS"
 	.byte	0x2
 	.2byte	0x28b
-	.4byte	0x29e
+	.4byte	0x291
 	.uleb128 0xd
 	.asciz	"tagI2C1STATBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x29d
-	.4byte	0x51a
+	.4byte	0x50d
 	.uleb128 0x5
 	.asciz	"TBF"
 	.byte	0x2
 	.2byte	0x29e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -6772,7 +6772,7 @@ __AddressError:
 	.asciz	"RBF"
 	.byte	0x2
 	.2byte	0x29f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -6783,7 +6783,7 @@ __AddressError:
 	.asciz	"R_W"
 	.byte	0x2
 	.2byte	0x2a0
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -6794,7 +6794,7 @@ __AddressError:
 	.asciz	"S"
 	.byte	0x2
 	.2byte	0x2a1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -6805,7 +6805,7 @@ __AddressError:
 	.asciz	"P"
 	.byte	0x2
 	.2byte	0x2a2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -6816,7 +6816,7 @@ __AddressError:
 	.asciz	"D_A"
 	.byte	0x2
 	.2byte	0x2a3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -6827,7 +6827,7 @@ __AddressError:
 	.asciz	"I2COV"
 	.byte	0x2
 	.2byte	0x2a4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -6838,7 +6838,7 @@ __AddressError:
 	.asciz	"IWCOL"
 	.byte	0x2
 	.2byte	0x2a5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -6849,7 +6849,7 @@ __AddressError:
 	.asciz	"ADD10"
 	.byte	0x2
 	.2byte	0x2a6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -6860,7 +6860,7 @@ __AddressError:
 	.asciz	"GCSTAT"
 	.byte	0x2
 	.2byte	0x2a7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -6871,7 +6871,7 @@ __AddressError:
 	.asciz	"BCL"
 	.byte	0x2
 	.2byte	0x2a8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -6882,7 +6882,7 @@ __AddressError:
 	.asciz	"ACKTIM"
 	.byte	0x2
 	.2byte	0x2aa
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -6893,7 +6893,7 @@ __AddressError:
 	.asciz	"TRSTAT"
 	.byte	0x2
 	.2byte	0x2ab
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -6904,7 +6904,7 @@ __AddressError:
 	.asciz	"ACKSTAT"
 	.byte	0x2
 	.2byte	0x2ac
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -6916,17 +6916,17 @@ __AddressError:
 	.asciz	"I2C1STATBITS"
 	.byte	0x2
 	.2byte	0x2ad
-	.4byte	0x3f5
+	.4byte	0x3e8
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x2f8
-	.4byte	0x627
+	.4byte	0x61a
 	.uleb128 0x5
 	.asciz	"STSEL"
 	.byte	0x2
 	.2byte	0x2f9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -6937,7 +6937,7 @@ __AddressError:
 	.asciz	"PDSEL"
 	.byte	0x2
 	.2byte	0x2fa
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0xd
@@ -6948,7 +6948,7 @@ __AddressError:
 	.asciz	"BRGH"
 	.byte	0x2
 	.2byte	0x2fb
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -6959,7 +6959,7 @@ __AddressError:
 	.asciz	"URXINV"
 	.byte	0x2
 	.2byte	0x2fc
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -6970,7 +6970,7 @@ __AddressError:
 	.asciz	"ABAUD"
 	.byte	0x2
 	.2byte	0x2fd
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -6981,7 +6981,7 @@ __AddressError:
 	.asciz	"LPBACK"
 	.byte	0x2
 	.2byte	0x2fe
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -6992,7 +6992,7 @@ __AddressError:
 	.asciz	"WAKE"
 	.byte	0x2
 	.2byte	0x2ff
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -7003,7 +7003,7 @@ __AddressError:
 	.asciz	"UEN"
 	.byte	0x2
 	.2byte	0x300
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x6
@@ -7014,7 +7014,7 @@ __AddressError:
 	.asciz	"RTSMD"
 	.byte	0x2
 	.2byte	0x302
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -7025,7 +7025,7 @@ __AddressError:
 	.asciz	"IREN"
 	.byte	0x2
 	.2byte	0x303
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -7036,7 +7036,7 @@ __AddressError:
 	.asciz	"USIDL"
 	.byte	0x2
 	.2byte	0x304
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -7047,7 +7047,7 @@ __AddressError:
 	.asciz	"UARTEN"
 	.byte	0x2
 	.2byte	0x306
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -7059,12 +7059,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x308
-	.4byte	0x695
+	.4byte	0x688
 	.uleb128 0x5
 	.asciz	"PDSEL0"
 	.byte	0x2
 	.2byte	0x30a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -7075,7 +7075,7 @@ __AddressError:
 	.asciz	"PDSEL1"
 	.byte	0x2
 	.2byte	0x30b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -7086,7 +7086,7 @@ __AddressError:
 	.asciz	"RXINV"
 	.byte	0x2
 	.2byte	0x30d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -7097,7 +7097,7 @@ __AddressError:
 	.asciz	"UEN0"
 	.byte	0x2
 	.2byte	0x30f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -7108,7 +7108,7 @@ __AddressError:
 	.asciz	"UEN1"
 	.byte	0x2
 	.2byte	0x310
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -7120,20 +7120,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x2f7
-	.4byte	0x6a9
+	.4byte	0x69c
 	.uleb128 0x8
-	.4byte	0x52f
+	.4byte	0x522
 	.uleb128 0x8
-	.4byte	0x627
+	.4byte	0x61a
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagU1MODEBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x2f6
-	.4byte	0x6c9
+	.4byte	0x6bc
 	.uleb128 0xa
-	.4byte	0x695
+	.4byte	0x688
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -7142,17 +7142,17 @@ __AddressError:
 	.asciz	"U1MODEBITS"
 	.byte	0x2
 	.2byte	0x313
-	.4byte	0x6a9
+	.4byte	0x69c
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x31a
-	.4byte	0x7fa
+	.4byte	0x7ed
 	.uleb128 0x5
 	.asciz	"URXDA"
 	.byte	0x2
 	.2byte	0x31b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -7163,7 +7163,7 @@ __AddressError:
 	.asciz	"OERR"
 	.byte	0x2
 	.2byte	0x31c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -7174,7 +7174,7 @@ __AddressError:
 	.asciz	"FERR"
 	.byte	0x2
 	.2byte	0x31d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -7185,7 +7185,7 @@ __AddressError:
 	.asciz	"PERR"
 	.byte	0x2
 	.2byte	0x31e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -7196,7 +7196,7 @@ __AddressError:
 	.asciz	"RIDLE"
 	.byte	0x2
 	.2byte	0x31f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -7207,7 +7207,7 @@ __AddressError:
 	.asciz	"ADDEN"
 	.byte	0x2
 	.2byte	0x320
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -7218,7 +7218,7 @@ __AddressError:
 	.asciz	"URXISEL"
 	.byte	0x2
 	.2byte	0x321
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x8
@@ -7229,7 +7229,7 @@ __AddressError:
 	.asciz	"TRMT"
 	.byte	0x2
 	.2byte	0x322
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -7240,7 +7240,7 @@ __AddressError:
 	.asciz	"UTXBF"
 	.byte	0x2
 	.2byte	0x323
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -7251,7 +7251,7 @@ __AddressError:
 	.asciz	"UTXEN"
 	.byte	0x2
 	.2byte	0x324
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -7262,7 +7262,7 @@ __AddressError:
 	.asciz	"UTXBRK"
 	.byte	0x2
 	.2byte	0x325
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -7273,7 +7273,7 @@ __AddressError:
 	.4byte	.LASF0
 	.byte	0x2
 	.2byte	0x327
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -7284,7 +7284,7 @@ __AddressError:
 	.asciz	"UTXINV"
 	.byte	0x2
 	.2byte	0x328
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -7295,7 +7295,7 @@ __AddressError:
 	.4byte	.LASF1
 	.byte	0x2
 	.2byte	0x329
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -7307,12 +7307,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x32b
-	.4byte	0x83c
+	.4byte	0x82f
 	.uleb128 0xe
 	.4byte	.LASF2
 	.byte	0x2
 	.2byte	0x32d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -7323,7 +7323,7 @@ __AddressError:
 	.4byte	.LASF3
 	.byte	0x2
 	.2byte	0x32e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -7334,7 +7334,7 @@ __AddressError:
 	.asciz	"TXINV"
 	.byte	0x2
 	.2byte	0x330
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -7346,20 +7346,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x319
-	.4byte	0x850
+	.4byte	0x843
 	.uleb128 0x8
-	.4byte	0x6dc
+	.4byte	0x6cf
 	.uleb128 0x8
-	.4byte	0x7fa
+	.4byte	0x7ed
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagU1STABITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x318
-	.4byte	0x86f
+	.4byte	0x862
 	.uleb128 0xa
-	.4byte	0x83c
+	.4byte	0x82f
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -7368,17 +7368,17 @@ __AddressError:
 	.asciz	"U1STABITS"
 	.byte	0x2
 	.2byte	0x333
-	.4byte	0x850
+	.4byte	0x843
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x340
-	.4byte	0x979
+	.4byte	0x96c
 	.uleb128 0x5
 	.asciz	"STSEL"
 	.byte	0x2
 	.2byte	0x341
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -7389,7 +7389,7 @@ __AddressError:
 	.asciz	"PDSEL"
 	.byte	0x2
 	.2byte	0x342
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0xd
@@ -7400,7 +7400,7 @@ __AddressError:
 	.asciz	"BRGH"
 	.byte	0x2
 	.2byte	0x343
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -7411,7 +7411,7 @@ __AddressError:
 	.asciz	"URXINV"
 	.byte	0x2
 	.2byte	0x344
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -7422,7 +7422,7 @@ __AddressError:
 	.asciz	"ABAUD"
 	.byte	0x2
 	.2byte	0x345
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -7433,7 +7433,7 @@ __AddressError:
 	.asciz	"LPBACK"
 	.byte	0x2
 	.2byte	0x346
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -7444,7 +7444,7 @@ __AddressError:
 	.asciz	"WAKE"
 	.byte	0x2
 	.2byte	0x347
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -7455,7 +7455,7 @@ __AddressError:
 	.asciz	"UEN"
 	.byte	0x2
 	.2byte	0x348
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x6
@@ -7466,7 +7466,7 @@ __AddressError:
 	.asciz	"RTSMD"
 	.byte	0x2
 	.2byte	0x34a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -7477,7 +7477,7 @@ __AddressError:
 	.asciz	"IREN"
 	.byte	0x2
 	.2byte	0x34b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -7488,7 +7488,7 @@ __AddressError:
 	.asciz	"USIDL"
 	.byte	0x2
 	.2byte	0x34c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -7499,7 +7499,7 @@ __AddressError:
 	.asciz	"UARTEN"
 	.byte	0x2
 	.2byte	0x34e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -7511,12 +7511,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x350
-	.4byte	0x9e7
+	.4byte	0x9da
 	.uleb128 0x5
 	.asciz	"PDSEL0"
 	.byte	0x2
 	.2byte	0x352
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -7527,7 +7527,7 @@ __AddressError:
 	.asciz	"PDSEL1"
 	.byte	0x2
 	.2byte	0x353
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -7538,7 +7538,7 @@ __AddressError:
 	.asciz	"RXINV"
 	.byte	0x2
 	.2byte	0x355
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -7549,7 +7549,7 @@ __AddressError:
 	.asciz	"UEN0"
 	.byte	0x2
 	.2byte	0x357
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -7560,7 +7560,7 @@ __AddressError:
 	.asciz	"UEN1"
 	.byte	0x2
 	.2byte	0x358
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -7572,20 +7572,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x33f
-	.4byte	0x9fb
+	.4byte	0x9ee
 	.uleb128 0x8
-	.4byte	0x881
+	.4byte	0x874
 	.uleb128 0x8
-	.4byte	0x979
+	.4byte	0x96c
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagU2MODEBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x33e
-	.4byte	0xa1b
+	.4byte	0xa0e
 	.uleb128 0xa
-	.4byte	0x9e7
+	.4byte	0x9da
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -7594,17 +7594,17 @@ __AddressError:
 	.asciz	"U2MODEBITS"
 	.byte	0x2
 	.2byte	0x35b
-	.4byte	0x9fb
+	.4byte	0x9ee
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x362
-	.4byte	0xb4c
+	.4byte	0xb3f
 	.uleb128 0x5
 	.asciz	"URXDA"
 	.byte	0x2
 	.2byte	0x363
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -7615,7 +7615,7 @@ __AddressError:
 	.asciz	"OERR"
 	.byte	0x2
 	.2byte	0x364
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -7626,7 +7626,7 @@ __AddressError:
 	.asciz	"FERR"
 	.byte	0x2
 	.2byte	0x365
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -7637,7 +7637,7 @@ __AddressError:
 	.asciz	"PERR"
 	.byte	0x2
 	.2byte	0x366
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -7648,7 +7648,7 @@ __AddressError:
 	.asciz	"RIDLE"
 	.byte	0x2
 	.2byte	0x367
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -7659,7 +7659,7 @@ __AddressError:
 	.asciz	"ADDEN"
 	.byte	0x2
 	.2byte	0x368
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -7670,7 +7670,7 @@ __AddressError:
 	.asciz	"URXISEL"
 	.byte	0x2
 	.2byte	0x369
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x8
@@ -7681,7 +7681,7 @@ __AddressError:
 	.asciz	"TRMT"
 	.byte	0x2
 	.2byte	0x36a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -7692,7 +7692,7 @@ __AddressError:
 	.asciz	"UTXBF"
 	.byte	0x2
 	.2byte	0x36b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -7703,7 +7703,7 @@ __AddressError:
 	.asciz	"UTXEN"
 	.byte	0x2
 	.2byte	0x36c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -7714,7 +7714,7 @@ __AddressError:
 	.asciz	"UTXBRK"
 	.byte	0x2
 	.2byte	0x36d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -7725,7 +7725,7 @@ __AddressError:
 	.4byte	.LASF0
 	.byte	0x2
 	.2byte	0x36f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -7736,7 +7736,7 @@ __AddressError:
 	.asciz	"UTXINV"
 	.byte	0x2
 	.2byte	0x370
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -7747,7 +7747,7 @@ __AddressError:
 	.4byte	.LASF1
 	.byte	0x2
 	.2byte	0x371
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -7759,12 +7759,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x373
-	.4byte	0xb8e
+	.4byte	0xb81
 	.uleb128 0xe
 	.4byte	.LASF2
 	.byte	0x2
 	.2byte	0x375
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -7775,7 +7775,7 @@ __AddressError:
 	.4byte	.LASF3
 	.byte	0x2
 	.2byte	0x376
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -7786,7 +7786,7 @@ __AddressError:
 	.asciz	"TXINV"
 	.byte	0x2
 	.2byte	0x378
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -7798,20 +7798,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x361
-	.4byte	0xba2
+	.4byte	0xb95
 	.uleb128 0x8
-	.4byte	0xa2e
+	.4byte	0xa21
 	.uleb128 0x8
-	.4byte	0xb4c
+	.4byte	0xb3f
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagU2STABITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x360
-	.4byte	0xbc1
+	.4byte	0xbb4
 	.uleb128 0xa
-	.4byte	0xb8e
+	.4byte	0xb81
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -7820,17 +7820,17 @@ __AddressError:
 	.asciz	"U2STABITS"
 	.byte	0x2
 	.2byte	0x37b
-	.4byte	0xba2
+	.4byte	0xb95
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x44b
-	.4byte	0xcb7
+	.4byte	0xcaa
 	.uleb128 0x5
 	.asciz	"DONE"
 	.byte	0x2
 	.2byte	0x44c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -7841,7 +7841,7 @@ __AddressError:
 	.asciz	"SAMP"
 	.byte	0x2
 	.2byte	0x44d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -7852,7 +7852,7 @@ __AddressError:
 	.asciz	"ASAM"
 	.byte	0x2
 	.2byte	0x44e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -7863,7 +7863,7 @@ __AddressError:
 	.asciz	"SIMSAM"
 	.byte	0x2
 	.2byte	0x44f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -7874,7 +7874,7 @@ __AddressError:
 	.asciz	"SSRCG"
 	.byte	0x2
 	.2byte	0x450
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -7885,7 +7885,7 @@ __AddressError:
 	.asciz	"SSRC"
 	.byte	0x2
 	.2byte	0x451
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x8
@@ -7896,7 +7896,7 @@ __AddressError:
 	.asciz	"FORM"
 	.byte	0x2
 	.2byte	0x452
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x6
@@ -7907,7 +7907,7 @@ __AddressError:
 	.asciz	"AD12B"
 	.byte	0x2
 	.2byte	0x453
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -7918,7 +7918,7 @@ __AddressError:
 	.asciz	"ADDMABM"
 	.byte	0x2
 	.2byte	0x455
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -7929,7 +7929,7 @@ __AddressError:
 	.asciz	"ADSIDL"
 	.byte	0x2
 	.2byte	0x456
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -7940,7 +7940,7 @@ __AddressError:
 	.asciz	"ADON"
 	.byte	0x2
 	.2byte	0x458
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -7952,12 +7952,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x45a
-	.4byte	0xd25
+	.4byte	0xd18
 	.uleb128 0x5
 	.asciz	"SSRC0"
 	.byte	0x2
 	.2byte	0x45c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -7968,7 +7968,7 @@ __AddressError:
 	.asciz	"SSRC1"
 	.byte	0x2
 	.2byte	0x45d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -7979,7 +7979,7 @@ __AddressError:
 	.asciz	"SSRC2"
 	.byte	0x2
 	.2byte	0x45e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -7990,7 +7990,7 @@ __AddressError:
 	.asciz	"FORM0"
 	.byte	0x2
 	.2byte	0x45f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -8001,7 +8001,7 @@ __AddressError:
 	.asciz	"FORM1"
 	.byte	0x2
 	.2byte	0x460
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -8013,20 +8013,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x44a
-	.4byte	0xd39
+	.4byte	0xd2c
 	.uleb128 0x8
-	.4byte	0xbd3
+	.4byte	0xbc6
 	.uleb128 0x8
-	.4byte	0xcb7
+	.4byte	0xcaa
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagAD1CON1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x449
-	.4byte	0xd5a
+	.4byte	0xd4d
 	.uleb128 0xa
-	.4byte	0xd25
+	.4byte	0xd18
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -8035,17 +8035,17 @@ __AddressError:
 	.asciz	"AD1CON1BITS"
 	.byte	0x2
 	.2byte	0x463
-	.4byte	0xd39
+	.4byte	0xd2c
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x48b
-	.4byte	0xdb1
+	.4byte	0xda4
 	.uleb128 0x5
 	.asciz	"ADCS"
 	.byte	0x2
 	.2byte	0x48c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x8
 	.byte	0x8
@@ -8056,7 +8056,7 @@ __AddressError:
 	.asciz	"SAMC"
 	.byte	0x2
 	.2byte	0x48d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x5
 	.byte	0x3
@@ -8067,7 +8067,7 @@ __AddressError:
 	.asciz	"ADRC"
 	.byte	0x2
 	.2byte	0x48f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -8079,12 +8079,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x491
-	.4byte	0xebf
+	.4byte	0xeb2
 	.uleb128 0x5
 	.asciz	"ADCS0"
 	.byte	0x2
 	.2byte	0x492
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -8095,7 +8095,7 @@ __AddressError:
 	.asciz	"ADCS1"
 	.byte	0x2
 	.2byte	0x493
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -8106,7 +8106,7 @@ __AddressError:
 	.asciz	"ADCS2"
 	.byte	0x2
 	.2byte	0x494
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -8117,7 +8117,7 @@ __AddressError:
 	.asciz	"ADCS3"
 	.byte	0x2
 	.2byte	0x495
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -8128,7 +8128,7 @@ __AddressError:
 	.asciz	"ADCS4"
 	.byte	0x2
 	.2byte	0x496
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -8139,7 +8139,7 @@ __AddressError:
 	.asciz	"ADCS5"
 	.byte	0x2
 	.2byte	0x497
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -8150,7 +8150,7 @@ __AddressError:
 	.asciz	"ADCS6"
 	.byte	0x2
 	.2byte	0x498
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -8161,7 +8161,7 @@ __AddressError:
 	.asciz	"ADCS7"
 	.byte	0x2
 	.2byte	0x499
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -8172,7 +8172,7 @@ __AddressError:
 	.asciz	"SAMC0"
 	.byte	0x2
 	.2byte	0x49a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -8183,7 +8183,7 @@ __AddressError:
 	.asciz	"SAMC1"
 	.byte	0x2
 	.2byte	0x49b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -8194,7 +8194,7 @@ __AddressError:
 	.asciz	"SAMC2"
 	.byte	0x2
 	.2byte	0x49c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -8205,7 +8205,7 @@ __AddressError:
 	.asciz	"SAMC3"
 	.byte	0x2
 	.2byte	0x49d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -8216,7 +8216,7 @@ __AddressError:
 	.asciz	"SAMC4"
 	.byte	0x2
 	.2byte	0x49e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -8228,20 +8228,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x48a
-	.4byte	0xed3
+	.4byte	0xec6
 	.uleb128 0x8
-	.4byte	0xd6e
+	.4byte	0xd61
 	.uleb128 0x8
-	.4byte	0xdb1
+	.4byte	0xda4
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagAD1CON3BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x489
-	.4byte	0xef4
+	.4byte	0xee7
 	.uleb128 0xa
-	.4byte	0xebf
+	.4byte	0xeb2
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -8250,17 +8250,17 @@ __AddressError:
 	.asciz	"AD1CON3BITS"
 	.byte	0x2
 	.2byte	0x4a1
-	.4byte	0xed3
+	.4byte	0xec6
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x4c3
-	.4byte	0xf62
+	.4byte	0xf55
 	.uleb128 0x5
 	.asciz	"CH0SA"
 	.byte	0x2
 	.2byte	0x4c4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x6
 	.byte	0xa
@@ -8271,7 +8271,7 @@ __AddressError:
 	.asciz	"CH0NA"
 	.byte	0x2
 	.2byte	0x4c6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -8282,7 +8282,7 @@ __AddressError:
 	.asciz	"CH0SB"
 	.byte	0x2
 	.2byte	0x4c7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x6
 	.byte	0x2
@@ -8293,7 +8293,7 @@ __AddressError:
 	.asciz	"CH0NB"
 	.byte	0x2
 	.2byte	0x4c9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -8305,12 +8305,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x4cb
-	.4byte	0x103e
+	.4byte	0x1031
 	.uleb128 0x5
 	.asciz	"CH0SA0"
 	.byte	0x2
 	.2byte	0x4cc
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -8321,7 +8321,7 @@ __AddressError:
 	.asciz	"CH0SA1"
 	.byte	0x2
 	.2byte	0x4cd
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -8332,7 +8332,7 @@ __AddressError:
 	.asciz	"CH0SA2"
 	.byte	0x2
 	.2byte	0x4ce
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -8343,7 +8343,7 @@ __AddressError:
 	.asciz	"CH0SA3"
 	.byte	0x2
 	.2byte	0x4cf
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -8354,7 +8354,7 @@ __AddressError:
 	.asciz	"CH0SA4"
 	.byte	0x2
 	.2byte	0x4d0
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -8365,7 +8365,7 @@ __AddressError:
 	.asciz	"CH0SB0"
 	.byte	0x2
 	.2byte	0x4d2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -8376,7 +8376,7 @@ __AddressError:
 	.asciz	"CH0SB1"
 	.byte	0x2
 	.2byte	0x4d3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -8387,7 +8387,7 @@ __AddressError:
 	.asciz	"CH0SB2"
 	.byte	0x2
 	.2byte	0x4d4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -8398,7 +8398,7 @@ __AddressError:
 	.asciz	"CH0SB3"
 	.byte	0x2
 	.2byte	0x4d5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -8409,7 +8409,7 @@ __AddressError:
 	.asciz	"CH0SB4"
 	.byte	0x2
 	.2byte	0x4d6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -8421,20 +8421,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x4c2
-	.4byte	0x1052
+	.4byte	0x1045
 	.uleb128 0x8
-	.4byte	0xf08
+	.4byte	0xefb
 	.uleb128 0x8
-	.4byte	0xf62
+	.4byte	0xf55
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagAD1CHS0BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x4c1
-	.4byte	0x1073
+	.4byte	0x1066
 	.uleb128 0xa
-	.4byte	0x103e
+	.4byte	0x1031
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -8443,17 +8443,17 @@ __AddressError:
 	.asciz	"AD1CHS0BITS"
 	.byte	0x2
 	.2byte	0x4d9
-	.4byte	0x1052
+	.4byte	0x1045
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x561
-	.4byte	0x111d
+	.4byte	0x1110
 	.uleb128 0x5
 	.asciz	"WIN"
 	.byte	0x2
 	.2byte	0x562
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -8464,7 +8464,7 @@ __AddressError:
 	.asciz	"CANCAP"
 	.byte	0x2
 	.2byte	0x564
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -8475,7 +8475,7 @@ __AddressError:
 	.asciz	"OPMODE"
 	.byte	0x2
 	.2byte	0x566
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x8
@@ -8486,7 +8486,7 @@ __AddressError:
 	.asciz	"REQOP"
 	.byte	0x2
 	.2byte	0x567
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x5
@@ -8497,7 +8497,7 @@ __AddressError:
 	.asciz	"CANCKS"
 	.byte	0x2
 	.2byte	0x568
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -8508,7 +8508,7 @@ __AddressError:
 	.asciz	"ABAT"
 	.byte	0x2
 	.2byte	0x569
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -8519,7 +8519,7 @@ __AddressError:
 	.asciz	"CSIDL"
 	.byte	0x2
 	.2byte	0x56a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -8531,12 +8531,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x56c
-	.4byte	0x11a8
+	.4byte	0x119b
 	.uleb128 0x5
 	.asciz	"OPMODE0"
 	.byte	0x2
 	.2byte	0x56e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -8547,7 +8547,7 @@ __AddressError:
 	.asciz	"OPMODE1"
 	.byte	0x2
 	.2byte	0x56f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -8558,7 +8558,7 @@ __AddressError:
 	.asciz	"OPMODE2"
 	.byte	0x2
 	.2byte	0x570
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -8569,7 +8569,7 @@ __AddressError:
 	.asciz	"REQOP0"
 	.byte	0x2
 	.2byte	0x571
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -8580,7 +8580,7 @@ __AddressError:
 	.asciz	"REQOP1"
 	.byte	0x2
 	.2byte	0x572
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -8591,7 +8591,7 @@ __AddressError:
 	.asciz	"REQOP2"
 	.byte	0x2
 	.2byte	0x573
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -8603,20 +8603,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x560
-	.4byte	0x11bc
+	.4byte	0x11af
 	.uleb128 0x8
-	.4byte	0x1087
+	.4byte	0x107a
 	.uleb128 0x8
-	.4byte	0x111d
+	.4byte	0x1110
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagC1CTRL1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x55f
-	.4byte	0x11dd
+	.4byte	0x11d0
 	.uleb128 0xa
-	.4byte	0x11a8
+	.4byte	0x119b
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -8625,17 +8625,17 @@ __AddressError:
 	.asciz	"C1CTRL1BITS"
 	.byte	0x2
 	.2byte	0x576
-	.4byte	0x11bc
+	.4byte	0x11af
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x5ab
-	.4byte	0x1221
+	.4byte	0x1214
 	.uleb128 0x5
 	.asciz	"FSA"
 	.byte	0x2
 	.2byte	0x5ac
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x5
 	.byte	0xb
@@ -8646,7 +8646,7 @@ __AddressError:
 	.asciz	"DMABS"
 	.byte	0x2
 	.2byte	0x5ae
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x0
@@ -8658,12 +8658,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x5b0
-	.4byte	0x12c9
+	.4byte	0x12bc
 	.uleb128 0x5
 	.asciz	"FSA0"
 	.byte	0x2
 	.2byte	0x5b1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -8674,7 +8674,7 @@ __AddressError:
 	.asciz	"FSA1"
 	.byte	0x2
 	.2byte	0x5b2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -8685,7 +8685,7 @@ __AddressError:
 	.asciz	"FSA2"
 	.byte	0x2
 	.2byte	0x5b3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -8696,7 +8696,7 @@ __AddressError:
 	.asciz	"FSA3"
 	.byte	0x2
 	.2byte	0x5b4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -8707,7 +8707,7 @@ __AddressError:
 	.asciz	"FSA4"
 	.byte	0x2
 	.2byte	0x5b5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -8718,7 +8718,7 @@ __AddressError:
 	.asciz	"DMABS0"
 	.byte	0x2
 	.2byte	0x5b7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -8729,7 +8729,7 @@ __AddressError:
 	.asciz	"DMABS1"
 	.byte	0x2
 	.2byte	0x5b8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -8740,7 +8740,7 @@ __AddressError:
 	.asciz	"DMABS2"
 	.byte	0x2
 	.2byte	0x5b9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -8752,20 +8752,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x5aa
-	.4byte	0x12dd
+	.4byte	0x12d0
 	.uleb128 0x8
-	.4byte	0x11f1
+	.4byte	0x11e4
 	.uleb128 0x8
-	.4byte	0x1221
+	.4byte	0x1214
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagC1FCTRLBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x5a9
-	.4byte	0x12fe
+	.4byte	0x12f1
 	.uleb128 0xa
-	.4byte	0x12c9
+	.4byte	0x12bc
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -8774,18 +8774,18 @@ __AddressError:
 	.asciz	"C1FCTRLBITS"
 	.byte	0x2
 	.2byte	0x5bc
-	.4byte	0x12dd
+	.4byte	0x12d0
 	.uleb128 0xd
 	.asciz	"tagC1INTFBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x5dd
-	.4byte	0x142b
+	.4byte	0x141e
 	.uleb128 0x5
 	.asciz	"TBIF"
 	.byte	0x2
 	.2byte	0x5de
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -8796,7 +8796,7 @@ __AddressError:
 	.asciz	"RBIF"
 	.byte	0x2
 	.2byte	0x5df
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -8807,7 +8807,7 @@ __AddressError:
 	.asciz	"RBOVIF"
 	.byte	0x2
 	.2byte	0x5e0
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -8818,7 +8818,7 @@ __AddressError:
 	.asciz	"FIFOIF"
 	.byte	0x2
 	.2byte	0x5e1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -8829,7 +8829,7 @@ __AddressError:
 	.asciz	"ERRIF"
 	.byte	0x2
 	.2byte	0x5e3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -8840,7 +8840,7 @@ __AddressError:
 	.asciz	"WAKIF"
 	.byte	0x2
 	.2byte	0x5e4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -8851,7 +8851,7 @@ __AddressError:
 	.asciz	"IVRIF"
 	.byte	0x2
 	.2byte	0x5e5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -8862,7 +8862,7 @@ __AddressError:
 	.asciz	"EWARN"
 	.byte	0x2
 	.2byte	0x5e6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -8873,7 +8873,7 @@ __AddressError:
 	.asciz	"RXWAR"
 	.byte	0x2
 	.2byte	0x5e7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -8884,7 +8884,7 @@ __AddressError:
 	.asciz	"TXWAR"
 	.byte	0x2
 	.2byte	0x5e8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -8895,7 +8895,7 @@ __AddressError:
 	.asciz	"RXBP"
 	.byte	0x2
 	.2byte	0x5e9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -8906,7 +8906,7 @@ __AddressError:
 	.asciz	"TXBP"
 	.byte	0x2
 	.2byte	0x5ea
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -8917,7 +8917,7 @@ __AddressError:
 	.asciz	"TXBO"
 	.byte	0x2
 	.2byte	0x5eb
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -8929,18 +8929,18 @@ __AddressError:
 	.asciz	"C1INTFBITS"
 	.byte	0x2
 	.2byte	0x5ec
-	.4byte	0x1312
+	.4byte	0x1305
 	.uleb128 0xd
 	.asciz	"tagC1INTEBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x5f1
-	.4byte	0x14e2
+	.4byte	0x14d5
 	.uleb128 0x5
 	.asciz	"TBIE"
 	.byte	0x2
 	.2byte	0x5f2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -8951,7 +8951,7 @@ __AddressError:
 	.asciz	"RBIE"
 	.byte	0x2
 	.2byte	0x5f3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -8962,7 +8962,7 @@ __AddressError:
 	.asciz	"RBOVIE"
 	.byte	0x2
 	.2byte	0x5f4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -8973,7 +8973,7 @@ __AddressError:
 	.asciz	"FIFOIE"
 	.byte	0x2
 	.2byte	0x5f5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -8984,7 +8984,7 @@ __AddressError:
 	.asciz	"ERRIE"
 	.byte	0x2
 	.2byte	0x5f7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -8995,7 +8995,7 @@ __AddressError:
 	.asciz	"WAKIE"
 	.byte	0x2
 	.2byte	0x5f8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -9006,7 +9006,7 @@ __AddressError:
 	.asciz	"IVRIE"
 	.byte	0x2
 	.2byte	0x5f9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -9018,18 +9018,18 @@ __AddressError:
 	.asciz	"C1INTEBITS"
 	.byte	0x2
 	.2byte	0x5fa
-	.4byte	0x143e
+	.4byte	0x1431
 	.uleb128 0xd
 	.asciz	"tagC1FEN1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x63e
-	.4byte	0x1663
+	.4byte	0x1656
 	.uleb128 0x5
 	.asciz	"FLTEN0"
 	.byte	0x2
 	.2byte	0x63f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -9040,7 +9040,7 @@ __AddressError:
 	.asciz	"FLTEN1"
 	.byte	0x2
 	.2byte	0x640
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -9051,7 +9051,7 @@ __AddressError:
 	.asciz	"FLTEN2"
 	.byte	0x2
 	.2byte	0x641
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -9062,7 +9062,7 @@ __AddressError:
 	.asciz	"FLTEN3"
 	.byte	0x2
 	.2byte	0x642
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -9073,7 +9073,7 @@ __AddressError:
 	.asciz	"FLTEN4"
 	.byte	0x2
 	.2byte	0x643
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -9084,7 +9084,7 @@ __AddressError:
 	.asciz	"FLTEN5"
 	.byte	0x2
 	.2byte	0x644
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -9095,7 +9095,7 @@ __AddressError:
 	.asciz	"FLTEN6"
 	.byte	0x2
 	.2byte	0x645
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -9106,7 +9106,7 @@ __AddressError:
 	.asciz	"FLTEN7"
 	.byte	0x2
 	.2byte	0x646
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -9117,7 +9117,7 @@ __AddressError:
 	.asciz	"FLTEN8"
 	.byte	0x2
 	.2byte	0x647
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -9128,7 +9128,7 @@ __AddressError:
 	.asciz	"FLTEN9"
 	.byte	0x2
 	.2byte	0x648
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -9139,7 +9139,7 @@ __AddressError:
 	.asciz	"FLTEN10"
 	.byte	0x2
 	.2byte	0x649
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -9150,7 +9150,7 @@ __AddressError:
 	.asciz	"FLTEN11"
 	.byte	0x2
 	.2byte	0x64a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -9161,7 +9161,7 @@ __AddressError:
 	.asciz	"FLTEN12"
 	.byte	0x2
 	.2byte	0x64b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -9172,7 +9172,7 @@ __AddressError:
 	.asciz	"FLTEN13"
 	.byte	0x2
 	.2byte	0x64c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -9183,7 +9183,7 @@ __AddressError:
 	.asciz	"FLTEN14"
 	.byte	0x2
 	.2byte	0x64d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -9194,7 +9194,7 @@ __AddressError:
 	.asciz	"FLTEN15"
 	.byte	0x2
 	.2byte	0x64e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -9206,17 +9206,17 @@ __AddressError:
 	.asciz	"C1FEN1BITS"
 	.byte	0x2
 	.2byte	0x64f
-	.4byte	0x14f5
+	.4byte	0x14e8
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x656
-	.4byte	0x1720
+	.4byte	0x1713
 	.uleb128 0x5
 	.asciz	"F0MSK"
 	.byte	0x2
 	.2byte	0x657
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0xe
@@ -9227,7 +9227,7 @@ __AddressError:
 	.asciz	"F1MSK"
 	.byte	0x2
 	.2byte	0x658
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0xc
@@ -9238,7 +9238,7 @@ __AddressError:
 	.asciz	"F2MSK"
 	.byte	0x2
 	.2byte	0x659
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0xa
@@ -9249,7 +9249,7 @@ __AddressError:
 	.asciz	"F3MSK"
 	.byte	0x2
 	.2byte	0x65a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x8
@@ -9260,7 +9260,7 @@ __AddressError:
 	.asciz	"F4MSK"
 	.byte	0x2
 	.2byte	0x65b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x6
@@ -9271,7 +9271,7 @@ __AddressError:
 	.asciz	"F5MSK"
 	.byte	0x2
 	.2byte	0x65c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x4
@@ -9282,7 +9282,7 @@ __AddressError:
 	.asciz	"F6MSK"
 	.byte	0x2
 	.2byte	0x65d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x2
@@ -9293,7 +9293,7 @@ __AddressError:
 	.asciz	"F7MSK"
 	.byte	0x2
 	.2byte	0x65e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x0
@@ -9305,12 +9305,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x660
-	.4byte	0x187a
+	.4byte	0x186d
 	.uleb128 0x5
 	.asciz	"F0MSK0"
 	.byte	0x2
 	.2byte	0x661
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -9321,7 +9321,7 @@ __AddressError:
 	.asciz	"F0MSK1"
 	.byte	0x2
 	.2byte	0x662
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -9332,7 +9332,7 @@ __AddressError:
 	.asciz	"F1MSK0"
 	.byte	0x2
 	.2byte	0x663
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -9343,7 +9343,7 @@ __AddressError:
 	.asciz	"F1MSK1"
 	.byte	0x2
 	.2byte	0x664
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -9354,7 +9354,7 @@ __AddressError:
 	.asciz	"F2MSK0"
 	.byte	0x2
 	.2byte	0x665
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -9365,7 +9365,7 @@ __AddressError:
 	.asciz	"F2MSK1"
 	.byte	0x2
 	.2byte	0x666
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -9376,7 +9376,7 @@ __AddressError:
 	.asciz	"F3MSK0"
 	.byte	0x2
 	.2byte	0x667
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -9387,7 +9387,7 @@ __AddressError:
 	.asciz	"F3MSK1"
 	.byte	0x2
 	.2byte	0x668
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -9398,7 +9398,7 @@ __AddressError:
 	.asciz	"F4MSK0"
 	.byte	0x2
 	.2byte	0x669
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -9409,7 +9409,7 @@ __AddressError:
 	.asciz	"F4MSK1"
 	.byte	0x2
 	.2byte	0x66a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -9420,7 +9420,7 @@ __AddressError:
 	.asciz	"F5MSK0"
 	.byte	0x2
 	.2byte	0x66b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -9431,7 +9431,7 @@ __AddressError:
 	.asciz	"F5MSK1"
 	.byte	0x2
 	.2byte	0x66c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -9442,7 +9442,7 @@ __AddressError:
 	.asciz	"F6MSK0"
 	.byte	0x2
 	.2byte	0x66d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -9453,7 +9453,7 @@ __AddressError:
 	.asciz	"F6MSK1"
 	.byte	0x2
 	.2byte	0x66e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -9464,7 +9464,7 @@ __AddressError:
 	.asciz	"F7MSK0"
 	.byte	0x2
 	.2byte	0x66f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -9475,7 +9475,7 @@ __AddressError:
 	.asciz	"F7MSK1"
 	.byte	0x2
 	.2byte	0x670
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -9487,20 +9487,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x655
-	.4byte	0x188e
+	.4byte	0x1881
 	.uleb128 0x8
-	.4byte	0x1676
+	.4byte	0x1669
 	.uleb128 0x8
-	.4byte	0x1720
+	.4byte	0x1713
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagC1FMSKSEL1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x654
-	.4byte	0x18b2
+	.4byte	0x18a5
 	.uleb128 0xa
-	.4byte	0x187a
+	.4byte	0x186d
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -9509,17 +9509,17 @@ __AddressError:
 	.asciz	"C1FMSKSEL1BITS"
 	.byte	0x2
 	.2byte	0x673
-	.4byte	0x188e
+	.4byte	0x1881
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x69e
-	.4byte	0x191f
+	.4byte	0x1912
 	.uleb128 0x5
 	.asciz	"F0BP"
 	.byte	0x2
 	.2byte	0x69f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x4
 	.byte	0xc
@@ -9530,7 +9530,7 @@ __AddressError:
 	.asciz	"F1BP"
 	.byte	0x2
 	.2byte	0x6a0
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x4
 	.byte	0x8
@@ -9541,7 +9541,7 @@ __AddressError:
 	.asciz	"F2BP"
 	.byte	0x2
 	.2byte	0x6a1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x4
 	.byte	0x4
@@ -9552,7 +9552,7 @@ __AddressError:
 	.asciz	"F3BP"
 	.byte	0x2
 	.2byte	0x6a2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x4
 	.byte	0x0
@@ -9564,12 +9564,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x6a4
-	.4byte	0x1a69
+	.4byte	0x1a5c
 	.uleb128 0x5
 	.asciz	"F0BP0"
 	.byte	0x2
 	.2byte	0x6a5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -9580,7 +9580,7 @@ __AddressError:
 	.asciz	"F0BP1"
 	.byte	0x2
 	.2byte	0x6a6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -9591,7 +9591,7 @@ __AddressError:
 	.asciz	"F0BP2"
 	.byte	0x2
 	.2byte	0x6a7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -9602,7 +9602,7 @@ __AddressError:
 	.asciz	"F0BP3"
 	.byte	0x2
 	.2byte	0x6a8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -9613,7 +9613,7 @@ __AddressError:
 	.asciz	"F1BP0"
 	.byte	0x2
 	.2byte	0x6a9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -9624,7 +9624,7 @@ __AddressError:
 	.asciz	"F1BP1"
 	.byte	0x2
 	.2byte	0x6aa
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -9635,7 +9635,7 @@ __AddressError:
 	.asciz	"F1BP2"
 	.byte	0x2
 	.2byte	0x6ab
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -9646,7 +9646,7 @@ __AddressError:
 	.asciz	"F1BP3"
 	.byte	0x2
 	.2byte	0x6ac
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -9657,7 +9657,7 @@ __AddressError:
 	.asciz	"F2BP0"
 	.byte	0x2
 	.2byte	0x6ad
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -9668,7 +9668,7 @@ __AddressError:
 	.asciz	"F2BP1"
 	.byte	0x2
 	.2byte	0x6ae
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -9679,7 +9679,7 @@ __AddressError:
 	.asciz	"F2BP2"
 	.byte	0x2
 	.2byte	0x6af
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -9690,7 +9690,7 @@ __AddressError:
 	.asciz	"F2BP3"
 	.byte	0x2
 	.2byte	0x6b0
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -9701,7 +9701,7 @@ __AddressError:
 	.asciz	"F3BP0"
 	.byte	0x2
 	.2byte	0x6b1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -9712,7 +9712,7 @@ __AddressError:
 	.asciz	"F3BP1"
 	.byte	0x2
 	.2byte	0x6b2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -9723,7 +9723,7 @@ __AddressError:
 	.asciz	"F3BP2"
 	.byte	0x2
 	.2byte	0x6b3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -9734,7 +9734,7 @@ __AddressError:
 	.asciz	"F3BP3"
 	.byte	0x2
 	.2byte	0x6b4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -9746,20 +9746,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x69d
-	.4byte	0x1a7d
+	.4byte	0x1a70
 	.uleb128 0x8
-	.4byte	0x18c9
+	.4byte	0x18bc
 	.uleb128 0x8
-	.4byte	0x191f
+	.4byte	0x1912
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagC1BUFPNT1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x69c
-	.4byte	0x1aa0
+	.4byte	0x1a93
 	.uleb128 0xa
-	.4byte	0x1a69
+	.4byte	0x1a5c
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -9768,18 +9768,18 @@ __AddressError:
 	.asciz	"C1BUFPNT1BITS"
 	.byte	0x2
 	.2byte	0x6b7
-	.4byte	0x1a7d
+	.4byte	0x1a70
 	.uleb128 0xd
 	.asciz	"tagC1RXFUL1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x6bc
-	.4byte	0x1c26
+	.4byte	0x1c19
 	.uleb128 0x5
 	.asciz	"RXFUL0"
 	.byte	0x2
 	.2byte	0x6bd
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -9790,7 +9790,7 @@ __AddressError:
 	.asciz	"RXFUL1"
 	.byte	0x2
 	.2byte	0x6be
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -9801,7 +9801,7 @@ __AddressError:
 	.asciz	"RXFUL2"
 	.byte	0x2
 	.2byte	0x6bf
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -9812,7 +9812,7 @@ __AddressError:
 	.asciz	"RXFUL3"
 	.byte	0x2
 	.2byte	0x6c0
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -9823,7 +9823,7 @@ __AddressError:
 	.asciz	"RXFUL4"
 	.byte	0x2
 	.2byte	0x6c1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -9834,7 +9834,7 @@ __AddressError:
 	.asciz	"RXFUL5"
 	.byte	0x2
 	.2byte	0x6c2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -9845,7 +9845,7 @@ __AddressError:
 	.asciz	"RXFUL6"
 	.byte	0x2
 	.2byte	0x6c3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -9856,7 +9856,7 @@ __AddressError:
 	.asciz	"RXFUL7"
 	.byte	0x2
 	.2byte	0x6c4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -9867,7 +9867,7 @@ __AddressError:
 	.asciz	"RXFUL8"
 	.byte	0x2
 	.2byte	0x6c5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -9878,7 +9878,7 @@ __AddressError:
 	.asciz	"RXFUL9"
 	.byte	0x2
 	.2byte	0x6c6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -9889,7 +9889,7 @@ __AddressError:
 	.asciz	"RXFUL10"
 	.byte	0x2
 	.2byte	0x6c7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -9900,7 +9900,7 @@ __AddressError:
 	.asciz	"RXFUL11"
 	.byte	0x2
 	.2byte	0x6c8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -9911,7 +9911,7 @@ __AddressError:
 	.asciz	"RXFUL12"
 	.byte	0x2
 	.2byte	0x6c9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -9922,7 +9922,7 @@ __AddressError:
 	.asciz	"RXFUL13"
 	.byte	0x2
 	.2byte	0x6ca
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -9933,7 +9933,7 @@ __AddressError:
 	.asciz	"RXFUL14"
 	.byte	0x2
 	.2byte	0x6cb
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -9944,7 +9944,7 @@ __AddressError:
 	.asciz	"RXFUL15"
 	.byte	0x2
 	.2byte	0x6cc
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -9956,17 +9956,17 @@ __AddressError:
 	.asciz	"C1RXFUL1BITS"
 	.byte	0x2
 	.2byte	0x6cd
-	.4byte	0x1ab6
+	.4byte	0x1aa9
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x795
-	.4byte	0x1d6b
+	.4byte	0x1d5e
 	.uleb128 0x5
 	.asciz	"TX0PRI"
 	.byte	0x2
 	.2byte	0x796
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0xe
@@ -9977,7 +9977,7 @@ __AddressError:
 	.asciz	"RTREN0"
 	.byte	0x2
 	.2byte	0x797
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -9988,7 +9988,7 @@ __AddressError:
 	.asciz	"TXREQ0"
 	.byte	0x2
 	.2byte	0x798
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -9999,7 +9999,7 @@ __AddressError:
 	.asciz	"TXERR0"
 	.byte	0x2
 	.2byte	0x799
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -10010,7 +10010,7 @@ __AddressError:
 	.asciz	"TXLARB0"
 	.byte	0x2
 	.2byte	0x79a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -10021,7 +10021,7 @@ __AddressError:
 	.asciz	"TXABT0"
 	.byte	0x2
 	.2byte	0x79b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -10032,7 +10032,7 @@ __AddressError:
 	.asciz	"TXEN0"
 	.byte	0x2
 	.2byte	0x79c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -10043,7 +10043,7 @@ __AddressError:
 	.asciz	"TX1PRI"
 	.byte	0x2
 	.2byte	0x79d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x6
@@ -10054,7 +10054,7 @@ __AddressError:
 	.asciz	"RTREN1"
 	.byte	0x2
 	.2byte	0x79e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -10065,7 +10065,7 @@ __AddressError:
 	.asciz	"TXREQ1"
 	.byte	0x2
 	.2byte	0x79f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -10076,7 +10076,7 @@ __AddressError:
 	.asciz	"TXERR1"
 	.byte	0x2
 	.2byte	0x7a0
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -10087,7 +10087,7 @@ __AddressError:
 	.asciz	"TXLARB1"
 	.byte	0x2
 	.2byte	0x7a1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -10098,7 +10098,7 @@ __AddressError:
 	.asciz	"TXABT1"
 	.byte	0x2
 	.2byte	0x7a2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -10109,7 +10109,7 @@ __AddressError:
 	.asciz	"TXEN1"
 	.byte	0x2
 	.2byte	0x7a3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -10121,12 +10121,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x7a5
-	.4byte	0x1dcd
+	.4byte	0x1dc0
 	.uleb128 0x5
 	.asciz	"TX0PRI0"
 	.byte	0x2
 	.2byte	0x7a6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -10137,7 +10137,7 @@ __AddressError:
 	.asciz	"TX0PRI1"
 	.byte	0x2
 	.2byte	0x7a7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -10148,7 +10148,7 @@ __AddressError:
 	.asciz	"TX1PRI0"
 	.byte	0x2
 	.2byte	0x7a9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -10159,7 +10159,7 @@ __AddressError:
 	.asciz	"TX1PRI1"
 	.byte	0x2
 	.2byte	0x7aa
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -10171,20 +10171,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x794
-	.4byte	0x1de1
+	.4byte	0x1dd4
 	.uleb128 0x8
-	.4byte	0x1c3b
+	.4byte	0x1c2e
 	.uleb128 0x8
-	.4byte	0x1d6b
+	.4byte	0x1d5e
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagC1TR01CONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x793
-	.4byte	0x1e04
+	.4byte	0x1df7
 	.uleb128 0xa
-	.4byte	0x1dcd
+	.4byte	0x1dc0
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -10193,18 +10193,18 @@ __AddressError:
 	.asciz	"C1TR01CONBITS"
 	.byte	0x2
 	.2byte	0x7ad
-	.4byte	0x1de1
+	.4byte	0x1dd4
 	.uleb128 0xd
 	.asciz	"tagSENT1CON1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xc6e
-	.4byte	0x1ef9
+	.4byte	0x1eec
 	.uleb128 0x5
 	.asciz	"NIBCNT"
 	.byte	0x2
 	.2byte	0xc6f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0xd
@@ -10215,7 +10215,7 @@ __AddressError:
 	.asciz	"PS"
 	.byte	0x2
 	.2byte	0xc71
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -10226,7 +10226,7 @@ __AddressError:
 	.asciz	"SPCEN"
 	.byte	0x2
 	.2byte	0xc73
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -10237,7 +10237,7 @@ __AddressError:
 	.asciz	"PPP"
 	.byte	0x2
 	.2byte	0xc74
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -10248,7 +10248,7 @@ __AddressError:
 	.asciz	"CRCEN"
 	.byte	0x2
 	.2byte	0xc75
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -10259,7 +10259,7 @@ __AddressError:
 	.asciz	"TXPOL"
 	.byte	0x2
 	.2byte	0xc76
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -10270,7 +10270,7 @@ __AddressError:
 	.asciz	"TXM"
 	.byte	0x2
 	.2byte	0xc77
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -10281,7 +10281,7 @@ __AddressError:
 	.asciz	"RCVEN"
 	.byte	0x2
 	.2byte	0xc78
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -10292,7 +10292,7 @@ __AddressError:
 	.asciz	"SNTSIDL"
 	.byte	0x2
 	.2byte	0xc7a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -10303,7 +10303,7 @@ __AddressError:
 	.asciz	"SNTEN"
 	.byte	0x2
 	.2byte	0xc7c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -10315,17 +10315,17 @@ __AddressError:
 	.asciz	"SENT1CON1BITS"
 	.byte	0x2
 	.2byte	0xc7d
-	.4byte	0x1e1a
+	.4byte	0x1e0d
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xc88
-	.4byte	0x1f91
+	.4byte	0x1f84
 	.uleb128 0x5
 	.asciz	"SYNC"
 	.byte	0x2
 	.2byte	0xc89
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -10336,7 +10336,7 @@ __AddressError:
 	.asciz	"RXIDLE"
 	.byte	0x2
 	.2byte	0xc8a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -10347,7 +10347,7 @@ __AddressError:
 	.asciz	"FRMERR"
 	.byte	0x2
 	.2byte	0xc8b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -10358,7 +10358,7 @@ __AddressError:
 	.asciz	"CRCERR"
 	.byte	0x2
 	.2byte	0xc8c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -10369,7 +10369,7 @@ __AddressError:
 	.asciz	"NIB"
 	.byte	0x2
 	.2byte	0xc8d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x9
@@ -10380,7 +10380,7 @@ __AddressError:
 	.asciz	"PAUSE"
 	.byte	0x2
 	.2byte	0xc8e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -10392,12 +10392,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xc90
-	.4byte	0x1fae
+	.4byte	0x1fa1
 	.uleb128 0x5
 	.asciz	"TXEN"
 	.byte	0x2
 	.2byte	0xc91
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -10409,12 +10409,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xc93
-	.4byte	0x1ff1
+	.4byte	0x1fe4
 	.uleb128 0x5
 	.asciz	"NIB0"
 	.byte	0x2
 	.2byte	0xc95
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -10425,7 +10425,7 @@ __AddressError:
 	.asciz	"NIB1"
 	.byte	0x2
 	.2byte	0xc96
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -10436,7 +10436,7 @@ __AddressError:
 	.asciz	"NIB2"
 	.byte	0x2
 	.2byte	0xc97
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -10448,22 +10448,22 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xc87
-	.4byte	0x200a
+	.4byte	0x1ffd
 	.uleb128 0x8
-	.4byte	0x1f0f
+	.4byte	0x1f02
 	.uleb128 0x8
-	.4byte	0x1f91
+	.4byte	0x1f84
 	.uleb128 0x8
-	.4byte	0x1fae
+	.4byte	0x1fa1
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagSENT1STATBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xc86
-	.4byte	0x202d
+	.4byte	0x2020
 	.uleb128 0xa
-	.4byte	0x1ff1
+	.4byte	0x1fe4
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -10472,17 +10472,17 @@ __AddressError:
 	.asciz	"SENT1STATBITS"
 	.byte	0x2
 	.2byte	0xc9a
-	.4byte	0x200a
+	.4byte	0x1ffd
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xd72
-	.4byte	0x2075
+	.4byte	0x2068
 	.uleb128 0x5
 	.asciz	"RP36R"
 	.byte	0x2
 	.2byte	0xd73
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x6
 	.byte	0xa
@@ -10493,7 +10493,7 @@ __AddressError:
 	.asciz	"RP37R"
 	.byte	0x2
 	.2byte	0xd75
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x6
 	.byte	0x2
@@ -10505,12 +10505,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xd77
-	.4byte	0x217b
+	.4byte	0x216e
 	.uleb128 0x5
 	.asciz	"RP36R0"
 	.byte	0x2
 	.2byte	0xd78
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -10521,7 +10521,7 @@ __AddressError:
 	.asciz	"RP36R1"
 	.byte	0x2
 	.2byte	0xd79
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -10532,7 +10532,7 @@ __AddressError:
 	.asciz	"RP36R2"
 	.byte	0x2
 	.2byte	0xd7a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -10543,7 +10543,7 @@ __AddressError:
 	.asciz	"RP36R3"
 	.byte	0x2
 	.2byte	0xd7b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -10554,7 +10554,7 @@ __AddressError:
 	.asciz	"RP36R4"
 	.byte	0x2
 	.2byte	0xd7c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -10565,7 +10565,7 @@ __AddressError:
 	.asciz	"RP36R5"
 	.byte	0x2
 	.2byte	0xd7d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -10576,7 +10576,7 @@ __AddressError:
 	.asciz	"RP37R0"
 	.byte	0x2
 	.2byte	0xd7f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -10587,7 +10587,7 @@ __AddressError:
 	.asciz	"RP37R1"
 	.byte	0x2
 	.2byte	0xd80
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -10598,7 +10598,7 @@ __AddressError:
 	.asciz	"RP37R2"
 	.byte	0x2
 	.2byte	0xd81
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -10609,7 +10609,7 @@ __AddressError:
 	.asciz	"RP37R3"
 	.byte	0x2
 	.2byte	0xd82
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -10620,7 +10620,7 @@ __AddressError:
 	.asciz	"RP37R4"
 	.byte	0x2
 	.2byte	0xd83
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -10631,7 +10631,7 @@ __AddressError:
 	.asciz	"RP37R5"
 	.byte	0x2
 	.2byte	0xd84
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -10643,20 +10643,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xd71
-	.4byte	0x218f
+	.4byte	0x2182
 	.uleb128 0x8
-	.4byte	0x2043
+	.4byte	0x2036
 	.uleb128 0x8
-	.4byte	0x2075
+	.4byte	0x2068
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagRPOR1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xd70
-	.4byte	0x21ae
+	.4byte	0x21a1
 	.uleb128 0xa
-	.4byte	0x217b
+	.4byte	0x216e
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -10665,17 +10665,17 @@ __AddressError:
 	.asciz	"RPOR1BITS"
 	.byte	0x2
 	.2byte	0xd87
-	.4byte	0x218f
+	.4byte	0x2182
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xe36
-	.4byte	0x21f2
+	.4byte	0x21e5
 	.uleb128 0x5
 	.asciz	"RP69R"
 	.byte	0x2
 	.2byte	0xe37
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x6
 	.byte	0xa
@@ -10686,7 +10686,7 @@ __AddressError:
 	.asciz	"RP70R"
 	.byte	0x2
 	.2byte	0xe39
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x6
 	.byte	0x2
@@ -10698,12 +10698,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xe3b
-	.4byte	0x22f8
+	.4byte	0x22eb
 	.uleb128 0x5
 	.asciz	"RP69R0"
 	.byte	0x2
 	.2byte	0xe3c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -10714,7 +10714,7 @@ __AddressError:
 	.asciz	"RP69R1"
 	.byte	0x2
 	.2byte	0xe3d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -10725,7 +10725,7 @@ __AddressError:
 	.asciz	"RP69R2"
 	.byte	0x2
 	.2byte	0xe3e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -10736,7 +10736,7 @@ __AddressError:
 	.asciz	"RP69R3"
 	.byte	0x2
 	.2byte	0xe3f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -10747,7 +10747,7 @@ __AddressError:
 	.asciz	"RP69R4"
 	.byte	0x2
 	.2byte	0xe40
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -10758,7 +10758,7 @@ __AddressError:
 	.asciz	"RP69R5"
 	.byte	0x2
 	.2byte	0xe41
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -10769,7 +10769,7 @@ __AddressError:
 	.asciz	"RP70R0"
 	.byte	0x2
 	.2byte	0xe43
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -10780,7 +10780,7 @@ __AddressError:
 	.asciz	"RP70R1"
 	.byte	0x2
 	.2byte	0xe44
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -10791,7 +10791,7 @@ __AddressError:
 	.asciz	"RP70R2"
 	.byte	0x2
 	.2byte	0xe45
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -10802,7 +10802,7 @@ __AddressError:
 	.asciz	"RP70R3"
 	.byte	0x2
 	.2byte	0xe46
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -10813,7 +10813,7 @@ __AddressError:
 	.asciz	"RP70R4"
 	.byte	0x2
 	.2byte	0xe47
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -10824,7 +10824,7 @@ __AddressError:
 	.asciz	"RP70R5"
 	.byte	0x2
 	.2byte	0xe48
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -10836,20 +10836,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xe35
-	.4byte	0x230c
+	.4byte	0x22ff
 	.uleb128 0x8
-	.4byte	0x21c0
+	.4byte	0x21b3
 	.uleb128 0x8
-	.4byte	0x21f2
+	.4byte	0x21e5
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagRPOR8BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0xe34
-	.4byte	0x232b
+	.4byte	0x231e
 	.uleb128 0xa
-	.4byte	0x22f8
+	.4byte	0x22eb
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -10858,18 +10858,18 @@ __AddressError:
 	.asciz	"RPOR8BITS"
 	.byte	0x2
 	.2byte	0xe4b
-	.4byte	0x230c
+	.4byte	0x22ff
 	.uleb128 0xd
 	.asciz	"tagRCONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x10e1
-	.4byte	0x244e
+	.4byte	0x2441
 	.uleb128 0x5
 	.asciz	"POR"
 	.byte	0x2
 	.2byte	0x10e2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -10880,7 +10880,7 @@ __AddressError:
 	.asciz	"BOR"
 	.byte	0x2
 	.2byte	0x10e3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -10891,7 +10891,7 @@ __AddressError:
 	.asciz	"IDLE"
 	.byte	0x2
 	.2byte	0x10e4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -10902,7 +10902,7 @@ __AddressError:
 	.asciz	"SLEEP"
 	.byte	0x2
 	.2byte	0x10e5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -10913,7 +10913,7 @@ __AddressError:
 	.asciz	"WDTO"
 	.byte	0x2
 	.2byte	0x10e6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -10924,7 +10924,7 @@ __AddressError:
 	.asciz	"SWDTEN"
 	.byte	0x2
 	.2byte	0x10e7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -10935,7 +10935,7 @@ __AddressError:
 	.asciz	"SWR"
 	.byte	0x2
 	.2byte	0x10e8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -10946,7 +10946,7 @@ __AddressError:
 	.asciz	"EXTR"
 	.byte	0x2
 	.2byte	0x10e9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -10957,7 +10957,7 @@ __AddressError:
 	.asciz	"VREGS"
 	.byte	0x2
 	.2byte	0x10ea
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -10968,7 +10968,7 @@ __AddressError:
 	.asciz	"CM"
 	.byte	0x2
 	.2byte	0x10eb
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -10979,7 +10979,7 @@ __AddressError:
 	.asciz	"VREGSF"
 	.byte	0x2
 	.2byte	0x10ed
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -10990,7 +10990,7 @@ __AddressError:
 	.asciz	"IOPUWR"
 	.byte	0x2
 	.2byte	0x10ef
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -11001,7 +11001,7 @@ __AddressError:
 	.asciz	"TRAPR"
 	.byte	0x2
 	.2byte	0x10f0
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -11013,17 +11013,17 @@ __AddressError:
 	.asciz	"RCONBITS"
 	.byte	0x2
 	.2byte	0x10f1
-	.4byte	0x233d
+	.4byte	0x2330
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x111a
-	.4byte	0x24e2
+	.4byte	0x24d5
 	.uleb128 0x5
 	.asciz	"PLLPRE"
 	.byte	0x2
 	.2byte	0x111b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x5
 	.byte	0xb
@@ -11034,7 +11034,7 @@ __AddressError:
 	.asciz	"PLLPOST"
 	.byte	0x2
 	.2byte	0x111d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0x8
@@ -11045,7 +11045,7 @@ __AddressError:
 	.asciz	"FRCDIV"
 	.byte	0x2
 	.2byte	0x111e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x5
@@ -11056,7 +11056,7 @@ __AddressError:
 	.asciz	"DOZEN"
 	.byte	0x2
 	.2byte	0x111f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -11067,7 +11067,7 @@ __AddressError:
 	.asciz	"DOZE"
 	.byte	0x2
 	.2byte	0x1120
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x1
@@ -11078,7 +11078,7 @@ __AddressError:
 	.asciz	"ROI"
 	.byte	0x2
 	.2byte	0x1121
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -11090,12 +11090,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1123
-	.4byte	0x2606
+	.4byte	0x25f9
 	.uleb128 0x5
 	.asciz	"PLLPRE0"
 	.byte	0x2
 	.2byte	0x1124
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -11106,7 +11106,7 @@ __AddressError:
 	.asciz	"PLLPRE1"
 	.byte	0x2
 	.2byte	0x1125
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -11117,7 +11117,7 @@ __AddressError:
 	.asciz	"PLLPRE2"
 	.byte	0x2
 	.2byte	0x1126
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -11128,7 +11128,7 @@ __AddressError:
 	.asciz	"PLLPRE3"
 	.byte	0x2
 	.2byte	0x1127
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -11139,7 +11139,7 @@ __AddressError:
 	.asciz	"PLLPRE4"
 	.byte	0x2
 	.2byte	0x1128
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -11150,7 +11150,7 @@ __AddressError:
 	.asciz	"PLLPOST0"
 	.byte	0x2
 	.2byte	0x112a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -11161,7 +11161,7 @@ __AddressError:
 	.asciz	"PLLPOST1"
 	.byte	0x2
 	.2byte	0x112b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -11172,7 +11172,7 @@ __AddressError:
 	.asciz	"FRCDIV0"
 	.byte	0x2
 	.2byte	0x112c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -11183,7 +11183,7 @@ __AddressError:
 	.asciz	"FRCDIV1"
 	.byte	0x2
 	.2byte	0x112d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -11194,7 +11194,7 @@ __AddressError:
 	.asciz	"FRCDIV2"
 	.byte	0x2
 	.2byte	0x112e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -11205,7 +11205,7 @@ __AddressError:
 	.asciz	"DOZE0"
 	.byte	0x2
 	.2byte	0x1130
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -11216,7 +11216,7 @@ __AddressError:
 	.asciz	"DOZE1"
 	.byte	0x2
 	.2byte	0x1131
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -11227,7 +11227,7 @@ __AddressError:
 	.asciz	"DOZE2"
 	.byte	0x2
 	.2byte	0x1132
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -11239,20 +11239,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1119
-	.4byte	0x261a
+	.4byte	0x260d
 	.uleb128 0x8
-	.4byte	0x245f
+	.4byte	0x2452
 	.uleb128 0x8
-	.4byte	0x24e2
+	.4byte	0x24d5
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagCLKDIVBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1118
-	.4byte	0x263a
+	.4byte	0x262d
 	.uleb128 0xa
-	.4byte	0x2606
+	.4byte	0x25f9
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -11261,18 +11261,18 @@ __AddressError:
 	.asciz	"CLKDIVBITS"
 	.byte	0x2
 	.2byte	0x1135
-	.4byte	0x261a
+	.4byte	0x260d
 	.uleb128 0xd
 	.asciz	"tagIFS0BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x11dd
-	.4byte	0x27a8
+	.4byte	0x279b
 	.uleb128 0x5
 	.asciz	"INT0IF"
 	.byte	0x2
 	.2byte	0x11de
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -11283,7 +11283,7 @@ __AddressError:
 	.asciz	"IC1IF"
 	.byte	0x2
 	.2byte	0x11df
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -11294,7 +11294,7 @@ __AddressError:
 	.asciz	"OC1IF"
 	.byte	0x2
 	.2byte	0x11e0
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -11305,7 +11305,7 @@ __AddressError:
 	.asciz	"T1IF"
 	.byte	0x2
 	.2byte	0x11e1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -11316,7 +11316,7 @@ __AddressError:
 	.asciz	"DMA0IF"
 	.byte	0x2
 	.2byte	0x11e2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -11327,7 +11327,7 @@ __AddressError:
 	.asciz	"IC2IF"
 	.byte	0x2
 	.2byte	0x11e3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -11338,7 +11338,7 @@ __AddressError:
 	.asciz	"OC2IF"
 	.byte	0x2
 	.2byte	0x11e4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -11349,7 +11349,7 @@ __AddressError:
 	.asciz	"T2IF"
 	.byte	0x2
 	.2byte	0x11e5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -11360,7 +11360,7 @@ __AddressError:
 	.asciz	"T3IF"
 	.byte	0x2
 	.2byte	0x11e6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -11371,7 +11371,7 @@ __AddressError:
 	.asciz	"SPI1EIF"
 	.byte	0x2
 	.2byte	0x11e7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -11382,7 +11382,7 @@ __AddressError:
 	.asciz	"SPI1IF"
 	.byte	0x2
 	.2byte	0x11e8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -11393,7 +11393,7 @@ __AddressError:
 	.asciz	"U1RXIF"
 	.byte	0x2
 	.2byte	0x11e9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -11404,7 +11404,7 @@ __AddressError:
 	.asciz	"U1TXIF"
 	.byte	0x2
 	.2byte	0x11ea
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -11415,7 +11415,7 @@ __AddressError:
 	.asciz	"AD1IF"
 	.byte	0x2
 	.2byte	0x11eb
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -11426,7 +11426,7 @@ __AddressError:
 	.asciz	"DMA1IF"
 	.byte	0x2
 	.2byte	0x11ec
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -11437,7 +11437,7 @@ __AddressError:
 	.asciz	"NVMIF"
 	.byte	0x2
 	.2byte	0x11ed
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -11449,18 +11449,18 @@ __AddressError:
 	.asciz	"IFS0BITS"
 	.byte	0x2
 	.2byte	0x11ee
-	.4byte	0x264d
+	.4byte	0x2640
 	.uleb128 0xd
 	.asciz	"tagIFS1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x11f3
-	.4byte	0x28d9
+	.4byte	0x28cc
 	.uleb128 0x5
 	.asciz	"SI2C1IF"
 	.byte	0x2
 	.2byte	0x11f4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -11471,7 +11471,7 @@ __AddressError:
 	.asciz	"MI2C1IF"
 	.byte	0x2
 	.2byte	0x11f5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -11482,7 +11482,7 @@ __AddressError:
 	.asciz	"CMPIF"
 	.byte	0x2
 	.2byte	0x11f6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -11493,7 +11493,7 @@ __AddressError:
 	.asciz	"CNIF"
 	.byte	0x2
 	.2byte	0x11f7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -11504,7 +11504,7 @@ __AddressError:
 	.asciz	"INT1IF"
 	.byte	0x2
 	.2byte	0x11f8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -11515,7 +11515,7 @@ __AddressError:
 	.asciz	"DMA2IF"
 	.byte	0x2
 	.2byte	0x11fa
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -11526,7 +11526,7 @@ __AddressError:
 	.asciz	"OC3IF"
 	.byte	0x2
 	.2byte	0x11fb
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -11537,7 +11537,7 @@ __AddressError:
 	.asciz	"OC4IF"
 	.byte	0x2
 	.2byte	0x11fc
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -11548,7 +11548,7 @@ __AddressError:
 	.asciz	"T4IF"
 	.byte	0x2
 	.2byte	0x11fd
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -11559,7 +11559,7 @@ __AddressError:
 	.asciz	"T5IF"
 	.byte	0x2
 	.2byte	0x11fe
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -11570,7 +11570,7 @@ __AddressError:
 	.asciz	"INT2IF"
 	.byte	0x2
 	.2byte	0x11ff
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -11581,7 +11581,7 @@ __AddressError:
 	.asciz	"U2RXIF"
 	.byte	0x2
 	.2byte	0x1200
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -11592,7 +11592,7 @@ __AddressError:
 	.asciz	"U2TXIF"
 	.byte	0x2
 	.2byte	0x1201
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -11604,18 +11604,18 @@ __AddressError:
 	.asciz	"IFS1BITS"
 	.byte	0x2
 	.2byte	0x1202
-	.4byte	0x27b9
+	.4byte	0x27ac
 	.uleb128 0xd
 	.asciz	"tagIFS2BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1207
-	.4byte	0x2990
+	.4byte	0x2983
 	.uleb128 0x5
 	.asciz	"SPI2EIF"
 	.byte	0x2
 	.2byte	0x1208
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -11626,7 +11626,7 @@ __AddressError:
 	.asciz	"SPI2IF"
 	.byte	0x2
 	.2byte	0x1209
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -11637,7 +11637,7 @@ __AddressError:
 	.asciz	"C1RXIF"
 	.byte	0x2
 	.2byte	0x120a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -11648,7 +11648,7 @@ __AddressError:
 	.asciz	"C1IF"
 	.byte	0x2
 	.2byte	0x120b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -11659,7 +11659,7 @@ __AddressError:
 	.asciz	"DMA3IF"
 	.byte	0x2
 	.2byte	0x120c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -11670,7 +11670,7 @@ __AddressError:
 	.asciz	"IC3IF"
 	.byte	0x2
 	.2byte	0x120d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -11681,7 +11681,7 @@ __AddressError:
 	.asciz	"IC4IF"
 	.byte	0x2
 	.2byte	0x120e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -11693,18 +11693,18 @@ __AddressError:
 	.asciz	"IFS2BITS"
 	.byte	0x2
 	.2byte	0x120f
-	.4byte	0x28ea
+	.4byte	0x28dd
 	.uleb128 0xd
 	.asciz	"tagIFS4BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x121c
-	.4byte	0x2a09
+	.4byte	0x29fc
 	.uleb128 0x5
 	.asciz	"U1EIF"
 	.byte	0x2
 	.2byte	0x121e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -11715,7 +11715,7 @@ __AddressError:
 	.asciz	"U2EIF"
 	.byte	0x2
 	.2byte	0x121f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -11726,7 +11726,7 @@ __AddressError:
 	.asciz	"C1TXIF"
 	.byte	0x2
 	.2byte	0x1221
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -11737,7 +11737,7 @@ __AddressError:
 	.asciz	"CTMUIF"
 	.byte	0x2
 	.2byte	0x1223
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -11749,18 +11749,18 @@ __AddressError:
 	.asciz	"IFS4BITS"
 	.byte	0x2
 	.2byte	0x1224
-	.4byte	0x29a1
+	.4byte	0x2994
 	.uleb128 0xd
 	.asciz	"tagIFS11BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1249
-	.4byte	0x2aa2
+	.4byte	0x2a95
 	.uleb128 0x5
 	.asciz	"SENT1EIF"
 	.byte	0x2
 	.2byte	0x124b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -11771,7 +11771,7 @@ __AddressError:
 	.asciz	"SENT1IF"
 	.byte	0x2
 	.2byte	0x124c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -11782,7 +11782,7 @@ __AddressError:
 	.asciz	"SENT2EIF"
 	.byte	0x2
 	.2byte	0x124d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -11793,7 +11793,7 @@ __AddressError:
 	.asciz	"SENT2IF"
 	.byte	0x2
 	.2byte	0x124e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -11804,7 +11804,7 @@ __AddressError:
 	.asciz	"ECCSBEIF"
 	.byte	0x2
 	.2byte	0x124f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -11816,18 +11816,18 @@ __AddressError:
 	.asciz	"IFS11BITS"
 	.byte	0x2
 	.2byte	0x1250
-	.4byte	0x2a1a
+	.4byte	0x2a0d
 	.uleb128 0xd
 	.asciz	"tagIEC0BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1255
-	.4byte	0x2c0f
+	.4byte	0x2c02
 	.uleb128 0x5
 	.asciz	"INT0IE"
 	.byte	0x2
 	.2byte	0x1256
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -11838,7 +11838,7 @@ __AddressError:
 	.asciz	"IC1IE"
 	.byte	0x2
 	.2byte	0x1257
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -11849,7 +11849,7 @@ __AddressError:
 	.asciz	"OC1IE"
 	.byte	0x2
 	.2byte	0x1258
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -11860,7 +11860,7 @@ __AddressError:
 	.asciz	"T1IE"
 	.byte	0x2
 	.2byte	0x1259
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -11871,7 +11871,7 @@ __AddressError:
 	.asciz	"DMA0IE"
 	.byte	0x2
 	.2byte	0x125a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -11882,7 +11882,7 @@ __AddressError:
 	.asciz	"IC2IE"
 	.byte	0x2
 	.2byte	0x125b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -11893,7 +11893,7 @@ __AddressError:
 	.asciz	"OC2IE"
 	.byte	0x2
 	.2byte	0x125c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -11904,7 +11904,7 @@ __AddressError:
 	.asciz	"T2IE"
 	.byte	0x2
 	.2byte	0x125d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -11915,7 +11915,7 @@ __AddressError:
 	.asciz	"T3IE"
 	.byte	0x2
 	.2byte	0x125e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -11926,7 +11926,7 @@ __AddressError:
 	.asciz	"SPI1EIE"
 	.byte	0x2
 	.2byte	0x125f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -11937,7 +11937,7 @@ __AddressError:
 	.asciz	"SPI1IE"
 	.byte	0x2
 	.2byte	0x1260
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -11948,7 +11948,7 @@ __AddressError:
 	.asciz	"U1RXIE"
 	.byte	0x2
 	.2byte	0x1261
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -11959,7 +11959,7 @@ __AddressError:
 	.asciz	"U1TXIE"
 	.byte	0x2
 	.2byte	0x1262
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -11970,7 +11970,7 @@ __AddressError:
 	.asciz	"AD1IE"
 	.byte	0x2
 	.2byte	0x1263
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -11981,7 +11981,7 @@ __AddressError:
 	.asciz	"DMA1IE"
 	.byte	0x2
 	.2byte	0x1264
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -11992,7 +11992,7 @@ __AddressError:
 	.asciz	"NVMIE"
 	.byte	0x2
 	.2byte	0x1265
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -12004,18 +12004,18 @@ __AddressError:
 	.asciz	"IEC0BITS"
 	.byte	0x2
 	.2byte	0x1266
-	.4byte	0x2ab4
+	.4byte	0x2aa7
 	.uleb128 0xd
 	.asciz	"tagIEC1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x126b
-	.4byte	0x2d40
+	.4byte	0x2d33
 	.uleb128 0x5
 	.asciz	"SI2C1IE"
 	.byte	0x2
 	.2byte	0x126c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -12026,7 +12026,7 @@ __AddressError:
 	.asciz	"MI2C1IE"
 	.byte	0x2
 	.2byte	0x126d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -12037,7 +12037,7 @@ __AddressError:
 	.asciz	"CMPIE"
 	.byte	0x2
 	.2byte	0x126e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -12048,7 +12048,7 @@ __AddressError:
 	.asciz	"CNIE"
 	.byte	0x2
 	.2byte	0x126f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -12059,7 +12059,7 @@ __AddressError:
 	.asciz	"INT1IE"
 	.byte	0x2
 	.2byte	0x1270
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -12070,7 +12070,7 @@ __AddressError:
 	.asciz	"DMA2IE"
 	.byte	0x2
 	.2byte	0x1272
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -12081,7 +12081,7 @@ __AddressError:
 	.asciz	"OC3IE"
 	.byte	0x2
 	.2byte	0x1273
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -12092,7 +12092,7 @@ __AddressError:
 	.asciz	"OC4IE"
 	.byte	0x2
 	.2byte	0x1274
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -12103,7 +12103,7 @@ __AddressError:
 	.asciz	"T4IE"
 	.byte	0x2
 	.2byte	0x1275
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -12114,7 +12114,7 @@ __AddressError:
 	.asciz	"T5IE"
 	.byte	0x2
 	.2byte	0x1276
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -12125,7 +12125,7 @@ __AddressError:
 	.asciz	"INT2IE"
 	.byte	0x2
 	.2byte	0x1277
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -12136,7 +12136,7 @@ __AddressError:
 	.asciz	"U2RXIE"
 	.byte	0x2
 	.2byte	0x1278
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -12147,7 +12147,7 @@ __AddressError:
 	.asciz	"U2TXIE"
 	.byte	0x2
 	.2byte	0x1279
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -12159,18 +12159,18 @@ __AddressError:
 	.asciz	"IEC1BITS"
 	.byte	0x2
 	.2byte	0x127a
-	.4byte	0x2c20
+	.4byte	0x2c13
 	.uleb128 0xd
 	.asciz	"tagIEC2BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x127f
-	.4byte	0x2df7
+	.4byte	0x2dea
 	.uleb128 0x5
 	.asciz	"SPI2EIE"
 	.byte	0x2
 	.2byte	0x1280
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -12181,7 +12181,7 @@ __AddressError:
 	.asciz	"SPI2IE"
 	.byte	0x2
 	.2byte	0x1281
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -12192,7 +12192,7 @@ __AddressError:
 	.asciz	"C1RXIE"
 	.byte	0x2
 	.2byte	0x1282
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -12203,7 +12203,7 @@ __AddressError:
 	.asciz	"C1IE"
 	.byte	0x2
 	.2byte	0x1283
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -12214,7 +12214,7 @@ __AddressError:
 	.asciz	"DMA3IE"
 	.byte	0x2
 	.2byte	0x1284
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -12225,7 +12225,7 @@ __AddressError:
 	.asciz	"IC3IE"
 	.byte	0x2
 	.2byte	0x1285
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -12236,7 +12236,7 @@ __AddressError:
 	.asciz	"IC4IE"
 	.byte	0x2
 	.2byte	0x1286
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -12248,18 +12248,18 @@ __AddressError:
 	.asciz	"IEC2BITS"
 	.byte	0x2
 	.2byte	0x1287
-	.4byte	0x2d51
+	.4byte	0x2d44
 	.uleb128 0xd
 	.asciz	"tagIEC4BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1294
-	.4byte	0x2e70
+	.4byte	0x2e63
 	.uleb128 0x5
 	.asciz	"U1EIE"
 	.byte	0x2
 	.2byte	0x1296
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -12270,7 +12270,7 @@ __AddressError:
 	.asciz	"U2EIE"
 	.byte	0x2
 	.2byte	0x1297
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -12281,7 +12281,7 @@ __AddressError:
 	.asciz	"C1TXIE"
 	.byte	0x2
 	.2byte	0x1299
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -12292,7 +12292,7 @@ __AddressError:
 	.asciz	"CTMUIE"
 	.byte	0x2
 	.2byte	0x129b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -12304,18 +12304,18 @@ __AddressError:
 	.asciz	"IEC4BITS"
 	.byte	0x2
 	.2byte	0x129c
-	.4byte	0x2e08
+	.4byte	0x2dfb
 	.uleb128 0xd
 	.asciz	"tagIEC11BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x12c1
-	.4byte	0x2f09
+	.4byte	0x2efc
 	.uleb128 0x5
 	.asciz	"SENT1EIE"
 	.byte	0x2
 	.2byte	0x12c3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -12326,7 +12326,7 @@ __AddressError:
 	.asciz	"SENT1IE"
 	.byte	0x2
 	.2byte	0x12c4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -12337,7 +12337,7 @@ __AddressError:
 	.asciz	"SENT2EIE"
 	.byte	0x2
 	.2byte	0x12c5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -12348,7 +12348,7 @@ __AddressError:
 	.asciz	"SENT2IE"
 	.byte	0x2
 	.2byte	0x12c6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -12359,7 +12359,7 @@ __AddressError:
 	.asciz	"ECCSBEIE"
 	.byte	0x2
 	.2byte	0x12c7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -12371,17 +12371,17 @@ __AddressError:
 	.asciz	"IEC11BITS"
 	.byte	0x2
 	.2byte	0x12c8
-	.4byte	0x2e81
+	.4byte	0x2e74
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x12cf
-	.4byte	0x2f75
+	.4byte	0x2f68
 	.uleb128 0x5
 	.asciz	"INT0IP"
 	.byte	0x2
 	.2byte	0x12d0
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0xd
@@ -12392,7 +12392,7 @@ __AddressError:
 	.asciz	"IC1IP"
 	.byte	0x2
 	.2byte	0x12d2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x9
@@ -12403,7 +12403,7 @@ __AddressError:
 	.asciz	"OC1IP"
 	.byte	0x2
 	.2byte	0x12d4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x5
@@ -12414,7 +12414,7 @@ __AddressError:
 	.asciz	"T1IP"
 	.byte	0x2
 	.2byte	0x12d6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x1
@@ -12426,12 +12426,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x12d8
-	.4byte	0x307b
+	.4byte	0x306e
 	.uleb128 0x5
 	.asciz	"INT0IP0"
 	.byte	0x2
 	.2byte	0x12d9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -12442,7 +12442,7 @@ __AddressError:
 	.asciz	"INT0IP1"
 	.byte	0x2
 	.2byte	0x12da
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -12453,7 +12453,7 @@ __AddressError:
 	.asciz	"INT0IP2"
 	.byte	0x2
 	.2byte	0x12db
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -12464,7 +12464,7 @@ __AddressError:
 	.asciz	"IC1IP0"
 	.byte	0x2
 	.2byte	0x12dd
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -12475,7 +12475,7 @@ __AddressError:
 	.asciz	"IC1IP1"
 	.byte	0x2
 	.2byte	0x12de
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -12486,7 +12486,7 @@ __AddressError:
 	.asciz	"IC1IP2"
 	.byte	0x2
 	.2byte	0x12df
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -12497,7 +12497,7 @@ __AddressError:
 	.asciz	"OC1IP0"
 	.byte	0x2
 	.2byte	0x12e1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -12508,7 +12508,7 @@ __AddressError:
 	.asciz	"OC1IP1"
 	.byte	0x2
 	.2byte	0x12e2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -12519,7 +12519,7 @@ __AddressError:
 	.asciz	"OC1IP2"
 	.byte	0x2
 	.2byte	0x12e3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -12530,7 +12530,7 @@ __AddressError:
 	.asciz	"T1IP0"
 	.byte	0x2
 	.2byte	0x12e5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -12541,7 +12541,7 @@ __AddressError:
 	.asciz	"T1IP1"
 	.byte	0x2
 	.2byte	0x12e6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -12552,7 +12552,7 @@ __AddressError:
 	.asciz	"T1IP2"
 	.byte	0x2
 	.2byte	0x12e7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -12564,20 +12564,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x12ce
-	.4byte	0x308f
+	.4byte	0x3082
 	.uleb128 0x8
-	.4byte	0x2f1b
+	.4byte	0x2f0e
 	.uleb128 0x8
-	.4byte	0x2f75
+	.4byte	0x2f68
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagIPC0BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x12cd
-	.4byte	0x30ad
+	.4byte	0x30a0
 	.uleb128 0xa
-	.4byte	0x307b
+	.4byte	0x306e
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -12586,17 +12586,17 @@ __AddressError:
 	.asciz	"IPC0BITS"
 	.byte	0x2
 	.2byte	0x12ea
-	.4byte	0x308f
+	.4byte	0x3082
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x12f1
-	.4byte	0x3118
+	.4byte	0x310b
 	.uleb128 0x5
 	.asciz	"DMA0IP"
 	.byte	0x2
 	.2byte	0x12f2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0xd
@@ -12607,7 +12607,7 @@ __AddressError:
 	.asciz	"IC2IP"
 	.byte	0x2
 	.2byte	0x12f4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x9
@@ -12618,7 +12618,7 @@ __AddressError:
 	.asciz	"OC2IP"
 	.byte	0x2
 	.2byte	0x12f6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x5
@@ -12629,7 +12629,7 @@ __AddressError:
 	.asciz	"T2IP"
 	.byte	0x2
 	.2byte	0x12f8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x1
@@ -12641,12 +12641,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x12fa
-	.4byte	0x321e
+	.4byte	0x3211
 	.uleb128 0x5
 	.asciz	"DMA0IP0"
 	.byte	0x2
 	.2byte	0x12fb
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -12657,7 +12657,7 @@ __AddressError:
 	.asciz	"DMA0IP1"
 	.byte	0x2
 	.2byte	0x12fc
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -12668,7 +12668,7 @@ __AddressError:
 	.asciz	"DMA0IP2"
 	.byte	0x2
 	.2byte	0x12fd
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -12679,7 +12679,7 @@ __AddressError:
 	.asciz	"IC2IP0"
 	.byte	0x2
 	.2byte	0x12ff
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -12690,7 +12690,7 @@ __AddressError:
 	.asciz	"IC2IP1"
 	.byte	0x2
 	.2byte	0x1300
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -12701,7 +12701,7 @@ __AddressError:
 	.asciz	"IC2IP2"
 	.byte	0x2
 	.2byte	0x1301
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -12712,7 +12712,7 @@ __AddressError:
 	.asciz	"OC2IP0"
 	.byte	0x2
 	.2byte	0x1303
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -12723,7 +12723,7 @@ __AddressError:
 	.asciz	"OC2IP1"
 	.byte	0x2
 	.2byte	0x1304
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -12734,7 +12734,7 @@ __AddressError:
 	.asciz	"OC2IP2"
 	.byte	0x2
 	.2byte	0x1305
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -12745,7 +12745,7 @@ __AddressError:
 	.asciz	"T2IP0"
 	.byte	0x2
 	.2byte	0x1307
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -12756,7 +12756,7 @@ __AddressError:
 	.asciz	"T2IP1"
 	.byte	0x2
 	.2byte	0x1308
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -12767,7 +12767,7 @@ __AddressError:
 	.asciz	"T2IP2"
 	.byte	0x2
 	.2byte	0x1309
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -12779,20 +12779,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x12f0
-	.4byte	0x3232
+	.4byte	0x3225
 	.uleb128 0x8
-	.4byte	0x30be
+	.4byte	0x30b1
 	.uleb128 0x8
-	.4byte	0x3118
+	.4byte	0x310b
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagIPC1BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x12ef
-	.4byte	0x3250
+	.4byte	0x3243
 	.uleb128 0xa
-	.4byte	0x321e
+	.4byte	0x3211
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -12801,17 +12801,17 @@ __AddressError:
 	.asciz	"IPC1BITS"
 	.byte	0x2
 	.2byte	0x130c
-	.4byte	0x3232
+	.4byte	0x3225
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1313
-	.4byte	0x32be
+	.4byte	0x32b1
 	.uleb128 0x5
 	.asciz	"T3IP"
 	.byte	0x2
 	.2byte	0x1314
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0xd
@@ -12822,7 +12822,7 @@ __AddressError:
 	.asciz	"SPI1EIP"
 	.byte	0x2
 	.2byte	0x1316
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x9
@@ -12833,7 +12833,7 @@ __AddressError:
 	.asciz	"SPI1IP"
 	.byte	0x2
 	.2byte	0x1318
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x5
@@ -12844,7 +12844,7 @@ __AddressError:
 	.asciz	"U1RXIP"
 	.byte	0x2
 	.2byte	0x131a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x1
@@ -12856,12 +12856,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x131c
-	.4byte	0x33cd
+	.4byte	0x33c0
 	.uleb128 0x5
 	.asciz	"T3IP0"
 	.byte	0x2
 	.2byte	0x131d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -12872,7 +12872,7 @@ __AddressError:
 	.asciz	"T3IP1"
 	.byte	0x2
 	.2byte	0x131e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -12883,7 +12883,7 @@ __AddressError:
 	.asciz	"T3IP2"
 	.byte	0x2
 	.2byte	0x131f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -12894,7 +12894,7 @@ __AddressError:
 	.asciz	"SPI1EIP0"
 	.byte	0x2
 	.2byte	0x1321
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -12905,7 +12905,7 @@ __AddressError:
 	.asciz	"SPI1EIP1"
 	.byte	0x2
 	.2byte	0x1322
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -12916,7 +12916,7 @@ __AddressError:
 	.asciz	"SPI1EIP2"
 	.byte	0x2
 	.2byte	0x1323
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -12927,7 +12927,7 @@ __AddressError:
 	.asciz	"SPI1IP0"
 	.byte	0x2
 	.2byte	0x1325
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -12938,7 +12938,7 @@ __AddressError:
 	.asciz	"SPI1IP1"
 	.byte	0x2
 	.2byte	0x1326
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -12949,7 +12949,7 @@ __AddressError:
 	.asciz	"SPI1IP2"
 	.byte	0x2
 	.2byte	0x1327
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -12960,7 +12960,7 @@ __AddressError:
 	.asciz	"U1RXIP0"
 	.byte	0x2
 	.2byte	0x1329
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -12971,7 +12971,7 @@ __AddressError:
 	.asciz	"U1RXIP1"
 	.byte	0x2
 	.2byte	0x132a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -12982,7 +12982,7 @@ __AddressError:
 	.asciz	"U1RXIP2"
 	.byte	0x2
 	.2byte	0x132b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -12994,20 +12994,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1312
-	.4byte	0x33e1
+	.4byte	0x33d4
 	.uleb128 0x8
-	.4byte	0x3261
+	.4byte	0x3254
 	.uleb128 0x8
-	.4byte	0x32be
+	.4byte	0x32b1
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagIPC2BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1311
-	.4byte	0x33ff
+	.4byte	0x33f2
 	.uleb128 0xa
-	.4byte	0x33cd
+	.4byte	0x33c0
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -13016,17 +13016,17 @@ __AddressError:
 	.asciz	"IPC2BITS"
 	.byte	0x2
 	.2byte	0x132e
-	.4byte	0x33e1
+	.4byte	0x33d4
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1438
-	.4byte	0x3442
+	.4byte	0x3435
 	.uleb128 0x5
 	.asciz	"U1EIP"
 	.byte	0x2
 	.2byte	0x143a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x9
@@ -13037,7 +13037,7 @@ __AddressError:
 	.asciz	"U2EIP"
 	.byte	0x2
 	.2byte	0x143c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x5
@@ -13049,12 +13049,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x143e
-	.4byte	0x3509
+	.4byte	0x34fc
 	.uleb128 0x5
 	.asciz	"U1EIP0"
 	.byte	0x2
 	.2byte	0x1440
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -13065,7 +13065,7 @@ __AddressError:
 	.asciz	"U1EIP1"
 	.byte	0x2
 	.2byte	0x1441
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -13076,7 +13076,7 @@ __AddressError:
 	.asciz	"U1EIP2"
 	.byte	0x2
 	.2byte	0x1442
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -13087,7 +13087,7 @@ __AddressError:
 	.asciz	"U2EIP0"
 	.byte	0x2
 	.2byte	0x1444
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -13098,7 +13098,7 @@ __AddressError:
 	.asciz	"U2EIP1"
 	.byte	0x2
 	.2byte	0x1445
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -13109,7 +13109,7 @@ __AddressError:
 	.asciz	"U2EIP2"
 	.byte	0x2
 	.2byte	0x1446
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -13120,7 +13120,7 @@ __AddressError:
 	.asciz	"CRCIP0"
 	.byte	0x2
 	.2byte	0x1448
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -13131,7 +13131,7 @@ __AddressError:
 	.asciz	"CRCIP1"
 	.byte	0x2
 	.2byte	0x1449
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -13142,7 +13142,7 @@ __AddressError:
 	.asciz	"CRCIP2"
 	.byte	0x2
 	.2byte	0x144a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -13154,20 +13154,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1437
-	.4byte	0x351d
+	.4byte	0x3510
 	.uleb128 0x8
-	.4byte	0x3410
+	.4byte	0x3403
 	.uleb128 0x8
-	.4byte	0x3442
+	.4byte	0x3435
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagIPC16BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1436
-	.4byte	0x353c
+	.4byte	0x352f
 	.uleb128 0xa
-	.4byte	0x3509
+	.4byte	0x34fc
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -13176,17 +13176,17 @@ __AddressError:
 	.asciz	"IPC16BITS"
 	.byte	0x2
 	.2byte	0x144d
-	.4byte	0x351d
+	.4byte	0x3510
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x14e9
-	.4byte	0x3585
+	.4byte	0x3578
 	.uleb128 0x5
 	.asciz	"SENT1EIP"
 	.byte	0x2
 	.2byte	0x14eb
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x5
@@ -13197,7 +13197,7 @@ __AddressError:
 	.asciz	"SENT1IP"
 	.byte	0x2
 	.2byte	0x14ed
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x3
 	.byte	0x1
@@ -13209,12 +13209,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x14ef
-	.4byte	0x361c
+	.4byte	0x360f
 	.uleb128 0x5
 	.asciz	"SENT1EIP0"
 	.byte	0x2
 	.2byte	0x14f1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -13225,7 +13225,7 @@ __AddressError:
 	.asciz	"SENT1EIP1"
 	.byte	0x2
 	.2byte	0x14f2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -13236,7 +13236,7 @@ __AddressError:
 	.asciz	"SENT1EIP2"
 	.byte	0x2
 	.2byte	0x14f3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -13247,7 +13247,7 @@ __AddressError:
 	.asciz	"SENT1IP0"
 	.byte	0x2
 	.2byte	0x14f5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -13258,7 +13258,7 @@ __AddressError:
 	.asciz	"SENT1IP1"
 	.byte	0x2
 	.2byte	0x14f6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -13269,7 +13269,7 @@ __AddressError:
 	.asciz	"SENT1IP2"
 	.byte	0x2
 	.2byte	0x14f7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -13281,20 +13281,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x14e8
-	.4byte	0x3630
+	.4byte	0x3623
 	.uleb128 0x8
-	.4byte	0x354e
+	.4byte	0x3541
 	.uleb128 0x8
-	.4byte	0x3585
+	.4byte	0x3578
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagIPC45BITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x14e7
-	.4byte	0x364f
+	.4byte	0x3642
 	.uleb128 0xa
-	.4byte	0x361c
+	.4byte	0x360f
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -13303,17 +13303,17 @@ __AddressError:
 	.asciz	"IPC45BITS"
 	.byte	0x2
 	.2byte	0x14fa
-	.4byte	0x3630
+	.4byte	0x3623
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x18e8
-	.4byte	0x36f1
+	.4byte	0x36e4
 	.uleb128 0x5
 	.asciz	"MODE"
 	.byte	0x2
 	.2byte	0x18e9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0xe
@@ -13324,7 +13324,7 @@ __AddressError:
 	.asciz	"AMODE"
 	.byte	0x2
 	.2byte	0x18eb
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0xa
@@ -13335,7 +13335,7 @@ __AddressError:
 	.asciz	"NULLW"
 	.byte	0x2
 	.2byte	0x18ed
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -13346,7 +13346,7 @@ __AddressError:
 	.asciz	"HALF"
 	.byte	0x2
 	.2byte	0x18ee
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -13357,7 +13357,7 @@ __AddressError:
 	.asciz	"DIR"
 	.byte	0x2
 	.2byte	0x18ef
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -13368,7 +13368,7 @@ __AddressError:
 	.asciz	"SIZE"
 	.byte	0x2
 	.2byte	0x18f0
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -13379,7 +13379,7 @@ __AddressError:
 	.asciz	"CHEN"
 	.byte	0x2
 	.2byte	0x18f1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -13391,12 +13391,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x18f3
-	.4byte	0x374d
+	.4byte	0x3740
 	.uleb128 0x5
 	.asciz	"MODE0"
 	.byte	0x2
 	.2byte	0x18f4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -13407,7 +13407,7 @@ __AddressError:
 	.asciz	"MODE1"
 	.byte	0x2
 	.2byte	0x18f5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -13418,7 +13418,7 @@ __AddressError:
 	.asciz	"AMODE0"
 	.byte	0x2
 	.2byte	0x18f7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -13429,7 +13429,7 @@ __AddressError:
 	.asciz	"AMODE1"
 	.byte	0x2
 	.2byte	0x18f8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -13441,20 +13441,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x18e7
-	.4byte	0x3761
+	.4byte	0x3754
 	.uleb128 0x8
-	.4byte	0x3661
+	.4byte	0x3654
 	.uleb128 0x8
-	.4byte	0x36f1
+	.4byte	0x36e4
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagDMA0CONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x18e6
-	.4byte	0x3782
+	.4byte	0x3775
 	.uleb128 0xa
-	.4byte	0x374d
+	.4byte	0x3740
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -13463,17 +13463,17 @@ __AddressError:
 	.asciz	"DMA0CONBITS"
 	.byte	0x2
 	.2byte	0x18fb
-	.4byte	0x3761
+	.4byte	0x3754
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1980
-	.4byte	0x3826
+	.4byte	0x3819
 	.uleb128 0x5
 	.asciz	"MODE"
 	.byte	0x2
 	.2byte	0x1981
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0xe
@@ -13484,7 +13484,7 @@ __AddressError:
 	.asciz	"AMODE"
 	.byte	0x2
 	.2byte	0x1983
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x2
 	.byte	0xa
@@ -13495,7 +13495,7 @@ __AddressError:
 	.asciz	"NULLW"
 	.byte	0x2
 	.2byte	0x1985
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -13506,7 +13506,7 @@ __AddressError:
 	.asciz	"HALF"
 	.byte	0x2
 	.2byte	0x1986
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -13517,7 +13517,7 @@ __AddressError:
 	.asciz	"DIR"
 	.byte	0x2
 	.2byte	0x1987
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -13528,7 +13528,7 @@ __AddressError:
 	.asciz	"SIZE"
 	.byte	0x2
 	.2byte	0x1988
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -13539,7 +13539,7 @@ __AddressError:
 	.asciz	"CHEN"
 	.byte	0x2
 	.2byte	0x1989
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -13551,12 +13551,12 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x198b
-	.4byte	0x3882
+	.4byte	0x3875
 	.uleb128 0x5
 	.asciz	"MODE0"
 	.byte	0x2
 	.2byte	0x198c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -13567,7 +13567,7 @@ __AddressError:
 	.asciz	"MODE1"
 	.byte	0x2
 	.2byte	0x198d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -13578,7 +13578,7 @@ __AddressError:
 	.asciz	"AMODE0"
 	.byte	0x2
 	.2byte	0x198f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -13589,7 +13589,7 @@ __AddressError:
 	.asciz	"AMODE1"
 	.byte	0x2
 	.2byte	0x1990
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -13601,20 +13601,20 @@ __AddressError:
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x197f
-	.4byte	0x3896
+	.4byte	0x3889
 	.uleb128 0x8
-	.4byte	0x3796
+	.4byte	0x3789
 	.uleb128 0x8
-	.4byte	0x3826
+	.4byte	0x3819
 	.byte	0x0
 	.uleb128 0xd
 	.asciz	"tagDMA2CONBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x197e
-	.4byte	0x38b7
+	.4byte	0x38aa
 	.uleb128 0xa
-	.4byte	0x3882
+	.4byte	0x3875
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -13623,18 +13623,18 @@ __AddressError:
 	.asciz	"DMA2CONBITS"
 	.byte	0x2
 	.2byte	0x1993
-	.4byte	0x3896
+	.4byte	0x3889
 	.uleb128 0xd
 	.asciz	"tagTRISABITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1da0
-	.4byte	0x39a2
+	.4byte	0x3995
 	.uleb128 0x5
 	.asciz	"TRISA0"
 	.byte	0x2
 	.2byte	0x1da1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -13645,7 +13645,7 @@ __AddressError:
 	.asciz	"TRISA1"
 	.byte	0x2
 	.2byte	0x1da2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -13656,7 +13656,7 @@ __AddressError:
 	.asciz	"TRISA4"
 	.byte	0x2
 	.2byte	0x1da4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -13667,7 +13667,7 @@ __AddressError:
 	.asciz	"TRISA7"
 	.byte	0x2
 	.2byte	0x1da6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -13678,7 +13678,7 @@ __AddressError:
 	.asciz	"TRISA8"
 	.byte	0x2
 	.2byte	0x1da7
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -13689,7 +13689,7 @@ __AddressError:
 	.asciz	"TRISA9"
 	.byte	0x2
 	.2byte	0x1da8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -13700,7 +13700,7 @@ __AddressError:
 	.asciz	"TRISA10"
 	.byte	0x2
 	.2byte	0x1da9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -13711,7 +13711,7 @@ __AddressError:
 	.asciz	"TRISA11"
 	.byte	0x2
 	.2byte	0x1daa
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -13722,7 +13722,7 @@ __AddressError:
 	.asciz	"TRISA12"
 	.byte	0x2
 	.2byte	0x1dab
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -13734,18 +13734,18 @@ __AddressError:
 	.asciz	"TRISABITS"
 	.byte	0x2
 	.2byte	0x1dac
-	.4byte	0x38cb
+	.4byte	0x38be
 	.uleb128 0xd
 	.asciz	"tagLATABITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1dc2
-	.4byte	0x3a81
+	.4byte	0x3a74
 	.uleb128 0x5
 	.asciz	"LATA0"
 	.byte	0x2
 	.2byte	0x1dc3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -13756,7 +13756,7 @@ __AddressError:
 	.asciz	"LATA1"
 	.byte	0x2
 	.2byte	0x1dc4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -13767,7 +13767,7 @@ __AddressError:
 	.asciz	"LATA4"
 	.byte	0x2
 	.2byte	0x1dc6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -13778,7 +13778,7 @@ __AddressError:
 	.asciz	"LATA7"
 	.byte	0x2
 	.2byte	0x1dc8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -13789,7 +13789,7 @@ __AddressError:
 	.asciz	"LATA8"
 	.byte	0x2
 	.2byte	0x1dc9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -13800,7 +13800,7 @@ __AddressError:
 	.asciz	"LATA9"
 	.byte	0x2
 	.2byte	0x1dca
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -13811,7 +13811,7 @@ __AddressError:
 	.asciz	"LATA10"
 	.byte	0x2
 	.2byte	0x1dcb
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -13822,7 +13822,7 @@ __AddressError:
 	.asciz	"LATA11"
 	.byte	0x2
 	.2byte	0x1dcc
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -13833,7 +13833,7 @@ __AddressError:
 	.asciz	"LATA12"
 	.byte	0x2
 	.2byte	0x1dcd
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -13845,18 +13845,18 @@ __AddressError:
 	.asciz	"LATABITS"
 	.byte	0x2
 	.2byte	0x1dce
-	.4byte	0x39b4
+	.4byte	0x39a7
 	.uleb128 0xd
 	.asciz	"tagANSELABITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1e17
-	.4byte	0x3b4d
+	.4byte	0x3b40
 	.uleb128 0x5
 	.asciz	"ANSA0"
 	.byte	0x2
 	.2byte	0x1e18
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -13867,7 +13867,7 @@ __AddressError:
 	.asciz	"ANSA1"
 	.byte	0x2
 	.2byte	0x1e19
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -13878,7 +13878,7 @@ __AddressError:
 	.asciz	"ANSA4"
 	.byte	0x2
 	.2byte	0x1e1b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -13889,7 +13889,7 @@ __AddressError:
 	.asciz	"ANSA7"
 	.byte	0x2
 	.2byte	0x1e1d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -13900,7 +13900,7 @@ __AddressError:
 	.asciz	"ANSA9"
 	.byte	0x2
 	.2byte	0x1e1f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -13911,7 +13911,7 @@ __AddressError:
 	.asciz	"ANSA10"
 	.byte	0x2
 	.2byte	0x1e20
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -13922,7 +13922,7 @@ __AddressError:
 	.asciz	"ANSA11"
 	.byte	0x2
 	.2byte	0x1e21
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -13933,7 +13933,7 @@ __AddressError:
 	.asciz	"ANSA12"
 	.byte	0x2
 	.2byte	0x1e22
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -13945,18 +13945,18 @@ __AddressError:
 	.asciz	"ANSELABITS"
 	.byte	0x2
 	.2byte	0x1e23
-	.4byte	0x3a92
+	.4byte	0x3a85
 	.uleb128 0xd
 	.asciz	"tagTRISBBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1e3c
-	.4byte	0x3ccd
+	.4byte	0x3cc0
 	.uleb128 0x5
 	.asciz	"TRISB0"
 	.byte	0x2
 	.2byte	0x1e3d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -13967,7 +13967,7 @@ __AddressError:
 	.asciz	"TRISB1"
 	.byte	0x2
 	.2byte	0x1e3e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -13978,7 +13978,7 @@ __AddressError:
 	.asciz	"TRISB2"
 	.byte	0x2
 	.2byte	0x1e3f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -13989,7 +13989,7 @@ __AddressError:
 	.asciz	"TRISB3"
 	.byte	0x2
 	.2byte	0x1e40
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -14000,7 +14000,7 @@ __AddressError:
 	.asciz	"TRISB4"
 	.byte	0x2
 	.2byte	0x1e41
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -14011,7 +14011,7 @@ __AddressError:
 	.asciz	"TRISB5"
 	.byte	0x2
 	.2byte	0x1e42
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -14022,7 +14022,7 @@ __AddressError:
 	.asciz	"TRISB6"
 	.byte	0x2
 	.2byte	0x1e43
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -14033,7 +14033,7 @@ __AddressError:
 	.asciz	"TRISB7"
 	.byte	0x2
 	.2byte	0x1e44
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -14044,7 +14044,7 @@ __AddressError:
 	.asciz	"TRISB8"
 	.byte	0x2
 	.2byte	0x1e45
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -14055,7 +14055,7 @@ __AddressError:
 	.asciz	"TRISB9"
 	.byte	0x2
 	.2byte	0x1e46
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -14066,7 +14066,7 @@ __AddressError:
 	.asciz	"TRISB10"
 	.byte	0x2
 	.2byte	0x1e47
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -14077,7 +14077,7 @@ __AddressError:
 	.asciz	"TRISB11"
 	.byte	0x2
 	.2byte	0x1e48
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -14088,7 +14088,7 @@ __AddressError:
 	.asciz	"TRISB12"
 	.byte	0x2
 	.2byte	0x1e49
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -14099,7 +14099,7 @@ __AddressError:
 	.asciz	"TRISB13"
 	.byte	0x2
 	.2byte	0x1e4a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -14110,7 +14110,7 @@ __AddressError:
 	.asciz	"TRISB14"
 	.byte	0x2
 	.2byte	0x1e4b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -14121,7 +14121,7 @@ __AddressError:
 	.asciz	"TRISB15"
 	.byte	0x2
 	.2byte	0x1e4c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -14133,18 +14133,18 @@ __AddressError:
 	.asciz	"TRISBBITS"
 	.byte	0x2
 	.2byte	0x1e4d
-	.4byte	0x3b60
+	.4byte	0x3b53
 	.uleb128 0xd
 	.asciz	"tagPORTBBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1e52
-	.4byte	0x3e1c
+	.4byte	0x3e0f
 	.uleb128 0x5
 	.asciz	"RB0"
 	.byte	0x2
 	.2byte	0x1e53
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -14155,7 +14155,7 @@ __AddressError:
 	.asciz	"RB1"
 	.byte	0x2
 	.2byte	0x1e54
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -14166,7 +14166,7 @@ __AddressError:
 	.asciz	"RB2"
 	.byte	0x2
 	.2byte	0x1e55
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -14177,7 +14177,7 @@ __AddressError:
 	.asciz	"RB3"
 	.byte	0x2
 	.2byte	0x1e56
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -14188,7 +14188,7 @@ __AddressError:
 	.asciz	"RB4"
 	.byte	0x2
 	.2byte	0x1e57
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -14199,7 +14199,7 @@ __AddressError:
 	.asciz	"RB5"
 	.byte	0x2
 	.2byte	0x1e58
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -14210,7 +14210,7 @@ __AddressError:
 	.asciz	"RB6"
 	.byte	0x2
 	.2byte	0x1e59
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -14221,7 +14221,7 @@ __AddressError:
 	.asciz	"RB7"
 	.byte	0x2
 	.2byte	0x1e5a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -14232,7 +14232,7 @@ __AddressError:
 	.asciz	"RB8"
 	.byte	0x2
 	.2byte	0x1e5b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -14243,7 +14243,7 @@ __AddressError:
 	.asciz	"RB9"
 	.byte	0x2
 	.2byte	0x1e5c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -14254,7 +14254,7 @@ __AddressError:
 	.asciz	"RB10"
 	.byte	0x2
 	.2byte	0x1e5d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -14265,7 +14265,7 @@ __AddressError:
 	.asciz	"RB11"
 	.byte	0x2
 	.2byte	0x1e5e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -14276,7 +14276,7 @@ __AddressError:
 	.asciz	"RB12"
 	.byte	0x2
 	.2byte	0x1e5f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -14287,7 +14287,7 @@ __AddressError:
 	.asciz	"RB13"
 	.byte	0x2
 	.2byte	0x1e60
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -14298,7 +14298,7 @@ __AddressError:
 	.asciz	"RB14"
 	.byte	0x2
 	.2byte	0x1e61
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -14309,7 +14309,7 @@ __AddressError:
 	.asciz	"RB15"
 	.byte	0x2
 	.2byte	0x1e62
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -14321,18 +14321,18 @@ __AddressError:
 	.asciz	"PORTBBITS"
 	.byte	0x2
 	.2byte	0x1e63
-	.4byte	0x3cdf
+	.4byte	0x3cd2
 	.uleb128 0xd
 	.asciz	"tagLATBBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1e68
-	.4byte	0x3f8a
+	.4byte	0x3f7d
 	.uleb128 0x5
 	.asciz	"LATB0"
 	.byte	0x2
 	.2byte	0x1e69
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -14343,7 +14343,7 @@ __AddressError:
 	.asciz	"LATB1"
 	.byte	0x2
 	.2byte	0x1e6a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -14354,7 +14354,7 @@ __AddressError:
 	.asciz	"LATB2"
 	.byte	0x2
 	.2byte	0x1e6b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -14365,7 +14365,7 @@ __AddressError:
 	.asciz	"LATB3"
 	.byte	0x2
 	.2byte	0x1e6c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -14376,7 +14376,7 @@ __AddressError:
 	.asciz	"LATB4"
 	.byte	0x2
 	.2byte	0x1e6d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -14387,7 +14387,7 @@ __AddressError:
 	.asciz	"LATB5"
 	.byte	0x2
 	.2byte	0x1e6e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -14398,7 +14398,7 @@ __AddressError:
 	.asciz	"LATB6"
 	.byte	0x2
 	.2byte	0x1e6f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -14409,7 +14409,7 @@ __AddressError:
 	.asciz	"LATB7"
 	.byte	0x2
 	.2byte	0x1e70
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -14420,7 +14420,7 @@ __AddressError:
 	.asciz	"LATB8"
 	.byte	0x2
 	.2byte	0x1e71
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -14431,7 +14431,7 @@ __AddressError:
 	.asciz	"LATB9"
 	.byte	0x2
 	.2byte	0x1e72
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -14442,7 +14442,7 @@ __AddressError:
 	.asciz	"LATB10"
 	.byte	0x2
 	.2byte	0x1e73
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -14453,7 +14453,7 @@ __AddressError:
 	.asciz	"LATB11"
 	.byte	0x2
 	.2byte	0x1e74
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -14464,7 +14464,7 @@ __AddressError:
 	.asciz	"LATB12"
 	.byte	0x2
 	.2byte	0x1e75
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -14475,7 +14475,7 @@ __AddressError:
 	.asciz	"LATB13"
 	.byte	0x2
 	.2byte	0x1e76
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -14486,7 +14486,7 @@ __AddressError:
 	.asciz	"LATB14"
 	.byte	0x2
 	.2byte	0x1e77
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -14497,7 +14497,7 @@ __AddressError:
 	.asciz	"LATB15"
 	.byte	0x2
 	.2byte	0x1e78
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -14509,18 +14509,18 @@ __AddressError:
 	.asciz	"LATBBITS"
 	.byte	0x2
 	.2byte	0x1e79
-	.4byte	0x3e2e
+	.4byte	0x3e21
 	.uleb128 0xd
 	.asciz	"tagODCBBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1e7e
-	.4byte	0x40f7
+	.4byte	0x40ea
 	.uleb128 0x5
 	.asciz	"ODCB0"
 	.byte	0x2
 	.2byte	0x1e7f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -14531,7 +14531,7 @@ __AddressError:
 	.asciz	"ODCB1"
 	.byte	0x2
 	.2byte	0x1e80
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -14542,7 +14542,7 @@ __AddressError:
 	.asciz	"ODCB2"
 	.byte	0x2
 	.2byte	0x1e81
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -14553,7 +14553,7 @@ __AddressError:
 	.asciz	"ODCB3"
 	.byte	0x2
 	.2byte	0x1e82
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -14564,7 +14564,7 @@ __AddressError:
 	.asciz	"ODCB4"
 	.byte	0x2
 	.2byte	0x1e83
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -14575,7 +14575,7 @@ __AddressError:
 	.asciz	"ODCB5"
 	.byte	0x2
 	.2byte	0x1e84
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -14586,7 +14586,7 @@ __AddressError:
 	.asciz	"ODCB6"
 	.byte	0x2
 	.2byte	0x1e85
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -14597,7 +14597,7 @@ __AddressError:
 	.asciz	"ODCB7"
 	.byte	0x2
 	.2byte	0x1e86
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -14608,7 +14608,7 @@ __AddressError:
 	.asciz	"ODCB8"
 	.byte	0x2
 	.2byte	0x1e87
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -14619,7 +14619,7 @@ __AddressError:
 	.asciz	"ODCB9"
 	.byte	0x2
 	.2byte	0x1e88
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -14630,7 +14630,7 @@ __AddressError:
 	.asciz	"ODCB10"
 	.byte	0x2
 	.2byte	0x1e89
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -14641,7 +14641,7 @@ __AddressError:
 	.asciz	"ODCB11"
 	.byte	0x2
 	.2byte	0x1e8a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -14652,7 +14652,7 @@ __AddressError:
 	.asciz	"ODCB12"
 	.byte	0x2
 	.2byte	0x1e8b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -14663,7 +14663,7 @@ __AddressError:
 	.asciz	"ODCB13"
 	.byte	0x2
 	.2byte	0x1e8c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -14674,7 +14674,7 @@ __AddressError:
 	.asciz	"ODCB14"
 	.byte	0x2
 	.2byte	0x1e8d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -14685,7 +14685,7 @@ __AddressError:
 	.asciz	"ODCB15"
 	.byte	0x2
 	.2byte	0x1e8e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -14697,18 +14697,18 @@ __AddressError:
 	.asciz	"ODCBBITS"
 	.byte	0x2
 	.2byte	0x1e8f
-	.4byte	0x3f9b
+	.4byte	0x3f8e
 	.uleb128 0xd
 	.asciz	"tagTRISCBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1efc
-	.4byte	0x425f
+	.4byte	0x4252
 	.uleb128 0x5
 	.asciz	"TRISC0"
 	.byte	0x2
 	.2byte	0x1efd
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -14719,7 +14719,7 @@ __AddressError:
 	.asciz	"TRISC1"
 	.byte	0x2
 	.2byte	0x1efe
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -14730,7 +14730,7 @@ __AddressError:
 	.asciz	"TRISC2"
 	.byte	0x2
 	.2byte	0x1eff
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -14741,7 +14741,7 @@ __AddressError:
 	.asciz	"TRISC3"
 	.byte	0x2
 	.2byte	0x1f00
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -14752,7 +14752,7 @@ __AddressError:
 	.asciz	"TRISC4"
 	.byte	0x2
 	.2byte	0x1f01
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -14763,7 +14763,7 @@ __AddressError:
 	.asciz	"TRISC5"
 	.byte	0x2
 	.2byte	0x1f02
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -14774,7 +14774,7 @@ __AddressError:
 	.asciz	"TRISC6"
 	.byte	0x2
 	.2byte	0x1f03
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -14785,7 +14785,7 @@ __AddressError:
 	.asciz	"TRISC7"
 	.byte	0x2
 	.2byte	0x1f04
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -14796,7 +14796,7 @@ __AddressError:
 	.asciz	"TRISC8"
 	.byte	0x2
 	.2byte	0x1f05
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -14807,7 +14807,7 @@ __AddressError:
 	.asciz	"TRISC9"
 	.byte	0x2
 	.2byte	0x1f06
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -14818,7 +14818,7 @@ __AddressError:
 	.asciz	"TRISC10"
 	.byte	0x2
 	.2byte	0x1f07
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -14829,7 +14829,7 @@ __AddressError:
 	.asciz	"TRISC11"
 	.byte	0x2
 	.2byte	0x1f08
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -14840,7 +14840,7 @@ __AddressError:
 	.asciz	"TRISC12"
 	.byte	0x2
 	.2byte	0x1f09
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -14851,7 +14851,7 @@ __AddressError:
 	.asciz	"TRISC13"
 	.byte	0x2
 	.2byte	0x1f0a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -14862,7 +14862,7 @@ __AddressError:
 	.asciz	"TRISC15"
 	.byte	0x2
 	.2byte	0x1f0c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -14874,18 +14874,18 @@ __AddressError:
 	.asciz	"TRISCBITS"
 	.byte	0x2
 	.2byte	0x1f0d
-	.4byte	0x4108
+	.4byte	0x40fb
 	.uleb128 0xd
 	.asciz	"tagPORTCBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1f12
-	.4byte	0x439b
+	.4byte	0x438e
 	.uleb128 0x5
 	.asciz	"RC0"
 	.byte	0x2
 	.2byte	0x1f13
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -14896,7 +14896,7 @@ __AddressError:
 	.asciz	"RC1"
 	.byte	0x2
 	.2byte	0x1f14
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -14907,7 +14907,7 @@ __AddressError:
 	.asciz	"RC2"
 	.byte	0x2
 	.2byte	0x1f15
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -14918,7 +14918,7 @@ __AddressError:
 	.asciz	"RC3"
 	.byte	0x2
 	.2byte	0x1f16
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -14929,7 +14929,7 @@ __AddressError:
 	.asciz	"RC4"
 	.byte	0x2
 	.2byte	0x1f17
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -14940,7 +14940,7 @@ __AddressError:
 	.asciz	"RC5"
 	.byte	0x2
 	.2byte	0x1f18
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -14951,7 +14951,7 @@ __AddressError:
 	.asciz	"RC6"
 	.byte	0x2
 	.2byte	0x1f19
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -14962,7 +14962,7 @@ __AddressError:
 	.asciz	"RC7"
 	.byte	0x2
 	.2byte	0x1f1a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -14973,7 +14973,7 @@ __AddressError:
 	.asciz	"RC8"
 	.byte	0x2
 	.2byte	0x1f1b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -14984,7 +14984,7 @@ __AddressError:
 	.asciz	"RC9"
 	.byte	0x2
 	.2byte	0x1f1c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -14995,7 +14995,7 @@ __AddressError:
 	.asciz	"RC10"
 	.byte	0x2
 	.2byte	0x1f1d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -15006,7 +15006,7 @@ __AddressError:
 	.asciz	"RC11"
 	.byte	0x2
 	.2byte	0x1f1e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -15017,7 +15017,7 @@ __AddressError:
 	.asciz	"RC12"
 	.byte	0x2
 	.2byte	0x1f1f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -15028,7 +15028,7 @@ __AddressError:
 	.asciz	"RC13"
 	.byte	0x2
 	.2byte	0x1f20
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -15039,7 +15039,7 @@ __AddressError:
 	.asciz	"RC15"
 	.byte	0x2
 	.2byte	0x1f22
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -15051,18 +15051,18 @@ __AddressError:
 	.asciz	"PORTCBITS"
 	.byte	0x2
 	.2byte	0x1f23
-	.4byte	0x4271
+	.4byte	0x4264
 	.uleb128 0xd
 	.asciz	"tagLATCBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1f28
-	.4byte	0x44f4
+	.4byte	0x44e7
 	.uleb128 0x5
 	.asciz	"LATC0"
 	.byte	0x2
 	.2byte	0x1f29
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -15073,7 +15073,7 @@ __AddressError:
 	.asciz	"LATC1"
 	.byte	0x2
 	.2byte	0x1f2a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -15084,7 +15084,7 @@ __AddressError:
 	.asciz	"LATC2"
 	.byte	0x2
 	.2byte	0x1f2b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -15095,7 +15095,7 @@ __AddressError:
 	.asciz	"LATC3"
 	.byte	0x2
 	.2byte	0x1f2c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -15106,7 +15106,7 @@ __AddressError:
 	.asciz	"LATC4"
 	.byte	0x2
 	.2byte	0x1f2d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -15117,7 +15117,7 @@ __AddressError:
 	.asciz	"LATC5"
 	.byte	0x2
 	.2byte	0x1f2e
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -15128,7 +15128,7 @@ __AddressError:
 	.asciz	"LATC6"
 	.byte	0x2
 	.2byte	0x1f2f
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -15139,7 +15139,7 @@ __AddressError:
 	.asciz	"LATC7"
 	.byte	0x2
 	.2byte	0x1f30
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -15150,7 +15150,7 @@ __AddressError:
 	.asciz	"LATC8"
 	.byte	0x2
 	.2byte	0x1f31
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -15161,7 +15161,7 @@ __AddressError:
 	.asciz	"LATC9"
 	.byte	0x2
 	.2byte	0x1f32
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -15172,7 +15172,7 @@ __AddressError:
 	.asciz	"LATC10"
 	.byte	0x2
 	.2byte	0x1f33
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -15183,7 +15183,7 @@ __AddressError:
 	.asciz	"LATC11"
 	.byte	0x2
 	.2byte	0x1f34
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -15194,7 +15194,7 @@ __AddressError:
 	.asciz	"LATC12"
 	.byte	0x2
 	.2byte	0x1f35
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -15205,7 +15205,7 @@ __AddressError:
 	.asciz	"LATC13"
 	.byte	0x2
 	.2byte	0x1f36
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -15216,7 +15216,7 @@ __AddressError:
 	.asciz	"LATC15"
 	.byte	0x2
 	.2byte	0x1f38
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x0
@@ -15228,18 +15228,18 @@ __AddressError:
 	.asciz	"LATCBITS"
 	.byte	0x2
 	.2byte	0x1f39
-	.4byte	0x43ad
+	.4byte	0x43a0
 	.uleb128 0xd
 	.asciz	"tagTRISDBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x1fc3
-	.4byte	0x455b
+	.4byte	0x454e
 	.uleb128 0x5
 	.asciz	"TRISD5"
 	.byte	0x2
 	.2byte	0x1fc5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -15250,7 +15250,7 @@ __AddressError:
 	.asciz	"TRISD6"
 	.byte	0x2
 	.2byte	0x1fc6
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -15261,7 +15261,7 @@ __AddressError:
 	.asciz	"TRISD8"
 	.byte	0x2
 	.2byte	0x1fc8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -15273,18 +15273,18 @@ __AddressError:
 	.asciz	"TRISDBITS"
 	.byte	0x2
 	.2byte	0x1fc9
-	.4byte	0x4505
+	.4byte	0x44f8
 	.uleb128 0xd
 	.asciz	"tagTRISFBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x2068
-	.4byte	0x45ae
+	.4byte	0x45a1
 	.uleb128 0x5
 	.asciz	"TRISF0"
 	.byte	0x2
 	.2byte	0x2069
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -15295,7 +15295,7 @@ __AddressError:
 	.asciz	"TRISF1"
 	.byte	0x2
 	.2byte	0x206a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -15307,18 +15307,18 @@ __AddressError:
 	.asciz	"TRISFBITS"
 	.byte	0x2
 	.2byte	0x206b
-	.4byte	0x456d
+	.4byte	0x4560
 	.uleb128 0xd
 	.asciz	"tagTRISGBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x20a0
-	.4byte	0x462b
+	.4byte	0x461e
 	.uleb128 0x5
 	.asciz	"TRISG6"
 	.byte	0x2
 	.2byte	0x20a2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -15329,7 +15329,7 @@ __AddressError:
 	.asciz	"TRISG7"
 	.byte	0x2
 	.2byte	0x20a3
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -15340,7 +15340,7 @@ __AddressError:
 	.asciz	"TRISG8"
 	.byte	0x2
 	.2byte	0x20a4
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -15351,7 +15351,7 @@ __AddressError:
 	.asciz	"TRISG9"
 	.byte	0x2
 	.2byte	0x20a5
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -15363,18 +15363,18 @@ __AddressError:
 	.asciz	"TRISGBITS"
 	.byte	0x2
 	.2byte	0x20a6
-	.4byte	0x45c0
+	.4byte	0x45b3
 	.uleb128 0xd
 	.asciz	"tagLATGBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x20b6
-	.4byte	0x46a3
+	.4byte	0x4696
 	.uleb128 0x5
 	.asciz	"LATG6"
 	.byte	0x2
 	.2byte	0x20b8
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -15385,7 +15385,7 @@ __AddressError:
 	.asciz	"LATG7"
 	.byte	0x2
 	.2byte	0x20b9
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -15396,7 +15396,7 @@ __AddressError:
 	.asciz	"LATG8"
 	.byte	0x2
 	.2byte	0x20ba
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -15407,7 +15407,7 @@ __AddressError:
 	.asciz	"LATG9"
 	.byte	0x2
 	.2byte	0x20bb
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -15419,18 +15419,18 @@ __AddressError:
 	.asciz	"LATGBITS"
 	.byte	0x2
 	.2byte	0x20bc
-	.4byte	0x463d
+	.4byte	0x4630
 	.uleb128 0xd
 	.asciz	"tagANSELGBITS"
 	.byte	0x2
 	.byte	0x2
 	.2byte	0x20ed
-	.4byte	0x471c
+	.4byte	0x470f
 	.uleb128 0x5
 	.asciz	"ANSG6"
 	.byte	0x2
 	.2byte	0x20ef
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -15441,7 +15441,7 @@ __AddressError:
 	.asciz	"ANSG7"
 	.byte	0x2
 	.2byte	0x20f0
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -15452,7 +15452,7 @@ __AddressError:
 	.asciz	"ANSG8"
 	.byte	0x2
 	.2byte	0x20f1
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -15463,7 +15463,7 @@ __AddressError:
 	.asciz	"ANSG9"
 	.byte	0x2
 	.2byte	0x20f2
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -15475,7 +15475,7 @@ __AddressError:
 	.asciz	"ANSELGBITS"
 	.byte	0x2
 	.2byte	0x20f3
-	.4byte	0x46b4
+	.4byte	0x46a7
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x5
@@ -15496,12 +15496,12 @@ __AddressError:
 	.byte	0x1a
 	.byte	0x1
 	.byte	0xb2
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.uleb128 0xf
 	.asciz	"buffer_status"
 	.byte	0x1
 	.byte	0xb4
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x0
@@ -15509,7 +15509,7 @@ __AddressError:
 	.asciz	"message_type"
 	.byte	0x1
 	.byte	0xb6
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x1
@@ -15517,7 +15517,7 @@ __AddressError:
 	.asciz	"frame_type"
 	.byte	0x1
 	.byte	0xb8
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x2
@@ -15525,7 +15525,7 @@ __AddressError:
 	.asciz	"buffer"
 	.byte	0x1
 	.byte	0xba
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x3
@@ -15533,7 +15533,7 @@ __AddressError:
 	.asciz	"id"
 	.byte	0x1
 	.byte	0xbd
-	.4byte	0x47fa
+	.4byte	0x47ed
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x4
@@ -15541,7 +15541,7 @@ __AddressError:
 	.asciz	"data"
 	.byte	0x1
 	.byte	0xbe
-	.4byte	0x480f
+	.4byte	0x4802
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x8
@@ -15549,7 +15549,7 @@ __AddressError:
 	.asciz	"data_length"
 	.byte	0x1
 	.byte	0xbf
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x23
 	.uleb128 0x18
@@ -15563,22 +15563,22 @@ __AddressError:
 	.byte	0x7
 	.asciz	"long unsigned int"
 	.uleb128 0x10
-	.4byte	0xa9
-	.4byte	0x481f
+	.4byte	0x9c
+	.4byte	0x4812
 	.uleb128 0x11
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x7
 	.byte	0x0
 	.uleb128 0x12
 	.asciz	"mID"
 	.byte	0x1
 	.byte	0xc0
-	.4byte	0x4759
+	.4byte	0x474c
 	.uleb128 0x13
 	.byte	0x2
 	.byte	0x1
 	.2byte	0x113
-	.4byte	0x485b
+	.4byte	0x484e
 	.uleb128 0x14
 	.asciz	"ZSSC_MODE_COMMAND"
 	.sleb128 0
@@ -15590,14 +15590,14 @@ __AddressError:
 	.asciz	"ZSSC4151_Mode_t"
 	.byte	0x1
 	.2byte	0x116
-	.4byte	0x482a
+	.4byte	0x481d
 	.uleb128 0x15
 	.byte	0x1
 	.asciz	"main"
 	.byte	0x1
 	.2byte	0x11f
 	.byte	0x1
-	.4byte	0x472f
+	.4byte	0x4722
 	.4byte	.LFB0
 	.4byte	.LFE0
 	.byte	0x1
@@ -15612,12 +15612,12 @@ __AddressError:
 	.4byte	.LFE1
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x48b7
+	.4byte	0x48aa
 	.uleb128 0x17
 	.asciz	"c"
 	.byte	0x1
 	.2byte	0x184
-	.4byte	0x4747
+	.4byte	0x473a
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -15632,19 +15632,19 @@ __AddressError:
 	.4byte	.LFE2
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x48e8
+	.4byte	0x48db
 	.uleb128 0x17
 	.asciz	"s"
 	.byte	0x1
 	.2byte	0x18a
-	.4byte	0x48e8
+	.4byte	0x48db
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
 	.byte	0x0
 	.uleb128 0x18
 	.byte	0x2
-	.4byte	0x4747
+	.4byte	0x473a
 	.uleb128 0x16
 	.byte	0x1
 	.asciz	"dbg_put_float"
@@ -15655,12 +15655,12 @@ __AddressError:
 	.4byte	.LFE3
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4972
+	.4byte	0x4965
 	.uleb128 0x17
 	.asciz	"temp"
 	.byte	0x1
 	.2byte	0x193
-	.4byte	0x4972
+	.4byte	0x4965
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 18
@@ -15668,7 +15668,7 @@ __AddressError:
 	.asciz	"int_part"
 	.byte	0x1
 	.2byte	0x19d
-	.4byte	0x472f
+	.4byte	0x4722
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -15676,7 +15676,7 @@ __AddressError:
 	.asciz	"dec_part"
 	.byte	0x1
 	.2byte	0x19e
-	.4byte	0x472f
+	.4byte	0x4722
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -15687,7 +15687,7 @@ __AddressError:
 	.asciz	"buffer"
 	.byte	0x1
 	.2byte	0x1ae
-	.4byte	0x497b
+	.4byte	0x496e
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
@@ -15695,7 +15695,7 @@ __AddressError:
 	.asciz	"i"
 	.byte	0x1
 	.2byte	0x1af
-	.4byte	0x472f
+	.4byte	0x4722
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -15706,10 +15706,10 @@ __AddressError:
 	.byte	0x4
 	.asciz	"float"
 	.uleb128 0x10
-	.4byte	0x4747
-	.4byte	0x498b
+	.4byte	0x473a
+	.4byte	0x497e
 	.uleb128 0x11
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0xb
 	.byte	0x0
 	.uleb128 0x1b
@@ -15738,17 +15738,17 @@ __AddressError:
 	.byte	0x1
 	.2byte	0x1d1
 	.byte	0x1
-	.4byte	0x49fc
+	.4byte	0x49ef
 	.4byte	.LFB6
 	.4byte	.LFE6
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x49fc
+	.4byte	0x49ef
 	.uleb128 0x1d
 	.4byte	.LASF4
 	.byte	0x1
 	.2byte	0x1d3
-	.4byte	0x4a05
+	.4byte	0x49f8
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -15767,17 +15767,17 @@ __AddressError:
 	.byte	0x1
 	.2byte	0x1dd
 	.byte	0x1
-	.4byte	0x49fc
+	.4byte	0x49ef
 	.4byte	.LFB7
 	.4byte	.LFE7
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4a4d
+	.4byte	0x4a40
 	.uleb128 0x1d
 	.4byte	.LASF4
 	.byte	0x1
 	.2byte	0x1df
-	.4byte	0x4a05
+	.4byte	0x49f8
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -15788,17 +15788,17 @@ __AddressError:
 	.byte	0x1
 	.2byte	0x1e9
 	.byte	0x1
-	.4byte	0x49fc
+	.4byte	0x49ef
 	.4byte	.LFB8
 	.4byte	.LFE8
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4a82
+	.4byte	0x4a75
 	.uleb128 0x1d
 	.4byte	.LASF4
 	.byte	0x1
 	.2byte	0x1eb
-	.4byte	0x4a05
+	.4byte	0x49f8
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -15809,17 +15809,17 @@ __AddressError:
 	.byte	0x1
 	.2byte	0x1f5
 	.byte	0x1
-	.4byte	0x49fc
+	.4byte	0x49ef
 	.4byte	.LFB9
 	.4byte	.LFE9
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4ac5
+	.4byte	0x4ab8
 	.uleb128 0x17
 	.asciz	"data"
 	.byte	0x1
 	.2byte	0x1f5
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -15827,7 +15827,7 @@ __AddressError:
 	.4byte	.LASF4
 	.byte	0x1
 	.2byte	0x1f7
-	.4byte	0x4a05
+	.4byte	0x49f8
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -15838,17 +15838,17 @@ __AddressError:
 	.byte	0x1
 	.2byte	0x203
 	.byte	0x1
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.4byte	.LFB10
 	.4byte	.LFE10
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4b0b
+	.4byte	0x4afe
 	.uleb128 0x17
 	.asciz	"send_ack"
 	.byte	0x1
 	.2byte	0x203
-	.4byte	0x49fc
+	.4byte	0x49ef
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -15856,7 +15856,7 @@ __AddressError:
 	.4byte	.LASF4
 	.byte	0x1
 	.2byte	0x205
-	.4byte	0x4a05
+	.4byte	0x49f8
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -15867,17 +15867,17 @@ __AddressError:
 	.byte	0x1
 	.2byte	0x216
 	.byte	0x1
-	.4byte	0x4972
+	.4byte	0x4965
 	.4byte	.LFB11
 	.4byte	.LFE11
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4b82
+	.4byte	0x4b75
 	.uleb128 0x19
 	.asciz	"low_byte"
 	.byte	0x1
 	.2byte	0x218
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -15885,7 +15885,7 @@ __AddressError:
 	.asciz	"high_byte"
 	.byte	0x1
 	.2byte	0x218
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 1
@@ -15893,7 +15893,7 @@ __AddressError:
 	.asciz	"pec"
 	.byte	0x1
 	.2byte	0x218
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -15901,7 +15901,7 @@ __AddressError:
 	.asciz	"raw_temp"
 	.byte	0x1
 	.2byte	0x219
-	.4byte	0x4a05
+	.4byte	0x49f8
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -15916,12 +15916,12 @@ __AddressError:
 	.4byte	.LFE12
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4bb2
+	.4byte	0x4ba5
 	.uleb128 0x19
 	.asciz	"i"
 	.byte	0x1
 	.2byte	0x24e
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -15962,17 +15962,17 @@ __AddressError:
 	.byte	0x1
 	.2byte	0x2ad
 	.byte	0x1
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.4byte	.LFB16
 	.4byte	.LFE16
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4c57
+	.4byte	0x4c4a
 	.uleb128 0x17
 	.asciz	"mode"
 	.byte	0x1
 	.2byte	0x2ad
-	.4byte	0x485b
+	.4byte	0x484e
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -15980,7 +15980,7 @@ __AddressError:
 	.4byte	.LASF5
 	.byte	0x1
 	.2byte	0x2af
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -15988,7 +15988,7 @@ __AddressError:
 	.4byte	.LASF6
 	.byte	0x1
 	.2byte	0x2b0
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 1
@@ -15999,17 +15999,17 @@ __AddressError:
 	.byte	0x1
 	.2byte	0x2db
 	.byte	0x1
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.4byte	.LFB17
 	.4byte	.LFE17
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4cf7
+	.4byte	0x4cea
 	.uleb128 0x1e
 	.4byte	.LASF7
 	.byte	0x1
 	.2byte	0x2db
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
@@ -16017,7 +16017,7 @@ __AddressError:
 	.asciz	"readData"
 	.byte	0x1
 	.2byte	0x2db
-	.4byte	0x4cf7
+	.4byte	0x4cea
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 8
@@ -16025,7 +16025,7 @@ __AddressError:
 	.4byte	.LASF5
 	.byte	0x1
 	.2byte	0x2dd
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -16033,7 +16033,7 @@ __AddressError:
 	.asciz	"slaveAddr_R"
 	.byte	0x1
 	.2byte	0x2de
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 1
@@ -16041,7 +16041,7 @@ __AddressError:
 	.4byte	.LASF6
 	.byte	0x1
 	.2byte	0x2df
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -16049,7 +16049,7 @@ __AddressError:
 	.asciz	"msb"
 	.byte	0x1
 	.2byte	0x2e0
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 3
@@ -16057,31 +16057,31 @@ __AddressError:
 	.asciz	"lsb"
 	.byte	0x1
 	.2byte	0x2e0
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
 	.byte	0x0
 	.uleb128 0x18
 	.byte	0x2
-	.4byte	0x4a05
+	.4byte	0x49f8
 	.uleb128 0x1c
 	.byte	0x1
 	.asciz	"ZSSC4151_WriteNVM"
 	.byte	0x1
 	.2byte	0x30f
 	.byte	0x1
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.4byte	.LFB18
 	.4byte	.LFE18
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4d88
+	.4byte	0x4d7b
 	.uleb128 0x1e
 	.4byte	.LASF7
 	.byte	0x1
 	.2byte	0x30f
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -16089,7 +16089,7 @@ __AddressError:
 	.asciz	"writeData"
 	.byte	0x1
 	.2byte	0x30f
-	.4byte	0x4a05
+	.4byte	0x49f8
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
@@ -16097,7 +16097,7 @@ __AddressError:
 	.4byte	.LASF5
 	.byte	0x1
 	.2byte	0x311
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -16105,7 +16105,7 @@ __AddressError:
 	.4byte	.LASF6
 	.byte	0x1
 	.2byte	0x312
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 1
@@ -16113,7 +16113,7 @@ __AddressError:
 	.asciz	"msb"
 	.byte	0x1
 	.2byte	0x313
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -16121,7 +16121,7 @@ __AddressError:
 	.asciz	"lsb"
 	.byte	0x1
 	.2byte	0x314
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 3
@@ -16136,12 +16136,12 @@ __AddressError:
 	.4byte	.LFE19
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4dbb
+	.4byte	0x4dae
 	.uleb128 0x19
 	.asciz	"temp"
 	.byte	0x1
 	.2byte	0x369
-	.4byte	0x4972
+	.4byte	0x4965
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -16216,12 +16216,12 @@ __AddressError:
 	.4byte	.LFE26
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4e9c
+	.4byte	0x4e8f
 	.uleb128 0x19
 	.asciz	"j"
 	.byte	0x1
 	.2byte	0x505
-	.4byte	0x472f
+	.4byte	0x4722
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -16316,12 +16316,12 @@ __AddressError:
 	.4byte	.LFE35
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x4fa6
+	.4byte	0x4f99
 	.uleb128 0x17
 	.asciz	"channel"
 	.byte	0x1
 	.2byte	0x65d
-	.4byte	0x472f
+	.4byte	0x4722
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -16376,12 +16376,12 @@ __AddressError:
 	.4byte	.LFE40
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x5047
+	.4byte	0x503a
 	.uleb128 0x1e
 	.4byte	.LASF8
 	.byte	0x1
 	.2byte	0x728
-	.4byte	0x472f
+	.4byte	0x4722
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -16396,12 +16396,12 @@ __AddressError:
 	.4byte	.LFE41
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x5076
+	.4byte	0x5069
 	.uleb128 0x17
 	.asciz	"num"
 	.byte	0x1
 	.2byte	0x731
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -16416,12 +16416,12 @@ __AddressError:
 	.4byte	.LFE42
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x50b1
+	.4byte	0x50a4
 	.uleb128 0x17
 	.asciz	"delay"
 	.byte	0x1
 	.2byte	0x738
-	.4byte	0x472f
+	.4byte	0x4722
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -16429,7 +16429,7 @@ __AddressError:
 	.asciz	"i"
 	.byte	0x1
 	.2byte	0x73a
-	.4byte	0x472f
+	.4byte	0x4722
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -16444,12 +16444,12 @@ __AddressError:
 	.4byte	.LFE43
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x5121
+	.4byte	0x5114
 	.uleb128 0x17
 	.asciz	"f"
 	.byte	0x1
 	.2byte	0x751
-	.4byte	0x4972
+	.4byte	0x4965
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 8
@@ -16457,7 +16457,7 @@ __AddressError:
 	.asciz	"buf"
 	.byte	0x1
 	.2byte	0x751
-	.4byte	0x48e8
+	.4byte	0x48db
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 12
@@ -16465,7 +16465,7 @@ __AddressError:
 	.asciz	"pos"
 	.byte	0x1
 	.2byte	0x753
-	.4byte	0x472f
+	.4byte	0x4722
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -16473,7 +16473,7 @@ __AddressError:
 	.asciz	"ix"
 	.byte	0x1
 	.2byte	0x753
-	.4byte	0x472f
+	.4byte	0x4722
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -16481,7 +16481,7 @@ __AddressError:
 	.asciz	"dp"
 	.byte	0x1
 	.2byte	0x753
-	.4byte	0x472f
+	.4byte	0x4722
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
@@ -16489,7 +16489,7 @@ __AddressError:
 	.asciz	"num"
 	.byte	0x1
 	.2byte	0x753
-	.4byte	0x472f
+	.4byte	0x4722
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 6
@@ -16504,12 +16504,12 @@ __AddressError:
 	.4byte	.LFE44
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x517c
+	.4byte	0x516f
 	.uleb128 0x17
 	.asciz	"message"
 	.byte	0x1
 	.2byte	0x777
-	.4byte	0x517c
+	.4byte	0x516f
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 8
@@ -16517,7 +16517,7 @@ __AddressError:
 	.asciz	"ide"
 	.byte	0x1
 	.2byte	0x779
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 2
@@ -16525,7 +16525,7 @@ __AddressError:
 	.asciz	"rtr"
 	.byte	0x1
 	.2byte	0x77a
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -16533,14 +16533,14 @@ __AddressError:
 	.asciz	"id"
 	.byte	0x1
 	.2byte	0x77b
-	.4byte	0x47fa
+	.4byte	0x47ed
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 4
 	.byte	0x0
 	.uleb128 0x18
 	.byte	0x2
-	.4byte	0x481f
+	.4byte	0x4812
 	.uleb128 0x16
 	.byte	0x1
 	.asciz	"clearRxFlags"
@@ -16551,12 +16551,12 @@ __AddressError:
 	.4byte	.LFE45
 	.byte	0x1
 	.byte	0x5e
-	.4byte	0x51bd
+	.4byte	0x51b0
 	.uleb128 0x17
 	.asciz	"buffer_number"
 	.byte	0x1
 	.2byte	0x7d0
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x2
 	.byte	0x7e
 	.sleb128 0
@@ -16755,1923 +16755,1923 @@ __AddressError:
 	.asciz	"PR1"
 	.byte	0x2
 	.byte	0xf3
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0xa9
+	.4byte	0x9c
 	.uleb128 0x21
 	.4byte	.LASF9
 	.byte	0x2
 	.2byte	0x10b
-	.4byte	0x5426
+	.4byte	0x5419
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x197
+	.4byte	0x18a
 	.uleb128 0x22
 	.asciz	"TMR2"
 	.byte	0x2
 	.2byte	0x10e
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"PR2"
 	.byte	0x2
 	.2byte	0x114
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF10
 	.byte	0x2
 	.2byte	0x12e
-	.4byte	0x5456
+	.4byte	0x5449
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x28c
+	.4byte	0x27f
 	.uleb128 0x21
 	.4byte	.LASF11
 	.byte	0x2
 	.2byte	0x279
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF12
 	.byte	0x2
 	.2byte	0x28c
-	.4byte	0x5477
+	.4byte	0x546a
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x3e0
+	.4byte	0x3d3
 	.uleb128 0x21
 	.4byte	.LASF13
 	.byte	0x2
 	.2byte	0x2ae
-	.4byte	0x548a
+	.4byte	0x547d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x51a
+	.4byte	0x50d
 	.uleb128 0x22
 	.asciz	"I2C1BRG"
 	.byte	0x2
 	.2byte	0x2cf
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"I2C1TRN"
 	.byte	0x2
 	.2byte	0x2d1
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"I2C1RCV"
 	.byte	0x2
 	.2byte	0x2d8
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF14
 	.byte	0x2
 	.2byte	0x314
-	.4byte	0x54d3
+	.4byte	0x54c6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x6c9
+	.4byte	0x6bc
 	.uleb128 0x21
 	.4byte	.LASF15
 	.byte	0x2
 	.2byte	0x334
-	.4byte	0x54e6
+	.4byte	0x54d9
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x86f
+	.4byte	0x862
 	.uleb128 0x22
 	.asciz	"U1TXREG"
 	.byte	0x2
 	.2byte	0x337
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"U1RXREG"
 	.byte	0x2
 	.2byte	0x339
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"U1BRG"
 	.byte	0x2
 	.2byte	0x33b
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF16
 	.byte	0x2
 	.2byte	0x35c
-	.4byte	0x552d
+	.4byte	0x5520
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0xa1b
+	.4byte	0xa0e
 	.uleb128 0x21
 	.4byte	.LASF17
 	.byte	0x2
 	.2byte	0x37c
-	.4byte	0x5540
+	.4byte	0x5533
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0xbc1
+	.4byte	0xbb4
 	.uleb128 0x22
 	.asciz	"U2TXREG"
 	.byte	0x2
 	.2byte	0x37f
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"U2BRG"
 	.byte	0x2
 	.2byte	0x383
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF18
 	.byte	0x2
 	.2byte	0x428
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"AD1CON1"
 	.byte	0x2
 	.2byte	0x448
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF19
 	.byte	0x2
 	.2byte	0x464
-	.4byte	0x5595
+	.4byte	0x5588
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0xd5a
+	.4byte	0xd4d
 	.uleb128 0x22
 	.asciz	"AD1CON2"
 	.byte	0x2
 	.2byte	0x467
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"AD1CON3"
 	.byte	0x2
 	.2byte	0x488
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF20
 	.byte	0x2
 	.2byte	0x4a2
-	.4byte	0x55cc
+	.4byte	0x55bf
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0xef4
+	.4byte	0xee7
 	.uleb128 0x21
 	.4byte	.LASF21
 	.byte	0x2
 	.2byte	0x4a5
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF22
 	.byte	0x2
 	.2byte	0x4da
-	.4byte	0x55ed
+	.4byte	0x55e0
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x1073
+	.4byte	0x1066
 	.uleb128 0x22
 	.asciz	"AD1CON4"
 	.byte	0x2
 	.2byte	0x506
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF23
 	.byte	0x2
 	.2byte	0x577
-	.4byte	0x5612
+	.4byte	0x5605
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x11dd
+	.4byte	0x11d0
 	.uleb128 0x22
 	.asciz	"C1FCTRL"
 	.byte	0x2
 	.2byte	0x5a8
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF24
 	.byte	0x2
 	.2byte	0x5bd
-	.4byte	0x5637
+	.4byte	0x562a
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x12fe
+	.4byte	0x12f1
 	.uleb128 0x21
 	.4byte	.LASF25
 	.byte	0x2
 	.2byte	0x5ed
-	.4byte	0x564a
+	.4byte	0x563d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x142b
+	.4byte	0x141e
 	.uleb128 0x21
 	.4byte	.LASF26
 	.byte	0x2
 	.2byte	0x5fb
-	.4byte	0x565d
+	.4byte	0x5650
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x14e2
+	.4byte	0x14d5
 	.uleb128 0x22
 	.asciz	"C1CFG1"
 	.byte	0x2
 	.2byte	0x60a
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"C1CFG2"
 	.byte	0x2
 	.2byte	0x620
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF27
 	.byte	0x2
 	.2byte	0x650
-	.4byte	0x5692
+	.4byte	0x5685
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x1663
+	.4byte	0x1656
 	.uleb128 0x21
 	.4byte	.LASF28
 	.byte	0x2
 	.2byte	0x674
-	.4byte	0x56a5
+	.4byte	0x5698
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x18b2
+	.4byte	0x18a5
 	.uleb128 0x21
 	.4byte	.LASF29
 	.byte	0x2
 	.2byte	0x6b8
-	.4byte	0x56b8
+	.4byte	0x56ab
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x1aa0
+	.4byte	0x1a93
 	.uleb128 0x21
 	.4byte	.LASF30
 	.byte	0x2
 	.2byte	0x6bb
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF31
 	.byte	0x2
 	.2byte	0x6ce
-	.4byte	0x56d9
+	.4byte	0x56cc
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x1c26
+	.4byte	0x1c19
 	.uleb128 0x21
 	.4byte	.LASF32
 	.byte	0x2
 	.2byte	0x6f1
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF33
 	.byte	0x2
 	.2byte	0x747
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF34
 	.byte	0x2
 	.2byte	0x75d
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF35
 	.byte	0x2
 	.2byte	0x773
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF36
 	.byte	0x2
 	.2byte	0x7ae
-	.4byte	0x5724
+	.4byte	0x5717
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x1e04
+	.4byte	0x1df7
 	.uleb128 0x22
 	.asciz	"C1RXD"
 	.byte	0x2
 	.2byte	0x8a3
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF37
 	.byte	0x2
 	.2byte	0x8a5
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"C1TXD"
 	.byte	0x2
 	.2byte	0x8e1
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF38
 	.byte	0x2
 	.2byte	0xc7e
-	.4byte	0x5765
+	.4byte	0x5758
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x1ef9
+	.4byte	0x1eec
 	.uleb128 0x21
 	.4byte	.LASF39
 	.byte	0x2
 	.2byte	0xc81
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF40
 	.byte	0x2
 	.2byte	0xc83
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF41
 	.byte	0x2
 	.2byte	0xc9b
-	.4byte	0x5794
+	.4byte	0x5787
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x202d
+	.4byte	0x2020
 	.uleb128 0x21
 	.4byte	.LASF42
 	.byte	0x2
 	.2byte	0xca0
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF43
 	.byte	0x2
 	.2byte	0xcc0
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF44
 	.byte	0x2
 	.2byte	0xd88
-	.4byte	0x57c3
+	.4byte	0x57b6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x21ae
+	.4byte	0x21a1
 	.uleb128 0x21
 	.4byte	.LASF45
 	.byte	0x2
 	.2byte	0xe4c
-	.4byte	0x57d6
+	.4byte	0x57c9
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x232b
+	.4byte	0x231e
 	.uleb128 0x22
 	.asciz	"RPOR9"
 	.byte	0x2
 	.2byte	0xe4f
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"RPINR18"
 	.byte	0x2
 	.2byte	0xf99
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"RPINR26"
 	.byte	0x2
 	.2byte	0xff6
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"RPINR44"
 	.byte	0x2
 	.2byte	0x1057
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF46
 	.byte	0x2
 	.2byte	0x10f2
-	.4byte	0x582f
+	.4byte	0x5822
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x244e
+	.4byte	0x2441
 	.uleb128 0x21
 	.4byte	.LASF47
 	.byte	0x2
 	.2byte	0x1136
-	.4byte	0x5842
+	.4byte	0x5835
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x263a
+	.4byte	0x262d
 	.uleb128 0x22
 	.asciz	"PLLFBD"
 	.byte	0x2
 	.2byte	0x1139
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"IFS0"
 	.byte	0x2
 	.2byte	0x11dc
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF48
 	.byte	0x2
 	.2byte	0x11ef
-	.4byte	0x5875
+	.4byte	0x5868
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x27a8
+	.4byte	0x279b
 	.uleb128 0x22
 	.asciz	"IFS1"
 	.byte	0x2
 	.2byte	0x11f2
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF49
 	.byte	0x2
 	.2byte	0x1203
-	.4byte	0x5897
+	.4byte	0x588a
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x28d9
+	.4byte	0x28cc
 	.uleb128 0x22
 	.asciz	"IFS2"
 	.byte	0x2
 	.2byte	0x1206
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF50
 	.byte	0x2
 	.2byte	0x1210
-	.4byte	0x58b9
+	.4byte	0x58ac
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x2990
+	.4byte	0x2983
 	.uleb128 0x22
 	.asciz	"IFS3"
 	.byte	0x2
 	.2byte	0x1213
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"IFS4"
 	.byte	0x2
 	.2byte	0x121b
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF51
 	.byte	0x2
 	.2byte	0x1225
-	.4byte	0x58ea
+	.4byte	0x58dd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x2a09
+	.4byte	0x29fc
 	.uleb128 0x21
 	.4byte	.LASF52
 	.byte	0x2
 	.2byte	0x1251
-	.4byte	0x58fd
+	.4byte	0x58f0
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x2aa2
+	.4byte	0x2a95
 	.uleb128 0x21
 	.4byte	.LASF53
 	.byte	0x2
 	.2byte	0x1267
-	.4byte	0x5910
+	.4byte	0x5903
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x2c0f
+	.4byte	0x2c02
 	.uleb128 0x21
 	.4byte	.LASF54
 	.byte	0x2
 	.2byte	0x127b
-	.4byte	0x5923
+	.4byte	0x5916
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x2d40
+	.4byte	0x2d33
 	.uleb128 0x21
 	.4byte	.LASF55
 	.byte	0x2
 	.2byte	0x1288
-	.4byte	0x5936
+	.4byte	0x5929
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x2df7
+	.4byte	0x2dea
 	.uleb128 0x21
 	.4byte	.LASF56
 	.byte	0x2
 	.2byte	0x129d
-	.4byte	0x5949
+	.4byte	0x593c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x2e70
+	.4byte	0x2e63
 	.uleb128 0x21
 	.4byte	.LASF57
 	.byte	0x2
 	.2byte	0x12c9
-	.4byte	0x595c
+	.4byte	0x594f
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x2f09
+	.4byte	0x2efc
 	.uleb128 0x21
 	.4byte	.LASF58
 	.byte	0x2
 	.2byte	0x12eb
-	.4byte	0x596f
+	.4byte	0x5962
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x30ad
+	.4byte	0x30a0
 	.uleb128 0x21
 	.4byte	.LASF59
 	.byte	0x2
 	.2byte	0x130d
-	.4byte	0x5982
+	.4byte	0x5975
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x3250
+	.4byte	0x3243
 	.uleb128 0x21
 	.4byte	.LASF60
 	.byte	0x2
 	.2byte	0x132f
-	.4byte	0x5995
+	.4byte	0x5988
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x33ff
+	.4byte	0x33f2
 	.uleb128 0x21
 	.4byte	.LASF61
 	.byte	0x2
 	.2byte	0x144e
-	.4byte	0x59a8
+	.4byte	0x599b
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x353c
+	.4byte	0x352f
 	.uleb128 0x21
 	.4byte	.LASF62
 	.byte	0x2
 	.2byte	0x14fb
-	.4byte	0x59bb
+	.4byte	0x59ae
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x364f
+	.4byte	0x3642
 	.uleb128 0x21
 	.4byte	.LASF63
 	.byte	0x2
 	.2byte	0x18fc
-	.4byte	0x59ce
+	.4byte	0x59c1
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x3782
+	.4byte	0x3775
 	.uleb128 0x22
 	.asciz	"DMA0REQ"
 	.byte	0x2
 	.2byte	0x18ff
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF64
 	.byte	0x2
 	.2byte	0x1916
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF65
 	.byte	0x2
 	.2byte	0x1918
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"DMA0PAD"
 	.byte	0x2
 	.2byte	0x1928
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"DMA0CNT"
 	.byte	0x2
 	.2byte	0x192a
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"DMA2CON"
 	.byte	0x2
 	.2byte	0x197d
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF66
 	.byte	0x2
 	.2byte	0x1994
-	.4byte	0x5a45
+	.4byte	0x5a38
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x38b7
+	.4byte	0x38aa
 	.uleb128 0x22
 	.asciz	"DMA2REQ"
 	.byte	0x2
 	.2byte	0x1997
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF67
 	.byte	0x2
 	.2byte	0x19ae
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF68
 	.byte	0x2
 	.2byte	0x19b0
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"DMA2PAD"
 	.byte	0x2
 	.2byte	0x19c0
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"DMA2CNT"
 	.byte	0x2
 	.2byte	0x19c2
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF69
 	.byte	0x2
 	.2byte	0x1dad
-	.4byte	0x5aaa
+	.4byte	0x5a9d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x39a2
+	.4byte	0x3995
 	.uleb128 0x21
 	.4byte	.LASF70
 	.byte	0x2
 	.2byte	0x1dcf
-	.4byte	0x5abd
+	.4byte	0x5ab0
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x3a81
+	.4byte	0x3a74
 	.uleb128 0x21
 	.4byte	.LASF71
 	.byte	0x2
 	.2byte	0x1e24
-	.4byte	0x5ad0
+	.4byte	0x5ac3
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x3b4d
+	.4byte	0x3b40
 	.uleb128 0x21
 	.4byte	.LASF72
 	.byte	0x2
 	.2byte	0x1e4e
-	.4byte	0x5ae3
+	.4byte	0x5ad6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x3ccd
+	.4byte	0x3cc0
 	.uleb128 0x21
 	.4byte	.LASF73
 	.byte	0x2
 	.2byte	0x1e64
-	.4byte	0x5af6
+	.4byte	0x5ae9
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x3e1c
+	.4byte	0x3e0f
 	.uleb128 0x21
 	.4byte	.LASF74
 	.byte	0x2
 	.2byte	0x1e7a
-	.4byte	0x5b09
+	.4byte	0x5afc
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x3f8a
+	.4byte	0x3f7d
 	.uleb128 0x21
 	.4byte	.LASF75
 	.byte	0x2
 	.2byte	0x1e90
-	.4byte	0x5b1c
+	.4byte	0x5b0f
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x40f7
+	.4byte	0x40ea
 	.uleb128 0x21
 	.4byte	.LASF76
 	.byte	0x2
 	.2byte	0x1f0e
-	.4byte	0x5b2f
+	.4byte	0x5b22
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x425f
+	.4byte	0x4252
 	.uleb128 0x21
 	.4byte	.LASF77
 	.byte	0x2
 	.2byte	0x1f24
-	.4byte	0x5b42
+	.4byte	0x5b35
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x439b
+	.4byte	0x438e
 	.uleb128 0x21
 	.4byte	.LASF78
 	.byte	0x2
 	.2byte	0x1f3a
-	.4byte	0x5b55
+	.4byte	0x5b48
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x44f4
+	.4byte	0x44e7
 	.uleb128 0x22
 	.asciz	"ANSELC"
 	.byte	0x2
 	.2byte	0x1f95
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF79
 	.byte	0x2
 	.2byte	0x1fca
-	.4byte	0x5b79
+	.4byte	0x5b6c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x455b
+	.4byte	0x454e
 	.uleb128 0x21
 	.4byte	.LASF80
 	.byte	0x2
 	.2byte	0x206c
-	.4byte	0x5b8c
+	.4byte	0x5b7f
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x45ae
+	.4byte	0x45a1
 	.uleb128 0x21
 	.4byte	.LASF81
 	.byte	0x2
 	.2byte	0x20a7
-	.4byte	0x5b9f
+	.4byte	0x5b92
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x462b
+	.4byte	0x461e
 	.uleb128 0x21
 	.4byte	.LASF82
 	.byte	0x2
 	.2byte	0x20bd
-	.4byte	0x5bb2
+	.4byte	0x5ba5
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x46a3
+	.4byte	0x4696
 	.uleb128 0x21
 	.4byte	.LASF83
 	.byte	0x2
 	.2byte	0x20f4
-	.4byte	0x5bc5
+	.4byte	0x5bb8
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x471c
+	.4byte	0x470f
 	.uleb128 0x10
-	.4byte	0xa9
-	.4byte	0x5be0
+	.4byte	0x9c
+	.4byte	0x5bd3
 	.uleb128 0x11
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1f
 	.uleb128 0x11
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x7
 	.byte	0x0
 	.uleb128 0x23
 	.4byte	.LASF84
 	.byte	0x1
 	.byte	0xae
-	.4byte	0x5bed
+	.4byte	0x5be0
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x5bca
+	.4byte	0x5bbd
 	.uleb128 0x23
 	.4byte	.LASF85
 	.byte	0x1
 	.byte	0xe1
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x472f
+	.4byte	0x4722
 	.uleb128 0x23
 	.4byte	.LASF86
 	.byte	0x1
 	.byte	0xe1
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x23
 	.4byte	.LASF87
 	.byte	0x1
 	.byte	0xe1
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
 	.asciz	"i"
 	.byte	0x1
 	.byte	0xe1
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
 	.asciz	"f_tick"
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
 	.asciz	"s_tick"
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
 	.asciz	"p0"
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
 	.asciz	"p1"
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
 	.asciz	"id_byte"
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x23
 	.4byte	.LASF8
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x23
 	.4byte	.LASF88
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x23
 	.4byte	.LASF89
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x23
 	.4byte	.LASF90
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x23
 	.4byte	.LASF91
 	.byte	0x1
 	.byte	0xe3
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x23
 	.4byte	.LASF92
 	.byte	0x1
 	.byte	0xe4
-	.4byte	0x5cc0
+	.4byte	0x5cb3
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x4972
+	.4byte	0x4965
 	.uleb128 0x23
 	.4byte	.LASF93
 	.byte	0x1
 	.byte	0xe5
-	.4byte	0x5cc0
+	.4byte	0x5cb3
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
 	.asciz	"can_rx"
 	.byte	0x1
 	.byte	0xe6
-	.4byte	0x5ce2
+	.4byte	0x5cd5
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x4747
+	.4byte	0x473a
 	.uleb128 0x1f
 	.asciz	"sent_rx"
 	.byte	0x1
 	.byte	0xe6
-	.4byte	0x5ce2
+	.4byte	0x5cd5
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
 	.asciz	"lin_rx"
 	.byte	0x1
 	.byte	0xe6
-	.4byte	0x5ce2
+	.4byte	0x5cd5
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x23
 	.4byte	.LASF94
 	.byte	0x1
 	.byte	0xeb
-	.4byte	0x5d15
+	.4byte	0x5d08
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.4byte	0x480f
+	.4byte	0x4802
 	.uleb128 0x1f
 	.asciz	"mode"
 	.byte	0x1
 	.byte	0xec
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x23
 	.4byte	.LASF95
 	.byte	0x1
 	.byte	0xed
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x23
 	.4byte	.LASF96
 	.byte	0x1
 	.byte	0xed
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
 	.asciz	"hex_dig"
 	.byte	0x1
 	.byte	0xed
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
 	.asciz	"datal"
 	.byte	0x1
 	.byte	0xef
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
 	.asciz	"datah"
 	.byte	0x1
 	.byte	0xf0
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x23
 	.4byte	.LASF97
 	.byte	0x1
 	.byte	0xf2
-	.4byte	0x481f
+	.4byte	0x4812
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
 	.asciz	"PR1"
 	.byte	0x2
 	.byte	0xf3
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF9
 	.byte	0x2
 	.2byte	0x10b
-	.4byte	0x5426
+	.4byte	0x5419
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"TMR2"
 	.byte	0x2
 	.2byte	0x10e
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"PR2"
 	.byte	0x2
 	.2byte	0x114
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF10
 	.byte	0x2
 	.2byte	0x12e
-	.4byte	0x5456
+	.4byte	0x5449
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF11
 	.byte	0x2
 	.2byte	0x279
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF12
 	.byte	0x2
 	.2byte	0x28c
-	.4byte	0x5477
+	.4byte	0x546a
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF13
 	.byte	0x2
 	.2byte	0x2ae
-	.4byte	0x548a
+	.4byte	0x547d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"I2C1BRG"
 	.byte	0x2
 	.2byte	0x2cf
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"I2C1TRN"
 	.byte	0x2
 	.2byte	0x2d1
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"I2C1RCV"
 	.byte	0x2
 	.2byte	0x2d8
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF14
 	.byte	0x2
 	.2byte	0x314
-	.4byte	0x54d3
+	.4byte	0x54c6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF15
 	.byte	0x2
 	.2byte	0x334
-	.4byte	0x54e6
+	.4byte	0x54d9
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"U1TXREG"
 	.byte	0x2
 	.2byte	0x337
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"U1RXREG"
 	.byte	0x2
 	.2byte	0x339
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"U1BRG"
 	.byte	0x2
 	.2byte	0x33b
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF16
 	.byte	0x2
 	.2byte	0x35c
-	.4byte	0x552d
+	.4byte	0x5520
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF17
 	.byte	0x2
 	.2byte	0x37c
-	.4byte	0x5540
+	.4byte	0x5533
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"U2TXREG"
 	.byte	0x2
 	.2byte	0x37f
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"U2BRG"
 	.byte	0x2
 	.2byte	0x383
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF18
 	.byte	0x2
 	.2byte	0x428
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"AD1CON1"
 	.byte	0x2
 	.2byte	0x448
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF19
 	.byte	0x2
 	.2byte	0x464
-	.4byte	0x5595
+	.4byte	0x5588
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"AD1CON2"
 	.byte	0x2
 	.2byte	0x467
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"AD1CON3"
 	.byte	0x2
 	.2byte	0x488
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF20
 	.byte	0x2
 	.2byte	0x4a2
-	.4byte	0x55cc
+	.4byte	0x55bf
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF21
 	.byte	0x2
 	.2byte	0x4a5
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF22
 	.byte	0x2
 	.2byte	0x4da
-	.4byte	0x55ed
+	.4byte	0x55e0
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"AD1CON4"
 	.byte	0x2
 	.2byte	0x506
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF23
 	.byte	0x2
 	.2byte	0x577
-	.4byte	0x5612
+	.4byte	0x5605
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"C1FCTRL"
 	.byte	0x2
 	.2byte	0x5a8
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF24
 	.byte	0x2
 	.2byte	0x5bd
-	.4byte	0x5637
+	.4byte	0x562a
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF25
 	.byte	0x2
 	.2byte	0x5ed
-	.4byte	0x564a
+	.4byte	0x563d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF26
 	.byte	0x2
 	.2byte	0x5fb
-	.4byte	0x565d
+	.4byte	0x5650
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"C1CFG1"
 	.byte	0x2
 	.2byte	0x60a
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"C1CFG2"
 	.byte	0x2
 	.2byte	0x620
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF27
 	.byte	0x2
 	.2byte	0x650
-	.4byte	0x5692
+	.4byte	0x5685
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF28
 	.byte	0x2
 	.2byte	0x674
-	.4byte	0x56a5
+	.4byte	0x5698
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF29
 	.byte	0x2
 	.2byte	0x6b8
-	.4byte	0x56b8
+	.4byte	0x56ab
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF30
 	.byte	0x2
 	.2byte	0x6bb
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF31
 	.byte	0x2
 	.2byte	0x6ce
-	.4byte	0x56d9
+	.4byte	0x56cc
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF32
 	.byte	0x2
 	.2byte	0x6f1
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF33
 	.byte	0x2
 	.2byte	0x747
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF34
 	.byte	0x2
 	.2byte	0x75d
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF35
 	.byte	0x2
 	.2byte	0x773
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF36
 	.byte	0x2
 	.2byte	0x7ae
-	.4byte	0x5724
+	.4byte	0x5717
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"C1RXD"
 	.byte	0x2
 	.2byte	0x8a3
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF37
 	.byte	0x2
 	.2byte	0x8a5
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"C1TXD"
 	.byte	0x2
 	.2byte	0x8e1
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF38
 	.byte	0x2
 	.2byte	0xc7e
-	.4byte	0x5765
+	.4byte	0x5758
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF39
 	.byte	0x2
 	.2byte	0xc81
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF40
 	.byte	0x2
 	.2byte	0xc83
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF41
 	.byte	0x2
 	.2byte	0xc9b
-	.4byte	0x5794
+	.4byte	0x5787
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF42
 	.byte	0x2
 	.2byte	0xca0
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF43
 	.byte	0x2
 	.2byte	0xcc0
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF44
 	.byte	0x2
 	.2byte	0xd88
-	.4byte	0x57c3
+	.4byte	0x57b6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF45
 	.byte	0x2
 	.2byte	0xe4c
-	.4byte	0x57d6
+	.4byte	0x57c9
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"RPOR9"
 	.byte	0x2
 	.2byte	0xe4f
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"RPINR18"
 	.byte	0x2
 	.2byte	0xf99
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"RPINR26"
 	.byte	0x2
 	.2byte	0xff6
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"RPINR44"
 	.byte	0x2
 	.2byte	0x1057
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF46
 	.byte	0x2
 	.2byte	0x10f2
-	.4byte	0x582f
+	.4byte	0x5822
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF47
 	.byte	0x2
 	.2byte	0x1136
-	.4byte	0x5842
+	.4byte	0x5835
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"PLLFBD"
 	.byte	0x2
 	.2byte	0x1139
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"IFS0"
 	.byte	0x2
 	.2byte	0x11dc
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF48
 	.byte	0x2
 	.2byte	0x11ef
-	.4byte	0x5875
+	.4byte	0x5868
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"IFS1"
 	.byte	0x2
 	.2byte	0x11f2
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF49
 	.byte	0x2
 	.2byte	0x1203
-	.4byte	0x5897
+	.4byte	0x588a
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"IFS2"
 	.byte	0x2
 	.2byte	0x1206
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF50
 	.byte	0x2
 	.2byte	0x1210
-	.4byte	0x58b9
+	.4byte	0x58ac
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"IFS3"
 	.byte	0x2
 	.2byte	0x1213
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"IFS4"
 	.byte	0x2
 	.2byte	0x121b
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF51
 	.byte	0x2
 	.2byte	0x1225
-	.4byte	0x58ea
+	.4byte	0x58dd
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF52
 	.byte	0x2
 	.2byte	0x1251
-	.4byte	0x58fd
+	.4byte	0x58f0
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF53
 	.byte	0x2
 	.2byte	0x1267
-	.4byte	0x5910
+	.4byte	0x5903
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF54
 	.byte	0x2
 	.2byte	0x127b
-	.4byte	0x5923
+	.4byte	0x5916
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF55
 	.byte	0x2
 	.2byte	0x1288
-	.4byte	0x5936
+	.4byte	0x5929
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF56
 	.byte	0x2
 	.2byte	0x129d
-	.4byte	0x5949
+	.4byte	0x593c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF57
 	.byte	0x2
 	.2byte	0x12c9
-	.4byte	0x595c
+	.4byte	0x594f
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF58
 	.byte	0x2
 	.2byte	0x12eb
-	.4byte	0x596f
+	.4byte	0x5962
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF59
 	.byte	0x2
 	.2byte	0x130d
-	.4byte	0x5982
+	.4byte	0x5975
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF60
 	.byte	0x2
 	.2byte	0x132f
-	.4byte	0x5995
+	.4byte	0x5988
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF61
 	.byte	0x2
 	.2byte	0x144e
-	.4byte	0x59a8
+	.4byte	0x599b
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF62
 	.byte	0x2
 	.2byte	0x14fb
-	.4byte	0x59bb
+	.4byte	0x59ae
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF63
 	.byte	0x2
 	.2byte	0x18fc
-	.4byte	0x59ce
+	.4byte	0x59c1
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"DMA0REQ"
 	.byte	0x2
 	.2byte	0x18ff
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF64
 	.byte	0x2
 	.2byte	0x1916
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF65
 	.byte	0x2
 	.2byte	0x1918
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"DMA0PAD"
 	.byte	0x2
 	.2byte	0x1928
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"DMA0CNT"
 	.byte	0x2
 	.2byte	0x192a
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"DMA2CON"
 	.byte	0x2
 	.2byte	0x197d
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF66
 	.byte	0x2
 	.2byte	0x1994
-	.4byte	0x5a45
+	.4byte	0x5a38
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"DMA2REQ"
 	.byte	0x2
 	.2byte	0x1997
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF67
 	.byte	0x2
 	.2byte	0x19ae
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF68
 	.byte	0x2
 	.2byte	0x19b0
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"DMA2PAD"
 	.byte	0x2
 	.2byte	0x19c0
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"DMA2CNT"
 	.byte	0x2
 	.2byte	0x19c2
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF69
 	.byte	0x2
 	.2byte	0x1dad
-	.4byte	0x5aaa
+	.4byte	0x5a9d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF70
 	.byte	0x2
 	.2byte	0x1dcf
-	.4byte	0x5abd
+	.4byte	0x5ab0
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF71
 	.byte	0x2
 	.2byte	0x1e24
-	.4byte	0x5ad0
+	.4byte	0x5ac3
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF72
 	.byte	0x2
 	.2byte	0x1e4e
-	.4byte	0x5ae3
+	.4byte	0x5ad6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF73
 	.byte	0x2
 	.2byte	0x1e64
-	.4byte	0x5af6
+	.4byte	0x5ae9
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF74
 	.byte	0x2
 	.2byte	0x1e7a
-	.4byte	0x5b09
+	.4byte	0x5afc
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF75
 	.byte	0x2
 	.2byte	0x1e90
-	.4byte	0x5b1c
+	.4byte	0x5b0f
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF76
 	.byte	0x2
 	.2byte	0x1f0e
-	.4byte	0x5b2f
+	.4byte	0x5b22
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF77
 	.byte	0x2
 	.2byte	0x1f24
-	.4byte	0x5b42
+	.4byte	0x5b35
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF78
 	.byte	0x2
 	.2byte	0x1f3a
-	.4byte	0x5b55
+	.4byte	0x5b48
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
 	.asciz	"ANSELC"
 	.byte	0x2
 	.2byte	0x1f95
-	.4byte	0x5413
+	.4byte	0x5406
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF79
 	.byte	0x2
 	.2byte	0x1fca
-	.4byte	0x5b79
+	.4byte	0x5b6c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF80
 	.byte	0x2
 	.2byte	0x206c
-	.4byte	0x5b8c
+	.4byte	0x5b7f
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF81
 	.byte	0x2
 	.2byte	0x20a7
-	.4byte	0x5b9f
+	.4byte	0x5b92
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF82
 	.byte	0x2
 	.2byte	0x20bd
-	.4byte	0x5bb2
+	.4byte	0x5ba5
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
 	.4byte	.LASF83
 	.byte	0x2
 	.2byte	0x20f4
-	.4byte	0x5bc5
+	.4byte	0x5bb8
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x24
 	.asciz	"_FOSCSEL"
 	.byte	0x1
 	.byte	0x93
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18680,7 +18680,7 @@ __AddressError:
 	.asciz	"_FOSC"
 	.byte	0x1
 	.byte	0x94
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18689,7 +18689,7 @@ __AddressError:
 	.asciz	"_FWDT"
 	.byte	0x1
 	.byte	0x99
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18698,7 +18698,7 @@ __AddressError:
 	.asciz	"_FPOR"
 	.byte	0x1
 	.byte	0x9c
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18707,7 +18707,7 @@ __AddressError:
 	.asciz	"_FICD"
 	.byte	0x1
 	.byte	0x9b
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18716,7 +18716,7 @@ __AddressError:
 	.asciz	"_FDMT"
 	.byte	0x1
 	.byte	0x9d
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18725,18 +18725,18 @@ __AddressError:
 	.4byte	.LASF84
 	.byte	0x1
 	.byte	0xae
-	.4byte	0x64a8
+	.4byte	0x649b
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.4byte	_ecan1MsgBuf
 	.uleb128 0x20
-	.4byte	0x5bca
+	.4byte	0x5bbd
 	.uleb128 0x24
 	.asciz	"channel"
 	.byte	0x1
 	.byte	0xe1
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18745,7 +18745,7 @@ __AddressError:
 	.4byte	.LASF85
 	.byte	0x1
 	.byte	0xe1
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18754,7 +18754,7 @@ __AddressError:
 	.4byte	.LASF86
 	.byte	0x1
 	.byte	0xe1
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18763,7 +18763,7 @@ __AddressError:
 	.4byte	.LASF87
 	.byte	0x1
 	.byte	0xe1
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18772,7 +18772,7 @@ __AddressError:
 	.asciz	"i"
 	.byte	0x1
 	.byte	0xe1
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18781,7 +18781,7 @@ __AddressError:
 	.asciz	"f_tick"
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18790,7 +18790,7 @@ __AddressError:
 	.asciz	"s_tick"
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18799,7 +18799,7 @@ __AddressError:
 	.asciz	"p0"
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18808,7 +18808,7 @@ __AddressError:
 	.asciz	"p1"
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18817,7 +18817,7 @@ __AddressError:
 	.asciz	"id_byte"
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18826,7 +18826,7 @@ __AddressError:
 	.4byte	.LASF8
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18835,7 +18835,7 @@ __AddressError:
 	.4byte	.LASF88
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18844,7 +18844,7 @@ __AddressError:
 	.4byte	.LASF89
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18853,7 +18853,7 @@ __AddressError:
 	.4byte	.LASF90
 	.byte	0x1
 	.byte	0xe2
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18862,7 +18862,7 @@ __AddressError:
 	.4byte	.LASF91
 	.byte	0x1
 	.byte	0xe3
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18871,7 +18871,7 @@ __AddressError:
 	.4byte	.LASF92
 	.byte	0x1
 	.byte	0xe4
-	.4byte	0x5cc0
+	.4byte	0x5cb3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18880,7 +18880,7 @@ __AddressError:
 	.4byte	.LASF93
 	.byte	0x1
 	.byte	0xe5
-	.4byte	0x5cc0
+	.4byte	0x5cb3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18889,7 +18889,7 @@ __AddressError:
 	.asciz	"can_rx"
 	.byte	0x1
 	.byte	0xe6
-	.4byte	0x5ce2
+	.4byte	0x5cd5
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18898,7 +18898,7 @@ __AddressError:
 	.asciz	"sent_rx"
 	.byte	0x1
 	.byte	0xe6
-	.4byte	0x5ce2
+	.4byte	0x5cd5
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18907,23 +18907,23 @@ __AddressError:
 	.asciz	"lin_rx"
 	.byte	0x1
 	.byte	0xe6
-	.4byte	0x5ce2
+	.4byte	0x5cd5
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.4byte	_lin_rx
 	.uleb128 0x10
-	.4byte	0x4747
-	.4byte	0x6639
+	.4byte	0x473a
+	.4byte	0x662c
 	.uleb128 0x11
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x6
 	.byte	0x0
 	.uleb128 0x24
 	.asciz	"Buf_result"
 	.byte	0x1
 	.byte	0xe8
-	.4byte	0x6629
+	.4byte	0x661c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18932,23 +18932,23 @@ __AddressError:
 	.asciz	"pBuf"
 	.byte	0x1
 	.byte	0xe9
-	.4byte	0x48e8
+	.4byte	0x48db
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.4byte	_pBuf
 	.uleb128 0x10
-	.4byte	0x4747
-	.4byte	0x6675
+	.4byte	0x473a
+	.4byte	0x6668
 	.uleb128 0x11
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x3f
 	.byte	0x0
 	.uleb128 0x24
 	.asciz	"s"
 	.byte	0x1
 	.byte	0xea
-	.4byte	0x6665
+	.4byte	0x6658
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18957,18 +18957,18 @@ __AddressError:
 	.4byte	.LASF94
 	.byte	0x1
 	.byte	0xeb
-	.4byte	0x6697
+	.4byte	0x668a
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.4byte	_LIN_RXBUF
 	.uleb128 0x20
-	.4byte	0x480f
+	.4byte	0x4802
 	.uleb128 0x24
 	.asciz	"mode"
 	.byte	0x1
 	.byte	0xec
-	.4byte	0x47e9
+	.4byte	0x47dc
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18977,7 +18977,7 @@ __AddressError:
 	.4byte	.LASF95
 	.byte	0x1
 	.byte	0xed
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18986,7 +18986,7 @@ __AddressError:
 	.4byte	.LASF96
 	.byte	0x1
 	.byte	0xed
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -18995,7 +18995,7 @@ __AddressError:
 	.asciz	"hex_dig"
 	.byte	0x1
 	.byte	0xed
-	.4byte	0xa9
+	.4byte	0x9c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -19004,7 +19004,7 @@ __AddressError:
 	.asciz	"datal"
 	.byte	0x1
 	.byte	0xef
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -19013,7 +19013,7 @@ __AddressError:
 	.asciz	"datah"
 	.byte	0x1
 	.byte	0xf0
-	.4byte	0x5bff
+	.4byte	0x5bf2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -19022,7 +19022,7 @@ __AddressError:
 	.4byte	.LASF97
 	.byte	0x1
 	.byte	0xf2
-	.4byte	0x481f
+	.4byte	0x4812
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -19585,454 +19585,454 @@ __AddressError:
 	.4byte	0x617
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x6724
-	.4byte	0x4873
+	.4byte	0x6717
+	.4byte	0x4866
 	.asciz	"main"
-	.4byte	0x488c
+	.4byte	0x487f
 	.asciz	"dbg_putc"
-	.4byte	0x48b7
+	.4byte	0x48aa
 	.asciz	"dbg_put_string"
-	.4byte	0x48ee
+	.4byte	0x48e1
 	.asciz	"dbg_put_float"
-	.4byte	0x498b
+	.4byte	0x497e
 	.asciz	"dbg_put_crlf"
-	.4byte	0x49a8
+	.4byte	0x499b
 	.asciz	"I2C1_WaitForIdle"
-	.4byte	0x49c9
+	.4byte	0x49bc
 	.asciz	"I2C1_Start"
-	.4byte	0x4a1b
+	.4byte	0x4a0e
 	.asciz	"I2C1_Stop"
-	.4byte	0x4a4d
+	.4byte	0x4a40
 	.asciz	"I2C1_Restart"
-	.4byte	0x4a82
+	.4byte	0x4a75
 	.asciz	"I2C1_Write"
-	.4byte	0x4ac5
+	.4byte	0x4ab8
 	.asciz	"I2C1_Read"
-	.4byte	0x4b0b
+	.4byte	0x4afe
 	.asciz	"MLX90614_ReadTemp"
-	.4byte	0x4b82
+	.4byte	0x4b75
 	.asciz	"I2C1_BusReset"
-	.4byte	0x4bb2
+	.4byte	0x4ba5
 	.asciz	"I2C1_Init"
-	.4byte	0x4bcc
+	.4byte	0x4bbf
 	.asciz	"I2C1_Ack"
-	.4byte	0x4be5
+	.4byte	0x4bd8
 	.asciz	"I2C1_Nack"
-	.4byte	0x4bff
+	.4byte	0x4bf2
 	.asciz	"ZSSC4151_SetMode"
-	.4byte	0x4c57
+	.4byte	0x4c4a
 	.asciz	"ZSSC4151_ReadNVM"
-	.4byte	0x4cfd
+	.4byte	0x4cf0
 	.asciz	"ZSSC4151_WriteNVM"
-	.4byte	0x4d88
+	.4byte	0x4d7b
 	.asciz	"Transmit_Data"
-	.4byte	0x4dbb
+	.4byte	0x4dae
 	.asciz	"InitSENT1_RX"
-	.4byte	0x4dd8
+	.4byte	0x4dcb
 	.asciz	"Receive_Data"
-	.4byte	0x4df5
+	.4byte	0x4de8
 	.asciz	"clearIntrflags"
-	.4byte	0x4e14
+	.4byte	0x4e07
 	.asciz	"Can_RX_to_UART"
-	.4byte	0x4e33
+	.4byte	0x4e26
 	.asciz	"Lin_RX_to_UART"
-	.4byte	0x4e52
+	.4byte	0x4e45
 	.asciz	"Sent_RX_to_UART"
-	.4byte	0x4e72
+	.4byte	0x4e65
 	.asciz	"init_hw"
-	.4byte	0x4e9c
+	.4byte	0x4e8f
 	.asciz	"Test_Mode"
-	.4byte	0x4eb6
+	.4byte	0x4ea9
 	.asciz	"LED_Receive"
-	.4byte	0x4ed2
+	.4byte	0x4ec5
 	.asciz	"LED_Transmit"
-	.4byte	0x4eef
+	.4byte	0x4ee2
 	.asciz	"InitSENT1_TX"
-	.4byte	0x4f0c
+	.4byte	0x4eff
 	.asciz	"oscConfig"
-	.4byte	0x4f26
+	.4byte	0x4f19
 	.asciz	"InitCAN"
-	.4byte	0x4f3e
+	.4byte	0x4f31
 	.asciz	"CAN_Transmit"
-	.4byte	0x4f5b
+	.4byte	0x4f4e
 	.asciz	"ADCInit"
-	.4byte	0x4f73
+	.4byte	0x4f66
 	.asciz	"ADCConvert"
-	.4byte	0x4fa6
+	.4byte	0x4f99
 	.asciz	"InitLIN_TX"
-	.4byte	0x4fc1
+	.4byte	0x4fb4
 	.asciz	"InitLIN_RX"
-	.4byte	0x4fdc
+	.4byte	0x4fcf
 	.asciz	"InitMonitor"
-	.4byte	0x4ff8
+	.4byte	0x4feb
 	.asciz	"LIN_Transmit"
-	.4byte	0x5015
+	.4byte	0x5008
 	.asciz	"Calc_Checksum"
-	.4byte	0x5047
+	.4byte	0x503a
 	.asciz	"delay_10ms"
-	.4byte	0x5076
+	.4byte	0x5069
 	.asciz	"Delayus"
-	.4byte	0x50b1
+	.4byte	0x50a4
 	.asciz	"ftoa"
-	.4byte	0x5121
+	.4byte	0x5114
 	.asciz	"rxECAN"
-	.4byte	0x5182
+	.4byte	0x5175
 	.asciz	"clearRxFlags"
-	.4byte	0x51bd
+	.4byte	0x51b0
 	.asciz	"_T1Interrupt"
-	.4byte	0x51da
+	.4byte	0x51cd
 	.asciz	"_T2Interrupt"
-	.4byte	0x51f7
+	.4byte	0x51ea
 	.asciz	"_C1Interrupt"
-	.4byte	0x5214
+	.4byte	0x5207
 	.asciz	"_U1TXInterrupt"
-	.4byte	0x5233
+	.4byte	0x5226
 	.asciz	"_U2TXInterrupt"
-	.4byte	0x5252
+	.4byte	0x5245
 	.asciz	"_U1RXInterrupt"
-	.4byte	0x5271
+	.4byte	0x5264
 	.asciz	"_U1ErrInterrupt"
-	.4byte	0x5291
+	.4byte	0x5284
 	.asciz	"_U2RXInterrupt"
-	.4byte	0x52b0
+	.4byte	0x52a3
 	.asciz	"_SENT1Interrupt"
-	.4byte	0x52d0
+	.4byte	0x52c3
 	.asciz	"_SENT1ERRInterrupt"
-	.4byte	0x52f3
+	.4byte	0x52e6
 	.asciz	"_DMA0Interrupt"
-	.4byte	0x5312
+	.4byte	0x5305
 	.asciz	"_DMA1Interrupt"
-	.4byte	0x5331
+	.4byte	0x5324
 	.asciz	"_DMA2Interrupt"
-	.4byte	0x5350
+	.4byte	0x5343
 	.asciz	"_DMA3Interrupt"
-	.4byte	0x536f
+	.4byte	0x5362
 	.asciz	"_DefaultInterrupt"
-	.4byte	0x5391
+	.4byte	0x5384
 	.asciz	"_OscillatorFail"
-	.4byte	0x53b1
+	.4byte	0x53a4
 	.asciz	"_MathError"
-	.4byte	0x53cc
+	.4byte	0x53bf
 	.asciz	"_StackError"
-	.4byte	0x53e8
+	.4byte	0x53db
 	.asciz	"_AddressError"
-	.4byte	0x641b
+	.4byte	0x640e
 	.asciz	"_FOSCSEL"
-	.4byte	0x6432
+	.4byte	0x6425
 	.asciz	"_FOSC"
-	.4byte	0x6446
+	.4byte	0x6439
 	.asciz	"_FWDT"
-	.4byte	0x645a
+	.4byte	0x644d
 	.asciz	"_FPOR"
-	.4byte	0x646e
+	.4byte	0x6461
 	.asciz	"_FICD"
-	.4byte	0x6482
+	.4byte	0x6475
 	.asciz	"_FDMT"
-	.4byte	0x6496
+	.4byte	0x6489
 	.asciz	"ecan1MsgBuf"
-	.4byte	0x64ad
+	.4byte	0x64a0
 	.asciz	"channel"
-	.4byte	0x64c3
+	.4byte	0x64b6
 	.asciz	"PotValue"
-	.4byte	0x64d5
+	.4byte	0x64c8
 	.asciz	"TempValue"
-	.4byte	0x64e7
+	.4byte	0x64da
 	.asciz	"AverageValue"
-	.4byte	0x64f9
+	.4byte	0x64ec
 	.asciz	"i"
-	.4byte	0x6509
+	.4byte	0x64fc
 	.asciz	"f_tick"
-	.4byte	0x651e
+	.4byte	0x6511
 	.asciz	"s_tick"
-	.4byte	0x6533
+	.4byte	0x6526
 	.asciz	"p0"
-	.4byte	0x6544
+	.4byte	0x6537
 	.asciz	"p1"
-	.4byte	0x6555
+	.4byte	0x6548
 	.asciz	"id_byte"
-	.4byte	0x656b
+	.4byte	0x655e
 	.asciz	"data_byte"
-	.4byte	0x657d
+	.4byte	0x6570
 	.asciz	"checksum"
-	.4byte	0x658f
+	.4byte	0x6582
 	.asciz	"lin_index"
-	.4byte	0x65a1
+	.4byte	0x6594
 	.asciz	"lin_start"
-	.4byte	0x65b3
+	.4byte	0x65a6
 	.asciz	"tickTime"
-	.4byte	0x65c5
+	.4byte	0x65b8
 	.asciz	"peripheralClk"
-	.4byte	0x65d7
+	.4byte	0x65ca
 	.asciz	"Pot_Volts"
-	.4byte	0x65e9
+	.4byte	0x65dc
 	.asciz	"can_rx"
-	.4byte	0x65fe
+	.4byte	0x65f1
 	.asciz	"sent_rx"
-	.4byte	0x6614
+	.4byte	0x6607
 	.asciz	"lin_rx"
-	.4byte	0x6639
+	.4byte	0x662c
 	.asciz	"Buf_result"
-	.4byte	0x6652
+	.4byte	0x6645
 	.asciz	"pBuf"
-	.4byte	0x6675
+	.4byte	0x6668
 	.asciz	"s"
-	.4byte	0x6685
+	.4byte	0x6678
 	.asciz	"LIN_RXBUF"
-	.4byte	0x669c
+	.4byte	0x668f
 	.asciz	"mode"
-	.4byte	0x66af
+	.4byte	0x66a2
 	.asciz	"ascii_lo"
-	.4byte	0x66c1
+	.4byte	0x66b4
 	.asciz	"ascii_hi"
-	.4byte	0x66d3
+	.4byte	0x66c6
 	.asciz	"hex_dig"
-	.4byte	0x66e9
+	.4byte	0x66dc
 	.asciz	"datal"
-	.4byte	0x66fd
+	.4byte	0x66f0
 	.asciz	"datah"
-	.4byte	0x6711
+	.4byte	0x6704
 	.asciz	"canRxMessage"
 	.4byte	0x0
 	.section	.debug_pubtypes,info
 	.4byte	0x776
 	.2byte	0x2
 	.4byte	.Ldebug_info0
-	.4byte	0x6724
-	.4byte	0x179
+	.4byte	0x6717
+	.4byte	0x16c
 	.asciz	"tagT1CONBITS"
-	.4byte	0x197
+	.4byte	0x18a
 	.asciz	"T1CONBITS"
-	.4byte	0x26d
+	.4byte	0x260
 	.asciz	"tagT2CONBITS"
-	.4byte	0x28c
+	.4byte	0x27f
 	.asciz	"T2CONBITS"
-	.4byte	0x29e
+	.4byte	0x291
 	.asciz	"tagI2C1CON1BITS"
-	.4byte	0x3e0
+	.4byte	0x3d3
 	.asciz	"I2C1CON1BITS"
-	.4byte	0x3f5
+	.4byte	0x3e8
 	.asciz	"tagI2C1STATBITS"
-	.4byte	0x51a
+	.4byte	0x50d
 	.asciz	"I2C1STATBITS"
-	.4byte	0x6a9
+	.4byte	0x69c
 	.asciz	"tagU1MODEBITS"
-	.4byte	0x6c9
+	.4byte	0x6bc
 	.asciz	"U1MODEBITS"
-	.4byte	0x850
+	.4byte	0x843
 	.asciz	"tagU1STABITS"
-	.4byte	0x86f
+	.4byte	0x862
 	.asciz	"U1STABITS"
-	.4byte	0x9fb
+	.4byte	0x9ee
 	.asciz	"tagU2MODEBITS"
-	.4byte	0xa1b
+	.4byte	0xa0e
 	.asciz	"U2MODEBITS"
-	.4byte	0xba2
+	.4byte	0xb95
 	.asciz	"tagU2STABITS"
-	.4byte	0xbc1
+	.4byte	0xbb4
 	.asciz	"U2STABITS"
-	.4byte	0xd39
+	.4byte	0xd2c
 	.asciz	"tagAD1CON1BITS"
-	.4byte	0xd5a
+	.4byte	0xd4d
 	.asciz	"AD1CON1BITS"
-	.4byte	0xed3
+	.4byte	0xec6
 	.asciz	"tagAD1CON3BITS"
-	.4byte	0xef4
+	.4byte	0xee7
 	.asciz	"AD1CON3BITS"
-	.4byte	0x1052
+	.4byte	0x1045
 	.asciz	"tagAD1CHS0BITS"
-	.4byte	0x1073
+	.4byte	0x1066
 	.asciz	"AD1CHS0BITS"
-	.4byte	0x11bc
+	.4byte	0x11af
 	.asciz	"tagC1CTRL1BITS"
-	.4byte	0x11dd
+	.4byte	0x11d0
 	.asciz	"C1CTRL1BITS"
-	.4byte	0x12dd
+	.4byte	0x12d0
 	.asciz	"tagC1FCTRLBITS"
-	.4byte	0x12fe
+	.4byte	0x12f1
 	.asciz	"C1FCTRLBITS"
-	.4byte	0x1312
+	.4byte	0x1305
 	.asciz	"tagC1INTFBITS"
-	.4byte	0x142b
+	.4byte	0x141e
 	.asciz	"C1INTFBITS"
-	.4byte	0x143e
+	.4byte	0x1431
 	.asciz	"tagC1INTEBITS"
-	.4byte	0x14e2
+	.4byte	0x14d5
 	.asciz	"C1INTEBITS"
-	.4byte	0x14f5
+	.4byte	0x14e8
 	.asciz	"tagC1FEN1BITS"
-	.4byte	0x1663
+	.4byte	0x1656
 	.asciz	"C1FEN1BITS"
-	.4byte	0x188e
+	.4byte	0x1881
 	.asciz	"tagC1FMSKSEL1BITS"
-	.4byte	0x18b2
+	.4byte	0x18a5
 	.asciz	"C1FMSKSEL1BITS"
-	.4byte	0x1a7d
+	.4byte	0x1a70
 	.asciz	"tagC1BUFPNT1BITS"
-	.4byte	0x1aa0
+	.4byte	0x1a93
 	.asciz	"C1BUFPNT1BITS"
-	.4byte	0x1ab6
+	.4byte	0x1aa9
 	.asciz	"tagC1RXFUL1BITS"
-	.4byte	0x1c26
+	.4byte	0x1c19
 	.asciz	"C1RXFUL1BITS"
-	.4byte	0x1de1
+	.4byte	0x1dd4
 	.asciz	"tagC1TR01CONBITS"
-	.4byte	0x1e04
+	.4byte	0x1df7
 	.asciz	"C1TR01CONBITS"
-	.4byte	0x1e1a
+	.4byte	0x1e0d
 	.asciz	"tagSENT1CON1BITS"
-	.4byte	0x1ef9
+	.4byte	0x1eec
 	.asciz	"SENT1CON1BITS"
-	.4byte	0x200a
+	.4byte	0x1ffd
 	.asciz	"tagSENT1STATBITS"
-	.4byte	0x202d
+	.4byte	0x2020
 	.asciz	"SENT1STATBITS"
-	.4byte	0x218f
+	.4byte	0x2182
 	.asciz	"tagRPOR1BITS"
-	.4byte	0x21ae
+	.4byte	0x21a1
 	.asciz	"RPOR1BITS"
-	.4byte	0x230c
+	.4byte	0x22ff
 	.asciz	"tagRPOR8BITS"
-	.4byte	0x232b
+	.4byte	0x231e
 	.asciz	"RPOR8BITS"
-	.4byte	0x233d
+	.4byte	0x2330
 	.asciz	"tagRCONBITS"
-	.4byte	0x244e
+	.4byte	0x2441
 	.asciz	"RCONBITS"
-	.4byte	0x261a
+	.4byte	0x260d
 	.asciz	"tagCLKDIVBITS"
-	.4byte	0x263a
+	.4byte	0x262d
 	.asciz	"CLKDIVBITS"
-	.4byte	0x264d
+	.4byte	0x2640
 	.asciz	"tagIFS0BITS"
-	.4byte	0x27a8
+	.4byte	0x279b
 	.asciz	"IFS0BITS"
-	.4byte	0x27b9
+	.4byte	0x27ac
 	.asciz	"tagIFS1BITS"
-	.4byte	0x28d9
+	.4byte	0x28cc
 	.asciz	"IFS1BITS"
-	.4byte	0x28ea
+	.4byte	0x28dd
 	.asciz	"tagIFS2BITS"
-	.4byte	0x2990
+	.4byte	0x2983
 	.asciz	"IFS2BITS"
-	.4byte	0x29a1
+	.4byte	0x2994
 	.asciz	"tagIFS4BITS"
-	.4byte	0x2a09
+	.4byte	0x29fc
 	.asciz	"IFS4BITS"
-	.4byte	0x2a1a
+	.4byte	0x2a0d
 	.asciz	"tagIFS11BITS"
-	.4byte	0x2aa2
+	.4byte	0x2a95
 	.asciz	"IFS11BITS"
-	.4byte	0x2ab4
+	.4byte	0x2aa7
 	.asciz	"tagIEC0BITS"
-	.4byte	0x2c0f
+	.4byte	0x2c02
 	.asciz	"IEC0BITS"
-	.4byte	0x2c20
+	.4byte	0x2c13
 	.asciz	"tagIEC1BITS"
-	.4byte	0x2d40
+	.4byte	0x2d33
 	.asciz	"IEC1BITS"
-	.4byte	0x2d51
+	.4byte	0x2d44
 	.asciz	"tagIEC2BITS"
-	.4byte	0x2df7
+	.4byte	0x2dea
 	.asciz	"IEC2BITS"
-	.4byte	0x2e08
+	.4byte	0x2dfb
 	.asciz	"tagIEC4BITS"
-	.4byte	0x2e70
+	.4byte	0x2e63
 	.asciz	"IEC4BITS"
-	.4byte	0x2e81
+	.4byte	0x2e74
 	.asciz	"tagIEC11BITS"
-	.4byte	0x2f09
+	.4byte	0x2efc
 	.asciz	"IEC11BITS"
-	.4byte	0x308f
+	.4byte	0x3082
 	.asciz	"tagIPC0BITS"
-	.4byte	0x30ad
+	.4byte	0x30a0
 	.asciz	"IPC0BITS"
-	.4byte	0x3232
+	.4byte	0x3225
 	.asciz	"tagIPC1BITS"
-	.4byte	0x3250
+	.4byte	0x3243
 	.asciz	"IPC1BITS"
-	.4byte	0x33e1
+	.4byte	0x33d4
 	.asciz	"tagIPC2BITS"
-	.4byte	0x33ff
+	.4byte	0x33f2
 	.asciz	"IPC2BITS"
-	.4byte	0x351d
+	.4byte	0x3510
 	.asciz	"tagIPC16BITS"
-	.4byte	0x353c
+	.4byte	0x352f
 	.asciz	"IPC16BITS"
-	.4byte	0x3630
+	.4byte	0x3623
 	.asciz	"tagIPC45BITS"
-	.4byte	0x364f
+	.4byte	0x3642
 	.asciz	"IPC45BITS"
-	.4byte	0x3761
+	.4byte	0x3754
 	.asciz	"tagDMA0CONBITS"
-	.4byte	0x3782
+	.4byte	0x3775
 	.asciz	"DMA0CONBITS"
-	.4byte	0x3896
+	.4byte	0x3889
 	.asciz	"tagDMA2CONBITS"
-	.4byte	0x38b7
+	.4byte	0x38aa
 	.asciz	"DMA2CONBITS"
-	.4byte	0x38cb
+	.4byte	0x38be
 	.asciz	"tagTRISABITS"
-	.4byte	0x39a2
+	.4byte	0x3995
 	.asciz	"TRISABITS"
-	.4byte	0x39b4
+	.4byte	0x39a7
 	.asciz	"tagLATABITS"
-	.4byte	0x3a81
+	.4byte	0x3a74
 	.asciz	"LATABITS"
-	.4byte	0x3a92
+	.4byte	0x3a85
 	.asciz	"tagANSELABITS"
-	.4byte	0x3b4d
+	.4byte	0x3b40
 	.asciz	"ANSELABITS"
-	.4byte	0x3b60
+	.4byte	0x3b53
 	.asciz	"tagTRISBBITS"
-	.4byte	0x3ccd
+	.4byte	0x3cc0
 	.asciz	"TRISBBITS"
-	.4byte	0x3cdf
+	.4byte	0x3cd2
 	.asciz	"tagPORTBBITS"
-	.4byte	0x3e1c
+	.4byte	0x3e0f
 	.asciz	"PORTBBITS"
-	.4byte	0x3e2e
+	.4byte	0x3e21
 	.asciz	"tagLATBBITS"
-	.4byte	0x3f8a
+	.4byte	0x3f7d
 	.asciz	"LATBBITS"
-	.4byte	0x3f9b
+	.4byte	0x3f8e
 	.asciz	"tagODCBBITS"
-	.4byte	0x40f7
+	.4byte	0x40ea
 	.asciz	"ODCBBITS"
-	.4byte	0x4108
+	.4byte	0x40fb
 	.asciz	"tagTRISCBITS"
-	.4byte	0x425f
+	.4byte	0x4252
 	.asciz	"TRISCBITS"
-	.4byte	0x4271
+	.4byte	0x4264
 	.asciz	"tagPORTCBITS"
-	.4byte	0x439b
+	.4byte	0x438e
 	.asciz	"PORTCBITS"
-	.4byte	0x43ad
+	.4byte	0x43a0
 	.asciz	"tagLATCBITS"
-	.4byte	0x44f4
+	.4byte	0x44e7
 	.asciz	"LATCBITS"
-	.4byte	0x4505
+	.4byte	0x44f8
 	.asciz	"tagTRISDBITS"
-	.4byte	0x455b
+	.4byte	0x454e
 	.asciz	"TRISDBITS"
-	.4byte	0x456d
+	.4byte	0x4560
 	.asciz	"tagTRISFBITS"
-	.4byte	0x45ae
+	.4byte	0x45a1
 	.asciz	"TRISFBITS"
-	.4byte	0x45c0
+	.4byte	0x45b3
 	.asciz	"tagTRISGBITS"
-	.4byte	0x462b
+	.4byte	0x461e
 	.asciz	"TRISGBITS"
-	.4byte	0x463d
+	.4byte	0x4630
 	.asciz	"tagLATGBITS"
-	.4byte	0x46a3
+	.4byte	0x4696
 	.asciz	"LATGBITS"
-	.4byte	0x46b4
+	.4byte	0x46a7
 	.asciz	"tagANSELGBITS"
-	.4byte	0x471c
+	.4byte	0x470f
 	.asciz	"ANSELGBITS"
-	.4byte	0x481f
+	.4byte	0x4812
 	.asciz	"mID"
-	.4byte	0x485b
+	.4byte	0x484e
 	.asciz	"ZSSC4151_Mode_t"
 	.4byte	0x0
 	.section	.debug_aranges,info

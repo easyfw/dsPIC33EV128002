@@ -241,7 +241,17 @@ volatile int datah;
 
 mID canRxMessage;
 
-// JCLEE for I2C function
+/**************************************************************************************************
+ * 33EV_main_v11.c
+ * 
+ * This is the main file for the dsPIC33EV256GM106 Starter Kit. 
+ * It initializes the hardware, configures the CAN, LIN, and SENT interfaces,
+ * and handles the main loop for transmitting and receiving data.
+ * 
+ * 2025/08/05 start of dsPIC33EV128002 firmware program
+ * 2025/08/05 by JCLEE  
+ * **************************************************************************************************/
+
 #define FCY                                     40000000UL  // 시스템 동작 속도
 #define I2C1_CLOCK                        100000L         // I2C1 통신 속도 (100kHz)
 #define MLX90614_ADDR               0x5A

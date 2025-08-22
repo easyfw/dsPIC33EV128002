@@ -124,7 +124,7 @@ section                    address      alignment gaps    total length  (dec)
 .ndata                      0x1032                   0             0x6  (6)
 .nbss                       0x1038                   0             0x2  (2)
 .bss                        0x103a                   0            0x72  (114)
-_00000000064226E068a63ce0    0x1200                   0           0x200  (512)
+_00000000064A86E068a7ac92    0x1200                   0           0x200  (512)
 
                  Total "data" memory used (bytes):          0x2ac  (684) 4%
 
@@ -619,29 +619,29 @@ __FALTREG
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x72cc
+.debug_info       0x000000       0x72bf
  *(.debug_info)
- .debug_info      0x000000       0x6724 build/default/production/33EV_main_v11.o
- .debug_info      0x006724         0x8d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(feqltle.EP_o)
- .debug_info      0x0067b1         0x8b c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(fgtge.EP_o)
- .debug_info      0x00683c         0x8d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(fixsfsi.EP_o)
- .debug_info      0x0068c9         0x8f c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.EP_o)
- .debug_info      0x006958         0x91 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.EP_o)
- .debug_info      0x0069e9         0x8d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(funpack.EP_o)
- .debug_info      0x006a76         0x9d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(addsf3x.EP_o)
- .debug_info      0x006b13         0x9d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.EP_o)
- .debug_info      0x006bb0         0x9d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.EP_o)
- .debug_info      0x006c4d         0xa0 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.EP_o)
- .debug_info      0x006ced         0xa2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.EP_o)
- .debug_info      0x006d8f         0x9c c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(typefx.EP_o)
- .debug_info      0x006e2b         0x9f c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.EP_o)
- .debug_info      0x006eca         0x9d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.EP_o)
- .debug_info      0x006f67         0x9e c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.EP_o)
- .debug_info      0x007005         0x8e c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(fcompare.EP_o)
- .debug_info      0x007093         0x8f c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.EP_o)
- .debug_info      0x007122         0x91 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.EP_o)
- .debug_info      0x0071b3         0x8b c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(fpack.EP_o)
- .debug_info      0x00723e         0x8e c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(funpack2.EP_o)
+ .debug_info      0x000000       0x6717 build/default/production/33EV_main_v11.o
+ .debug_info      0x006717         0x8d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(feqltle.EP_o)
+ .debug_info      0x0067a4         0x8b c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(fgtge.EP_o)
+ .debug_info      0x00682f         0x8d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(fixsfsi.EP_o)
+ .debug_info      0x0068bc         0x8f c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.EP_o)
+ .debug_info      0x00694b         0x91 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.EP_o)
+ .debug_info      0x0069dc         0x8d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(funpack.EP_o)
+ .debug_info      0x006a69         0x9d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(addsf3x.EP_o)
+ .debug_info      0x006b06         0x9d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.EP_o)
+ .debug_info      0x006ba3         0x9d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.EP_o)
+ .debug_info      0x006c40         0xa0 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.EP_o)
+ .debug_info      0x006ce0         0xa2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.EP_o)
+ .debug_info      0x006d82         0x9c c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(typefx.EP_o)
+ .debug_info      0x006e1e         0x9f c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.EP_o)
+ .debug_info      0x006ebd         0x9d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.EP_o)
+ .debug_info      0x006f5a         0x9e c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.EP_o)
+ .debug_info      0x006ff8         0x8e c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(fcompare.EP_o)
+ .debug_info      0x007086         0x8f c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.EP_o)
+ .debug_info      0x007115         0x91 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.EP_o)
+ .debug_info      0x0071a6         0x8b c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(fpack.EP_o)
+ .debug_info      0x007231         0x8e c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(funpack2.EP_o)
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0x3b8
@@ -2285,9 +2285,9 @@ __c30_signature
  .nbss              0x1038          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(errno.EP_o)
                     0x1038                  _errno
 
-_00000000064226E068a63ce0
+_00000000064A86E068a7ac92
                     0x1200        0x200
- _00000000064226E068a63ce0
+ _00000000064A86E068a7ac92
                     0x1200        0x200 build/default/production/33EV_main_v11.o
                     0x1200                  _ecan1MsgBuf
 
@@ -2918,7 +2918,7 @@ __linked_.nbss                                    dist/default/production/DM3300
 __linked_.ndata                                   dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
 __linked_.reset                                   dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
 __linked_.text                                    dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
-__linked__00000000064226E068a63ce0                dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
+__linked__00000000064A86E068a7ac92                dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
 __linked___FDMT                                   dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
 __linked___FICD                                   dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
 __linked___FOSC                                   dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
